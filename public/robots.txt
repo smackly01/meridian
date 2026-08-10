@@ -1,0 +1,6 @@
+# www.meridian.africa
+User-agent: *
+Allow: /
+
+# Update this URL once the real production domain is live.
+Sitemap: https://www.meridian.africa/sitemap.xml
