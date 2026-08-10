@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+import { createPortal } from "react-dom";
 import { ChevronDown } from "lucide-react";
 import { useI18n, LANGS, LOCALE_NAMES, type Lang } from "@/i18n";
 import { ACTIVE_LANGS } from "@/config/site";
@@ -44,39 +45,63 @@ function LangFlag({ code, className }: { code: Lang; className?: string }) {
   );
 }
 
-/** Language switcher - PT is present in the architecture but can be disabled. */
+const LIST_WIDTH = 176; // matches w-44 (11rem)
+
+/**
+ * Language switcher - PT is present in the architecture but can be disabled.
+ * The dropdown is portaled to <body> and positioned with fixed coordinates so
+ * that it is never clipped by an ancestor with `overflow`/`max-height`
+ * (e.g. the mobile menu in the header).
+ */
 export function LanguageSwitcher({ className, inverted }: { className?: string; inverted?: boolean }) {
   const { lang, setLang } = useI18n();
   const [open, setOpen] = useState(false);
-  const ref = useRef<HTMLDivElement>(null);
+  const [pos, setPos] = useState<{ top: number; right: number } | null>(null);
+  const rootRef = useRef<HTMLDivElement>(null);
+  const listRef = useRef<HTMLUListElement>(null);
 
   useEffect(() => {
     if (!open) return;
+    const close = () => setOpen(false);
     const onPointerDown = (e: MouseEvent | TouchEvent) => {
-      if (ref.current && !ref.current.contains(e.target as Node)) setOpen(false);
+      const target = e.target as Node;
+      const inside = rootRef.current?.contains(target) || listRef.current?.contains(target);
+      if (!inside) close();
     };
     const onKeyDown = (e: KeyboardEvent) => {
-      if (e.key === "Escape") setOpen(false);
+      if (e.key === "Escape") close();
     };
     document.addEventListener("mousedown", onPointerDown);
     document.addEventListener("touchstart", onPointerDown);
     document.addEventListener("keydown", onKeyDown);
+    window.addEventListener("resize", close);
+    window.addEventListener("scroll", close, { capture: true });
     return () => {
       document.removeEventListener("mousedown", onPointerDown);
       document.removeEventListener("touchstart", onPointerDown);
       document.removeEventListener("keydown", onKeyDown);
+      window.removeEventListener("resize", close);
+      window.removeEventListener("scroll", close, { capture: true });
     };
   }, [open]);
 
+  const toggle = () => {
+    if (!open && rootRef.current) {
+      const rect = rootRef.current.getBoundingClientRect();
+      setPos({ top: rect.bottom, right: rect.right });
+    }
+    setOpen((v) => !v);
+  };
+
   return (
-    <div ref={ref} className={cn("relative", className)}>
+    <div ref={rootRef} className={cn("relative", className)}>
       <button
         type="button"
         aria-haspopup="listbox"
         aria-expanded={open}
         aria-label={`Language: ${LOCALE_NAMES[lang]}`}
         title={LOCALE_NAMES[lang]}
-        onClick={() => setOpen((v) => !v)}
+        onClick={toggle}
         className={cn(
           "inline-flex h-10 items-center gap-2 rounded-[3px] border px-5 transition-colors",
           inverted
@@ -95,45 +120,50 @@ export function LanguageSwitcher({ className, inverted }: { className?: string; 
         />
       </button>
 
-      {open && (
-        <ul
-          role="listbox"
-          aria-label="Language"
-          className="absolute right-0 top-full z-50 mt-2 w-44 origin-top overflow-hidden rounded-[6px] border border-white/10 bg-ink-900 py-1.5 shadow-panel"
-        >
-          {LANGS.map((l) => {
-            const active = l.code === lang;
-            const disabled = !ACTIVE_LANGS.includes(l.code);
-            return (
-              <li key={l.code}>
-                <button
-                  type="button"
-                  role="option"
-                  aria-selected={active}
-                  disabled={disabled}
-                  title={disabled ? `${l.label} - à venir / coming soon / em breve` : undefined}
-                  onClick={() => {
-                    setLang(l.code);
-                    setOpen(false);
-                  }}
-                  className={cn(
-                    "flex w-full items-center justify-between gap-3 px-4 py-2 text-left font-display text-xs font-semibold tracking-wide transition-colors",
-                    active
-                      ? "bg-gold-500/15 text-gold-400"
-                      : "text-white/70 hover:bg-white/5 hover:text-white",
-                    disabled && "cursor-not-allowed opacity-40 hover:bg-transparent hover:text-white/70",
-                  )}
-                >
-                  <span className="flex items-center gap-2.5">
-                    <LangFlag code={l.code} className="h-3.5 w-5" />
-                    {LOCALE_NAMES[l.code]}
-                  </span>
-                </button>
-              </li>
-            );
-          })}
-        </ul>
-      )}
+      {open &&
+        pos &&
+        createPortal(
+          <ul
+            ref={listRef}
+            role="listbox"
+            aria-label="Language"
+            className="fixed z-[100] w-44 origin-top overflow-hidden rounded-[6px] border border-white/10 bg-ink-900 py-1.5 shadow-panel"
+            style={{ top: pos.top + 8, left: Math.max(8, pos.right - LIST_WIDTH) }}
+          >
+            {LANGS.map((l) => {
+              const active = l.code === lang;
+              const disabled = !ACTIVE_LANGS.includes(l.code);
+              return (
+                <li key={l.code}>
+                  <button
+                    type="button"
+                    role="option"
+                    aria-selected={active}
+                    disabled={disabled}
+                    title={disabled ? `${l.label} - à venir / coming soon / em breve` : undefined}
+                    onClick={() => {
+                      setLang(l.code);
+                      setOpen(false);
+                    }}
+                    className={cn(
+                      "flex w-full items-center justify-between gap-3 px-4 py-2 text-left font-display text-xs font-semibold tracking-wide transition-colors",
+                      active
+                        ? "bg-gold-500/15 text-gold-400"
+                        : "text-white/70 hover:bg-white/5 hover:text-white",
+                      disabled && "cursor-not-allowed opacity-40 hover:bg-transparent hover:text-white/70",
+                    )}
+                  >
+                    <span className="flex items-center gap-2.5">
+                      <LangFlag code={l.code} className="h-3.5 w-5" />
+                      {LOCALE_NAMES[l.code]}
+                    </span>
+                  </button>
+                </li>
+              );
+            })}
+          </ul>,
+          document.body,
+        )}
     </div>
   );
 }

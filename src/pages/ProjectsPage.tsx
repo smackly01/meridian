@@ -83,7 +83,7 @@ export default function ProjectsPage() {
           ) : (
             <div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
               {filtered.map((project, i) => (
-                <ScrollReveal key={project.id} delay={(i % 3) * 60}>
+                <ScrollReveal key={project.id} delay={(i % 3) * 60} className="h-full">
                   <ProjectCard project={project} />
                 </ScrollReveal>
               ))}

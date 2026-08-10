@@ -70,7 +70,7 @@ export default function NewsPage() {
               )}
               <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
                 {rest.map((item, i) => (
-                  <ScrollReveal key={item.id} delay={(i % 3) * 60}>
+                  <ScrollReveal key={item.id} delay={(i % 3) * 60} className="h-full">
                     <NewsCard item={item} />
                   </ScrollReveal>
                 ))}

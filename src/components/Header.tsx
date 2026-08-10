@@ -116,8 +116,8 @@ export function Header() {
       {/* Mobile menu */}
       <div
         className={cn(
-          "overflow-hidden bg-ink-900 transition-[max-height] duration-500 ease-premium lg:hidden",
-          open ? "max-h-[calc(100vh-76px)] border-t border-white/10" : "max-h-0",
+          "overflow-y-auto overscroll-contain bg-ink-900 transition-[max-height] duration-500 ease-premium lg:hidden",
+          open ? "max-h-[calc(100svh-76px)] border-t border-white/10" : "max-h-0",
         )}
       >
         <nav

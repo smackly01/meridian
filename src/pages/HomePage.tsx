@@ -184,7 +184,7 @@ export default function HomePage() {
           </div>
           <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {visibleSectors.map((sector, i) => (
-              <ScrollReveal key={sector.id} delay={(i % 3) * 60}>
+              <ScrollReveal key={sector.id} delay={(i % 3) * 60} className="h-full">
                 <SectorCard sector={sector} index={i} />
               </ScrollReveal>
             ))}
@@ -230,7 +230,7 @@ export default function HomePage() {
             </div>
             <div className="mt-14 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
               {visibleProjects.map((project, i) => (
-                <ScrollReveal key={project.id} delay={(i % 3) * 60}>
+                <ScrollReveal key={project.id} delay={(i % 3) * 60} className="h-full">
                   <ProjectCard project={project} />
                 </ScrollReveal>
               ))}

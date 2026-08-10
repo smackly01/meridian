@@ -128,7 +128,7 @@ export default function ArticlePage() {
             <SectionHeading overline={t("newsPage.hero.overline")} title={t("articlePage.relatedTitle")} />
             <div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
               {related.map((item, i) => (
-                <ScrollReveal key={item.id} delay={(i % 3) * 60}>
+                <ScrollReveal key={item.id} delay={(i % 3) * 60} className="h-full">
                   <NewsCard item={item} />
                 </ScrollReveal>
               ))}

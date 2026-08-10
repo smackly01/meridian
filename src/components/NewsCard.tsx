@@ -22,7 +22,7 @@ export function NewsCard({ item, featured }: { item: NewsItem; featured?: boolea
     <Link
       to={localize(`/actualites/${item.slug}`)}
       className={cn(
-        "group relative flex flex-col overflow-hidden rounded-[3px] border border-mist-200 bg-white transition-all duration-500 ease-premium hover:-translate-y-1 hover:shadow-cardhover",
+        "group relative flex h-full flex-col overflow-hidden rounded-[3px] border border-mist-200 bg-white transition-all duration-500 ease-premium hover:-translate-y-1 hover:shadow-cardhover",
         featured && "md:flex-row",
       )}
     >

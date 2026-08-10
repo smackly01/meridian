@@ -35,7 +35,7 @@ export function ProjectCard({ project }: { project: Project }) {
   return (
     <Link
       to={localize(`/projets/${project.slug}`)}
-      className="group relative flex flex-col overflow-hidden rounded-[3px] border border-mist-200 bg-white transition-all duration-500 ease-premium hover:-translate-y-1 hover:shadow-cardhover"
+      className="group relative flex h-full flex-col overflow-hidden rounded-[3px] border border-mist-200 bg-white transition-all duration-500 ease-premium hover:-translate-y-1 hover:shadow-cardhover"
     >
       <div className="relative aspect-[16/10] overflow-hidden">
         <Media

@@ -29,9 +29,9 @@ export function Footer() {
   return (
     <footer className="bg-ink-950 text-white">
       <div className="container-x pb-10 pt-16 md:pt-20">
-        <div className="grid gap-12 lg:grid-cols-12">
+        <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-12">
           {/* Brand */}
-          <div className="lg:col-span-4">
+          <div className="md:col-span-2 lg:col-span-4">
             <div className="inline-flex items-center gap-3">
               <svg width="34" height="34" viewBox="0 0 64 64" aria-hidden="true">
                 <rect width="64" height="64" rx="4" fill="#C9A35C" />
@@ -104,7 +104,7 @@ export function Footer() {
           </div>
 
           {/* Contact */}
-          <div className="lg:col-span-3">
+          <div className="md:col-span-2 lg:col-span-3">
             <h3 className="font-display text-xs font-bold uppercase tracking-overline text-gold-400">
               {t("footer.contactTitle")}
             </h3>
@@ -137,7 +137,7 @@ export function Footer() {
 
         {/* Statement */}
         <div className="mt-16 border-t border-white/10 pt-10">
-          <p className="font-display text-xl font-bold uppercase tracking-[0.28em] text-white/40 md:text-2xl">
+          <p className="text-balance font-display text-base font-bold uppercase tracking-[0.18em] text-white/40 sm:text-xl sm:tracking-[0.22em] lg:text-2xl lg:tracking-[0.28em]">
             {t("footer.statement")}
           </p>
         </div>

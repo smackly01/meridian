@@ -26,7 +26,7 @@ export function GallerySection() {
 
         <div className="mt-14 grid gap-6 lg:grid-cols-3">
           <ScrollReveal className="lg:row-span-2">
-            <figure className="group relative h-full min-h-[420px] overflow-hidden rounded-[3px]">
+            <figure className="group relative h-full min-h-[300px] overflow-hidden rounded-[3px] sm:min-h-[420px]">
               <Media
                 src={featured.image}
                 alt={tx(featured.caption, lang)}
