@@ -40,11 +40,6 @@ export const en = {
       description:
         "Get in touch with our team to discuss a partnership or a project.",
     },
-    submit: {
-      title: "Submit a project - Méridian",
-      description:
-        "Present your strategic infrastructure project to our team for an initial assessment.",
-    },
     notFound: {
       title: "Page not found - Méridian",
       description: "The page you are looking for does not exist or has been moved.",
@@ -74,11 +69,9 @@ export const en = {
     partners: "Partners",
     news: "News",
     contact: "Contact",
-    submit: "Submit a project",
     skipToContent: "Skip to content",
   },
   common: {
-    submitProject: "Submit a project",
     discoverExpertise: "Discover our expertise",
     viewProjects: "Discover our projects",
     becomePartner: "Become a partner",
@@ -108,7 +101,6 @@ export const en = {
     title: "Building today the infrastructure of tomorrow.",
     subtitle:
       "We develop and structure strategic infrastructure projects, bringing together the expertise, financing and partners needed to make them happen.",
-    ctaPrimary: "Submit a project",
     ctaSecondary: "Discover our expertise",
     scroll: "Discover",
   },
@@ -258,7 +250,6 @@ export const en = {
   ctaBanner: {
     title: "Do you have a strategic infrastructure project?",
     body: "Tell us about your project. Our team will look at its potential and explore the options for structuring, financing and delivering it.",
-    action: "Submit a project",
   },
   about: {
     hero: {
@@ -375,7 +366,6 @@ export const en = {
       title: "Public infrastructure",
       body: "All our projects are public infrastructure. In each of the sectors below, we develop, structure and finance the facilities and networks that serve territories and their people.",
     },
-    cta: "Submit a project in this sector",
     backToSectors: "All sectors",
     issuesTitle: "Sector issues",
     projectTypesTitle: "Project types",
@@ -532,106 +522,6 @@ export const en = {
       successBody:
         "Thank you for your message. Our team will get back to you as soon as possible.",
     },
-  },
-  submitPage: {
-    hero: {
-      overline: "Submit a project",
-      title: "Do you have a strategic infrastructure project?",
-      body: "Tell us about your project. Our team will look at its potential and explore the options for structuring, financing and delivering it.",
-    },
-    steps: ["Information", "The project", "Financing", "Documents", "Confirmation"],
-    step1: {
-      title: "Your information",
-      body: "This information allows us to identify you and get back to you.",
-      name: "Name",
-      namePh: "Your full name",
-      organisation: "Organisation",
-      organisationPh: "Name of your organisation",
-      role: "Role",
-      rolePh: "Your role",
-      email: "Professional email",
-      emailPh: "name@organisation.com",
-      phone: "Phone",
-      phonePh: "Your number",
-      country: "Country",
-      countryPh: "Your country",
-    },
-    step2: {
-      title: "Your project",
-      body: "Describe the project you wish to develop, structure or finance.",
-      projectName: "Project name",
-      projectNamePh: "Official or provisional name",
-      sector: "Sector",
-      sectorPh: "Select a sector",
-      location: "Location",
-      locationPh: "Country, region or city",
-      description: "Project description",
-      descriptionPh: "Objectives, context, nature of the infrastructure",
-      advancement: "Stage of advancement",
-      advancementOptions: [
-        "Idea / concept",
-        "Study ongoing",
-        "Feasibility study completed",
-        "Structured project",
-        "Financing ongoing",
-        "Under construction",
-      ],
-    },
-    step3: {
-      title: "Financing",
-      body: "This information helps us assess the possible financial structuring.",
-      budget: "Estimated budget",
-      budgetPh: "Indicative amount of the project",
-      fundingSought: "Financing sought",
-      fundingSoughtPh: "Amount of financing sought",
-      fundingType: "Type of financing",
-      fundingTypeOptions: [
-        "Debt",
-        "Equity",
-        "Debt + equity",
-        "Public-private partnership",
-        "Blended finance",
-        "Other",
-      ],
-      timeline: "Desired timeline",
-      timelinePh: "Desired delivery horizon",
-    },
-    step4: {
-      title: "Documents",
-      body: "You may attach documents useful to the assessment of your project.",
-      supported: "Accepted formats: PDF, DOCX, XLSX, PPTX - 10 MB max per file.",
-      files: [
-        "Study",
-        "Business plan",
-        "Feasibility study",
-        "Presentation",
-        "Terms of reference",
-        "Other document",
-      ],
-      addFile: "Attach a file",
-      attached: "Attached documents",
-      remove: "Remove",
-    },
-    step5: {
-      title: "Confirmation",
-      body: "Review the information before submitting your request.",
-      summaryPersonal: "Information",
-      summaryProject: "Project",
-      summaryFinance: "Financing",
-      summaryDocs: "Documents",
-      noDoc: "No document attached",
-      consent:
-        "I agree that the information transmitted may be used for the assessment of my project.",
-      confidentiality:
-        "The information transmitted is treated confidentially and used solely for the evaluation of your project.",
-      send: "Submit my project",
-    },
-    success: {
-      title: "Project received",
-      body: "Thank you for your trust. Our team will assess your project and get back to you as soon as possible. An acknowledgement has been sent to you.",
-      another: "Submit another project",
-    },
-    validation: "Please complete the required fields before continuing.",
   },
   footer: {
     tagline:

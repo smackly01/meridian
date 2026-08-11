@@ -107,38 +107,6 @@ export const projects: Project[] = [
     published: false,
   },
   {
-    id: "p4",
-    slug: "hopital-regional-adamaoua",
-    title: {
-      fr: "Hôpital régional de référence de l'Adamaoua",
-      en: "Adamaoua Regional Referral Hospital",
-      pt: "Hospital regional de referência de Adamawa",
-    },
-    country: { fr: "Cameroun", en: "Cameroon", pt: "Camarões" },
-    sector: "health",
-    status: "development",
-    description: {
-      fr: "Structuration d'un hôpital régional de 350 lits à Ngaoundéré, renforçant l'accès aux soins spécialisés du nord du Cameroun. Le montage juridique et financier est en cours de définition.",
-      en: "Structuring of a 350-bed regional hospital in Ngaoundéré, strengthening access to specialised care in northern Cameroon. The legal and financial structure is being defined.",
-      pt: "Estruturação de um hospital regional de 350 camas em Ngaoundéré, reforçando o acesso aos cuidados especializados no norte dos Camarões. O modelo jurídico e financeiro está a ser definido.",
-    },
-    role: {
-      fr: "Structuration juridique et financière, études de faisabilité et préparation du dossier d'appel d'offres.",
-      en: "Legal and financial structuring, feasibility studies and preparation of the tender documentation.",
-      pt: "Estruturação jurídica e financeira, estudos de viabilidade e preparação do processo de concurso.",
-    },
-    impact: {
-      fr: "Accès aux soins pour plus de 1,5 million de personnes et réduction des évacuations sanitaires vers la capitale.",
-      en: "Access to care for more than 1.5 million people and reduction of medical evacuations to the capital.",
-      pt: "Acesso aos cuidados para mais de 1,5 milhões de pessoas e redução das evacuações médicas para a capital.",
-    },
-    images: [
-      "https://images.unsplash.com/photo-1538108149393-fbbd81895907?auto=format&fit=crop&w=1200&q=80",
-    ],
-    confidential: false,
-    published: false,
-  },
-  {
     id: "p5",
     slug: "data-center-souverain-kigali",
     title: {
@@ -168,36 +136,6 @@ export const projects: Project[] = [
       "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1200&q=80",
     ],
     confidential: false,
-    published: false,
-  },
-  {
-    id: "p6",
-    slug: "projet-strategique-confidentiel",
-    title: {
-      fr: "Projet stratégique confidentiel",
-      en: "Confidential strategic project",
-      pt: "Projeto estratégico confidencial",
-    },
-    country: { fr: "[PAYS - NON DIVULGUÉ]", en: "[COUNTRY - NOT DISCLOSED]", pt: "[PAÍS - NÃO DIVULGADO]" },
-    sector: "public-infrastructure",
-    status: "confidential",
-    description: {
-      fr: "Projet actuellement en phase de structuration. En raison de son caractère stratégique et de la sensibilité des informations, aucun détail ne peut être communiqué à ce stade.",
-      en: "Project currently in the structuring phase. Given its strategic nature and the sensitivity of the information, no detail can be shared at this stage.",
-      pt: "Projeto atualmente em fase de estruturação. Dada a sua natureza estratégica e a sensibilidade das informações, nenhum detalhe pode ser divulgado nesta fase.",
-    },
-    role: {
-      fr: "Structuration et développement du projet.",
-      en: "Project structuring and development.",
-      pt: "Estruturação e desenvolvimento do projeto.",
-    },
-    impact: {
-      fr: "[IMPACT - CONFIDENTIEL]",
-      en: "[IMPACT - CONFIDENTIAL]",
-      pt: "[IMPACTO - CONFIDENCIAL]",
-    },
-    images: [],
-    confidential: true,
     published: false,
   },
   {

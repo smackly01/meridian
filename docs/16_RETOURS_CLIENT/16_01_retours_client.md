@@ -33,11 +33,14 @@ Points de retrait identifiés :
   « Nous contacter » ;
 - Entrée du plan du site (`SitemapPage`).
 
-**Décision en attente :** la page `/soumettre-un-projet` et le formulaire existent toujours dans
-le code (route conservée mais non accessible depuis la navigation). À supprimer définitivement
-si le client le confirme.
+**Suppression définitive (confirmée) :** la route `/soumettre-un-projet`, la page
+`SubmitProjectPage.tsx` et le formulaire `SubmitProjectForm.tsx` ont été supprimés du code.
+Les clés i18n associées (`meta.submit`, `nav.submit`, `common.submitProject`,
+`hero.ctaPrimary`, `ctaBanner.action`, `secteursPage.cta`/`sectorDetail.cta`, bloc
+`submitPage`) ont été retirées de `fr.ts`, `en.ts`, `pt.ts`. Les URL `/soumettre-un-projet`
+ont été retirées du `public/sitemap.xml`.
 
-**Statut :** implémenté (sauf suppression définitive de la page, en attente de confirmation).
+**Statut :** implémenté.
 
 ### 1.3 Page Secteurs
 
@@ -69,10 +72,11 @@ Conséquences de la réduction du périmètre (vérifiées) :
 | Point | Statut |
 | --- | --- |
 | Bouton Accueil | Fait |
-| Suppression des boutons « Soumettre un projet » | Fait (page à supprimer si confirmation) |
+| Suppression des boutons « Soumettre un projet » | Fait |
+| Suppression définitive de la page /soumettre-un-projet | Fait |
 | Sous-titre « Infrastructure publique » + encadrés restreints | Fait |
 | Présentation détaillée des secteurs (ex. Transport) | À travailler avec le client |
-| Suppression définitive de la page /soumettre-un-projet | À confirmer |
+| Projets démo p4 (santé) et p6 (infrastructure publique) référençant des secteurs supprimés | Fait (retirés de `src/data/projects.ts`) |
 
 ## 3. Traçabilité
 

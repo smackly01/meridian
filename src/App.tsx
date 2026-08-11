@@ -14,7 +14,6 @@ const PartnersPage = lazy(() => import("@/pages/PartnersPage"));
 const NewsPage = lazy(() => import("@/pages/NewsPage"));
 const ArticlePage = lazy(() => import("@/pages/ArticlePage"));
 const ContactPage = lazy(() => import("@/pages/ContactPage"));
-const SubmitProjectPage = lazy(() => import("@/pages/SubmitProjectPage"));
 const SitemapPage = lazy(() => import("@/pages/SitemapPage"));
 const LegalPage = lazy(() => import("@/pages/LegalPage"));
 const NotFoundPage = lazy(() => import("@/pages/NotFoundPage"));
@@ -44,7 +43,6 @@ export function App() {
             <Route path="/:lang?/actualites" element={<NewsPage />} />
             <Route path="/:lang?/actualites/:slug" element={<ArticlePage />} />
             <Route path="/:lang?/contact" element={<ContactPage />} />
-            <Route path="/:lang?/soumettre-un-projet" element={<SubmitProjectPage />} />
             <Route path="/:lang?/mentions-legales" element={<LegalPage page="legal" />} />
             <Route path="/:lang?/politique-de-confidentialite" element={<LegalPage page="privacy" />} />
             <Route path="/:lang?/plan-du-site" element={<SitemapPage />} />

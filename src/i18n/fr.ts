@@ -40,11 +40,6 @@ export const fr = {
       description:
         "Entrez en contact avec notre équipe pour discuter d'un partenariat ou d'un projet.",
     },
-    submit: {
-      title: "Soumettre un projet - Méridian",
-      description:
-        "Présentez votre projet d'infrastructure stratégique à notre équipe pour une première analyse.",
-    },
     notFound: {
       title: "Page introuvable - Méridian",
       description: "La page que vous recherchez n'existe pas ou a été déplacée.",
@@ -74,11 +69,9 @@ export const fr = {
     partners: "Partenaires",
     news: "Actualités",
     contact: "Contact",
-    submit: "Soumettre un projet",
     skipToContent: "Aller au contenu",
   },
   common: {
-    submitProject: "Soumettre un projet",
     discoverExpertise: "Découvrir notre expertise",
     viewProjects: "Découvrir nos projets",
     becomePartner: "Devenir partenaire",
@@ -108,7 +101,6 @@ export const fr = {
     title: "Construire aujourd'hui les infrastructures de demain.",
     subtitle:
       "Nous développons et structurons des projets d'infrastructures stratégiques, en réunissant l'expertise, les financements et les partenaires qui les rendent possibles.",
-    ctaPrimary: "Soumettre un projet",
     ctaSecondary: "Découvrir notre expertise",
     scroll: "Découvrir",
   },
@@ -258,7 +250,6 @@ export const fr = {
   ctaBanner: {
     title: "Vous avez un projet d'infrastructure stratégique ?",
     body: "Parlez-nous de votre projet. Notre équipe en étudiera le potentiel et explorera les pistes de structuration, de financement et de réalisation.",
-    action: "Soumettre un projet",
   },
   about: {
     hero: {
@@ -375,7 +366,6 @@ export const fr = {
       title: "Infrastructure publique",
       body: "Toutes nos réalisations sont des infrastructures publiques. Dans chacun des secteurs ci-dessous, nous développons, structurons et finançons les équipements et les réseaux au service des territoires et de leurs populations.",
     },
-    cta: "Soumettre un projet dans ce secteur",
     backToSectors: "Tous les secteurs",
     issuesTitle: "Enjeux du secteur",
     projectTypesTitle: "Types de projets",
@@ -532,112 +522,6 @@ export const fr = {
       successBody:
         "Merci pour votre message. Notre équipe vous recontactera dans les meilleurs délais.",
     },
-  },
-  submitPage: {
-    hero: {
-      overline: "Soumettre un projet",
-      title: "Vous avez un projet d'infrastructure stratégique ?",
-      body: "Parlez-nous de votre projet. Notre équipe en étudiera le potentiel et explorera les pistes de structuration, de financement et de réalisation.",
-    },
-    steps: [
-      "Informations",
-      "Le projet",
-      "Financement",
-      "Documents",
-      "Confirmation",
-    ],
-    step1: {
-      title: "Vos informations",
-      body: "Ces informations nous permettent de vous identifier et de vous recontacter.",
-      name: "Nom",
-      namePh: "Votre nom complet",
-      organisation: "Organisation",
-      organisationPh: "Nom de votre organisation",
-      role: "Fonction",
-      rolePh: "Votre fonction",
-      email: "Email professionnel",
-      emailPh: "nom@organisation.com",
-      phone: "Téléphone",
-      phonePh: "Votre numéro",
-      country: "Pays",
-      countryPh: "Votre pays",
-    },
-    step2: {
-      title: "Votre projet",
-      body: "Décrivez le projet que vous souhaitez développer, structurer ou financer.",
-      projectName: "Nom du projet",
-      projectNamePh: "Nom officiel ou provisoire",
-      sector: "Secteur",
-      sectorPh: "Sélectionnez un secteur",
-      location: "Localisation",
-      locationPh: "Pays, région ou ville",
-      description: "Description du projet",
-      descriptionPh: "Objectifs, contexte, nature des infrastructures",
-      advancement: "Niveau d'avancement",
-      advancementOptions: [
-        "Idée / concept",
-        "Étude en cours",
-        "Étude de faisabilité réalisée",
-        "Projet structuré",
-        "Financement en cours",
-        "En construction",
-      ],
-    },
-    step3: {
-      title: "Financement",
-      body: "Ces informations nous aident à évaluer la structuration financière possible.",
-      budget: "Budget estimatif",
-      budgetPh: "Montant indicatif du projet",
-      fundingSought: "Financement recherché",
-      fundingSoughtPh: "Montant du financement recherché",
-      fundingType: "Type de financement",
-      fundingTypeOptions: [
-        "Dette",
-        "Fonds propres",
-        "Dette + fonds propres",
-        "Partenariat public-privé",
-        "Financement mixte",
-        "Autre",
-      ],
-      timeline: "Échéance souhaitée",
-      timelinePh: "Horizon de réalisation souhaité",
-    },
-    step4: {
-      title: "Documents",
-      body: "Vous pouvez joindre les documents utiles à l'analyse de votre projet.",
-      supported: "Formats acceptés : PDF, DOCX, XLSX, PPTX - 10 Mo maximum par fichier.",
-      files: [
-        "Étude",
-        "Business plan",
-        "Étude de faisabilité",
-        "Présentation",
-        "Cahier des charges",
-        "Autre document",
-      ],
-      addFile: "Joindre un fichier",
-      attached: "Documents joints",
-      remove: "Retirer",
-    },
-    step5: {
-      title: "Confirmation",
-      body: "Vérifiez les informations avant l'envoi de votre demande.",
-      summaryPersonal: "Informations",
-      summaryProject: "Projet",
-      summaryFinance: "Financement",
-      summaryDocs: "Documents",
-      noDoc: "Aucun document joint",
-      consent:
-        "J'accepte que les informations transmises soient utilisées dans le cadre de l'étude de mon projet.",
-      confidentiality:
-        "Les informations transmises sont traitées de manière confidentielle et ne sont utilisées que dans le cadre de l'évaluation de votre projet.",
-      send: "Envoyer mon projet",
-    },
-    success: {
-      title: "Projet reçu",
-      body: "Merci pour votre confiance. Notre équipe analysera votre projet et vous recontactera dans les meilleurs délais. Un accusé de réception vous a été adressé.",
-      another: "Soumettre un autre projet",
-    },
-    validation: "Veuillez compléter les champs obligatoires avant de continuer.",
   },
   footer: {
     tagline:
