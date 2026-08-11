@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
-import { X } from "lucide-react";
+import { Link } from "react-router-dom";
+import { ArrowUpRight, X } from "lucide-react";
 import { useI18n } from "@/i18n";
 import { countries } from "@/data/countries";
 import { projects } from "@/data/projects";
@@ -63,7 +64,7 @@ function useDots(step: number): { x: number; y: number; mad: boolean }[] {
 }
 
 export function AfricaMap() {
-  const { t, lang } = useI18n();
+  const { t, lang, localize } = useI18n();
   const dots = useDots(2.6);
   const [selectedId, setSelectedId] = useState<string | null>(null);
 
@@ -138,14 +139,12 @@ export function AfricaMap() {
               ))}
               {countries.map((c) => {
                 const name = tx(c.name, lang);
-                const active = c.id === selectedId;
                 return (
                   <g
                     key={c.id}
                     role="button"
                     tabIndex={0}
                     aria-label={name}
-                    aria-pressed={active}
                     className="cursor-pointer"
                     onClick={() => toggle(c.id)}
                     onKeyDown={(e) => {
@@ -163,8 +162,6 @@ export function AfricaMap() {
                       cy={c.position.y}
                       r={c.hasData ? 2.4 : 1.6}
                       fill="#C9A35C"
-                      className="transition-all duration-300"
-                      style={active ? { fill: "#FFFFFF" } : undefined}
                     >
                       <title>{name}</title>
                     </circle>
@@ -177,24 +174,10 @@ export function AfricaMap() {
                         fill="none"
                         stroke="#C9A35C"
                         strokeWidth="0.35"
-                        style={{
-                          animationDelay: `${((c.position.x + c.position.y) * 0.02).toFixed(2)}s`,
-                          ...(active ? { opacity: 0 } : {}),
-                        }}
+                        style={{ animationDelay: `${((c.position.x + c.position.y) * 0.02).toFixed(2)}s` }}
                       >
                         <title>{name}</title>
                       </circle>
-                    )}
-                    {active && (
-                      <circle
-                        cx={c.position.x}
-                        cy={c.position.y}
-                        r="6"
-                        fill="none"
-                        stroke="#C9A35C"
-                        strokeWidth="0.5"
-                        opacity="0.9"
-                      />
                     )}
                   </g>
                 );
@@ -214,13 +197,21 @@ export function AfricaMap() {
                     aria-label={tx(c.name, lang)}
                     title={tx(c.name, lang)}
                     className={cn(
-                      "grid h-9 w-9 place-items-center rounded-[3px] border text-lg leading-none transition-colors",
+                      "grid h-9 w-10 place-items-center overflow-hidden rounded-[3px] border transition-colors",
                       active
                         ? "border-gold-500 bg-gold-500/10"
                         : "border-white/10 bg-white/5 hover:border-white/25",
                     )}
                   >
-                    <span aria-hidden="true">{c.flag}</span>
+                    <img
+                      src={c.flag}
+                      alt=""
+                      width="40"
+                      height="30"
+                      loading="lazy"
+                      className="h-6 w-full object-cover"
+                      aria-hidden="true"
+                    />
                   </button>
                 );
               })}
@@ -250,10 +241,21 @@ export function AfricaMap() {
                     </button>
                   </div>
                   {selectedProjects.length > 0 ? (
-                    <ul className="mt-3 space-y-1.5">
+                    <ul className="mt-4 space-y-2">
                       {selectedProjects.map((p) => (
-                        <li key={p.id} className="text-sm leading-relaxed text-white/75">
-                          {tx(p.title, lang)}
+                        <li key={p.id}>
+                          <Link
+                            to={localize(`/projets/${p.slug}`)}
+                            className="group flex items-start justify-between gap-3 rounded-[3px] border border-white/10 bg-white/5 px-3.5 py-2.5 transition-colors hover:border-gold-500/50 hover:bg-gold-500/5"
+                          >
+                            <span className="text-sm font-medium leading-snug text-white/85 transition-colors group-hover:text-white">
+                              {tx(p.title, lang)}
+                            </span>
+                            <ArrowUpRight
+                              className="h-4 w-4 shrink-0 text-gold-500 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
+                              aria-hidden="true"
+                            />
+                          </Link>
                         </li>
                       ))}
                     </ul>
