@@ -157,8 +157,8 @@ export default function SectorDetailPage() {
             ))}
           </div>
           <ScrollReveal className="mt-12 text-center">
-            <ButtonLink to={localize("/soumettre-un-projet")} variant="dark" size="lg">
-              {t("sectorsPage.cta")}
+            <ButtonLink to={localize("/contact")} variant="dark" size="lg">
+              {t("common.contactUs")}
               <ArrowRight className="h-4 w-4" aria-hidden="true" />
             </ButtonLink>
           </ScrollReveal>

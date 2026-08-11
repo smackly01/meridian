@@ -56,8 +56,8 @@ export default function ExpertisePage() {
           </ol>
 
           <ScrollReveal className="mt-20 border-t border-mist-200 pt-12 text-center">
-            <ButtonLink to={localize("/soumettre-un-projet")} variant="primary" size="lg">
-              {t("common.submitProject")}
+            <ButtonLink to={localize("/contact")} variant="primary" size="lg">
+              {t("common.contactUs")}
               <ArrowRight className="h-4 w-4" aria-hidden="true" />
             </ButtonLink>
           </ScrollReveal>

@@ -34,12 +34,9 @@ export function CtaBanner() {
             {t("ctaBanner.body")}
           </p>
           <div className="mt-9 flex flex-col items-center justify-center gap-4 sm:flex-row">
-            <ButtonLink to={localize("/soumettre-un-projet")} variant="primary" size="lg">
-              {t("ctaBanner.action")}
-              <ArrowRight className="h-4 w-4" aria-hidden="true" />
-            </ButtonLink>
-            <ButtonLink to={localize("/contact")} variant="outline-light" size="lg">
+            <ButtonLink to={localize("/contact")} variant="primary" size="lg">
               {t("common.contactUs")}
+              <ArrowRight className="h-4 w-4" aria-hidden="true" />
             </ButtonLink>
           </div>
         </ScrollReveal>

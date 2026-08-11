@@ -72,8 +72,8 @@ export default function HomePage() {
             {t("hero.subtitle")}
           </p>
           <div className="mt-10 flex flex-col gap-4 sm:flex-row hero-anim" style={{ animationDelay: "0.4s" }}>
-            <ButtonLink to={localize("/soumettre-un-projet")} variant="primary" size="lg">
-              {t("hero.ctaPrimary")}
+            <ButtonLink to={localize("/contact")} variant="primary" size="lg">
+              {t("common.contactUs")}
               <ArrowRight className="h-4 w-4" aria-hidden="true" />
             </ButtonLink>
             <ButtonLink to={localize("/expertise")} variant="outline-light" size="lg">

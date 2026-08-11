@@ -14,8 +14,8 @@ export const pt = {
       description: "Desenvolvimento, estruturação e financiamento de projetos e mobilização de parceiros.",
     },
     sectors: {
-      title: "Setores de intervenção - Méridian",
-      description: "Transportes, energia, água, saúde, infraestruturas públicas, desporto, digital e telecomunicações.",
+      title: "Setores - Méridian",
+      description: "Transportes, energia, água, digital e telecomunicações.",
     },
     projects: {
       title: "Projetos - Méridian",
@@ -126,7 +126,7 @@ export const pt = {
     overline: "Setores de intervenção",
     title: "Infraestruturas essenciais ao desenvolvimento",
     subtitle:
-      "Intervenimos nos setores que constroem a economia africana - transportes, energia, água, saúde e não só.",
+      "Intervenimos nos setores que constroem a economia africana - transportes, energia, água, digital e telecomunicações.",
     cta: "Todos os setores",
   },
   approach: {
@@ -361,6 +361,11 @@ export const pt = {
       overline: "Setores de intervenção",
       title: "Intervir nos setores que estruturam a economia.",
       body: "Das infraestruturas de transporte à conectividade digital, desenvolvemos projetos nos setores mais estruturantes.",
+    },
+    subtitle: {
+      overline: "O nosso domínio de intervenção",
+      title: "Infraestrutura pública",
+      body: "Todas as nossas realizações são infraestruturas públicas. Em cada um dos setores abaixo, desenvolvemos, estruturamos e financiamos os equipamentos e as redes ao serviço dos territórios e das suas populações.",
     },
     cta: "Submeter um projeto neste setor",
     backToSectors: "Todos os setores",

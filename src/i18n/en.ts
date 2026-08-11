@@ -18,7 +18,7 @@ export const en = {
     sectors: {
       title: "Sectors - Méridian",
       description:
-        "Transport, energy, water, health, public infrastructure, sport, digital and telecommunications.",
+        "Transport, energy, water, digital and telecommunications.",
     },
     projects: {
       title: "Projects - Méridian",
@@ -134,7 +134,7 @@ export const en = {
     overline: "Sectors",
     title: "Infrastructure essential to development",
     subtitle:
-      "We work across the sectors that build African economies - transport, energy, water, health and beyond.",
+      "We work across the sectors that build African economies - transport, energy, water, digital and telecommunications.",
     cta: "All sectors",
   },
   approach: {
@@ -369,6 +369,11 @@ export const en = {
       overline: "Sectors",
       title: "Working across the sectors that structure the economy.",
       body: "From transport infrastructure to digital connectivity, we develop projects in the most structuring sectors.",
+    },
+    subtitle: {
+      overline: "Our field of intervention",
+      title: "Public infrastructure",
+      body: "All our projects are public infrastructure. In each of the sectors below, we develop, structure and finance the facilities and networks that serve territories and their people.",
     },
     cta: "Submit a project in this sector",
     backToSectors: "All sectors",

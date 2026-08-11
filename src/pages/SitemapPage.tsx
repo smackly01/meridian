@@ -19,7 +19,6 @@ export default function SitemapPage() {
     { to: "/partenaires", label: t("nav.partners") },
     { to: "/actualites", label: t("nav.news") },
     { to: "/contact", label: t("nav.contact") },
-    { to: "/soumettre-un-projet", label: t("nav.submit") },
   ];
 
   const infoPages = [

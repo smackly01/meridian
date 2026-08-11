@@ -10,6 +10,7 @@ export function Footer() {
   const { t, lang, localize } = useI18n();
 
   const nav = [
+    { key: "home", to: "/" },
     { key: "about", to: "/a-propos" },
     { key: "expertise", to: "/expertise" },
     { key: "sectors", to: "/secteurs" },
@@ -17,7 +18,6 @@ export function Footer() {
     { key: "partners", to: "/partenaires" },
     { key: "news", to: "/actualites" },
     { key: "contact", to: "/contact" },
-    { key: "submit", to: "/soumettre-un-projet" },
   ];
 
   const socials = [

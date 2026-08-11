@@ -18,7 +18,7 @@ export const fr = {
     sectors: {
       title: "Secteurs d'intervention - Méridian",
       description:
-        "Transport, énergie, eau, santé, infrastructures publiques, sport, numérique et télécommunications.",
+        "Transport, énergie, eau, numérique et télécommunications.",
     },
     projects: {
       title: "Projets - Méridian",
@@ -134,7 +134,7 @@ export const fr = {
     overline: "Secteurs d'intervention",
     title: "Des infrastructures essentielles au développement",
     subtitle:
-      "Nous intervenons dans les secteurs qui font l'économie africaine - transports, énergie, eau, santé et au-delà.",
+      "Nous intervenons dans les secteurs qui font l'économie africaine - transports, énergie, eau, numérique et télécommunications.",
     cta: "Tous les secteurs",
   },
   approach: {
@@ -369,6 +369,11 @@ export const fr = {
       overline: "Secteurs d'intervention",
       title: "Intervenir sur les secteurs qui structurent l'économie.",
       body: "Des infrastructures de transport à la connectivité numérique, nous développons des projets dans les secteurs les plus structurants.",
+    },
+    subtitle: {
+      overline: "Notre domaine d'intervention",
+      title: "Infrastructure publique",
+      body: "Toutes nos réalisations sont des infrastructures publiques. Dans chacun des secteurs ci-dessous, nous développons, structurons et finançons les équipements et les réseaux au service des territoires et de leurs populations.",
     },
     cta: "Soumettre un projet dans ce secteur",
     backToSectors: "Tous les secteurs",
