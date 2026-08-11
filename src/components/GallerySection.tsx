@@ -5,6 +5,7 @@ import { tx } from "@/lib/utils";
 import { SectionHeading } from "./SectionHeading";
 import { ScrollReveal } from "./ScrollReveal";
 import { Media } from "./Media";
+import { NextSectionArrow } from "./NextSectionArrow";
 
 /**
  * Editorial gallery - client photographs with context, location and caption.
@@ -15,7 +16,7 @@ export function GallerySection() {
   const [featured, ...rest] = gallery;
 
   return (
-    <section className="section bg-mist-50">
+    <section id="galerie" className="section bg-mist-50">
       <div className="container-x">
         <SectionHeading
           align="center"
@@ -70,6 +71,7 @@ export function GallerySection() {
             ))}
           </div>
         </div>
+        <NextSectionArrow href="#cta" />
       </div>
     </section>
   );

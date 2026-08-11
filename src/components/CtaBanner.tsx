@@ -10,7 +10,7 @@ export function CtaBanner() {
   const { t, localize } = useI18n();
 
   return (
-    <section className="relative overflow-hidden bg-ink-900 py-20 md:py-28">
+    <section id="cta" className="relative overflow-hidden bg-ink-900 py-20 md:py-28">
       <div className="absolute inset-0">
         <Media src={images.projects} alt="" className="h-full w-full" eager />
         <div className="absolute inset-0 bg-gradient-to-b from-ink-950/92 via-ink-950/78 to-ink-950/92" />

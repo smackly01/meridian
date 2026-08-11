@@ -14,6 +14,7 @@ import { GallerySection } from "@/components/GallerySection";
 import { CtaBanner } from "@/components/CtaBanner";
 import { Media } from "@/components/Media";
 import { ButtonLink } from "@/components/Button";
+import { NextSectionArrow } from "@/components/NextSectionArrow";
 import { sectors } from "@/data/sectors";
 import { projects } from "@/data/projects";
 import { images } from "@/config/images";
@@ -54,10 +55,6 @@ export default function HomePage() {
         </div>
 
         <div className="container-x relative flex flex-col pb-24 pt-40 md:pb-28 md:pt-48">
-          <p className="overline hero-anim flex items-center gap-3" style={{ animationDelay: "0.1s" }}>
-            <span className="h-px w-10 bg-current" aria-hidden="true" />
-            {t("hero.overline")}
-          </p>
           <h1
             className="t-display on-dark mt-6 max-w-4xl text-balance hero-anim"
             style={{ animationDelay: "0.2s" }}
@@ -81,11 +78,11 @@ export default function HomePage() {
           </div>
           <a
             href="#intro"
-            className="mt-14 inline-flex items-center gap-2 font-display text-xs font-semibold uppercase tracking-widest text-white/50 transition-colors hover:text-gold-400"
+            className="mt-24 inline-flex self-center text-white/60 transition-colors hover:text-gold-400 md:mt-32"
             style={{ animationDelay: "0.5s" }}
+            aria-label={t("hero.scroll")}
           >
-            {t("hero.scroll")}
-            <ChevronDown className="h-4 w-4 animate-bounce" aria-hidden="true" />
+            <ChevronDown className="h-10 w-10 animate-bounce" strokeWidth={2.5} aria-hidden="true" />
           </a>
         </div>
       </section>
@@ -120,10 +117,11 @@ export default function HomePage() {
             </ScrollReveal>
           </div>
         </div>
+        <NextSectionArrow href="#stats" />
       </section>
 
       {/* STATS */}
-      <section className="border-y border-mist-200 bg-mist-50">
+      <section id="stats" className="border-y border-mist-200 bg-mist-50">
         <div className="container-x py-16">
           <ScrollReveal className="flex flex-col items-center text-center">
             <p className="overline flex items-center gap-3">
@@ -145,11 +143,12 @@ export default function HomePage() {
           <ScrollReveal className="mt-10">
             <p className="text-center text-xs text-mist-400">{t("stats.note")}</p>
           </ScrollReveal>
+          <NextSectionArrow href="#approach" />
         </div>
       </section>
 
       {/* APPROACH */}
-      <section className="section-dark on-dark relative overflow-hidden">
+      <section id="approach" className="section-dark on-dark relative overflow-hidden">
         <div className="absolute inset-0 bg-grid-dark" aria-hidden="true" />
         <div className="container-x relative">
           <SectionHeading
@@ -162,25 +161,18 @@ export default function HomePage() {
           <div className="mt-16">
             <ApproachTimeline />
           </div>
+          <NextSectionArrow href="#secteurs" dark />
         </div>
       </section>
 
       {/* SECTORS */}
-      <section className="section bg-white">
+      <section id="secteurs" className="section bg-white">
         <div className="container-x">
-          <div className="flex flex-col items-start justify-between gap-6 md:flex-row md:items-end">
-            <SectionHeading
-              overline={t("homeSectors.overline")}
-              title={t("homeSectors.title")}
-              body={t("homeSectors.subtitle")}
-            />
-            <ScrollReveal className="shrink-0">
-              <ButtonLink to={localize("/secteurs")} variant="outline-dark">
-                {t("homeSectors.cta")}
-                <ArrowUpRight className="h-4 w-4" aria-hidden="true" />
-              </ButtonLink>
-            </ScrollReveal>
-          </div>
+          <SectionHeading
+            overline={t("homeSectors.overline")}
+            title={t("homeSectors.title")}
+            body={t("homeSectors.subtitle")}
+          />
           <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {visibleSectors.map((sector, i) => (
               <ScrollReveal key={sector.id} delay={(i % 4) * 60} className="h-full">
@@ -188,29 +180,28 @@ export default function HomePage() {
               </ScrollReveal>
             ))}
           </div>
+          <ScrollReveal className="mt-12 flex justify-center">
+            <ButtonLink to={localize("/secteurs")} variant="outline-dark">
+              {t("homeSectors.cta")}
+              <ArrowUpRight className="h-4 w-4" aria-hidden="true" />
+            </ButtonLink>
+          </ScrollReveal>
+          <NextSectionArrow href="#finance" />
         </div>
       </section>
 
-      {/* PROJECT FINANCE */}
+      {/* FINANCE */}
       <FinanceSection />
 
       {/* PROJECTS */}
       {visibleProjects.length > 0 && (
-        <section className="section bg-white">
+        <section id="projets" className="section bg-white">
           <div className="container-x">
-            <div className="flex flex-col items-start justify-between gap-6 md:flex-row md:items-end">
-              <SectionHeading
-                overline={t("homeProjects.overline")}
-                title={t("homeProjects.title")}
-                body={t("homeProjects.subtitle")}
-              />
-              <ScrollReveal className="shrink-0">
-                <ButtonLink to={localize("/projets")} variant="outline-dark">
-                  {t("homeProjects.viewAll")}
-                  <ArrowUpRight className="h-4 w-4" aria-hidden="true" />
-                </ButtonLink>
-              </ScrollReveal>
-            </div>
+            <SectionHeading
+              overline={t("homeProjects.overline")}
+              title={t("homeProjects.title")}
+              body={t("homeProjects.subtitle")}
+            />
             <div className="mt-14 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
               {visibleProjects.map((project, i) => (
                 <ScrollReveal key={project.id} delay={(i % 3) * 60} className="h-full">
@@ -218,12 +209,19 @@ export default function HomePage() {
                 </ScrollReveal>
               ))}
             </div>
+            <ScrollReveal className="mt-12 flex justify-center">
+              <ButtonLink to={localize("/projets")} variant="outline-dark">
+                {t("homeProjects.viewAll")}
+                <ArrowUpRight className="h-4 w-4" aria-hidden="true" />
+              </ButtonLink>
+            </ScrollReveal>
+            <NextSectionArrow href="#africa" />
           </div>
         </section>
       )}
 
       {/* AFRICA */}
-      <AfricaMap />
+      <AfricaMap nextHref={site.content.partners ? "#ecosystem" : "#galerie"} />
 
       {/* ECOSYSTEM */}
       {site.content.partners && <EcosystemSection />}

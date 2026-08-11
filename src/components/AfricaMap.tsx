@@ -7,6 +7,7 @@ import { projects } from "@/data/projects";
 import { cn, tx } from "@/lib/utils";
 import { SectionHeading } from "./SectionHeading";
 import { ScrollReveal } from "./ScrollReveal";
+import { NextSectionArrow } from "./NextSectionArrow";
 
 /** Coarse Africa outline (lon, lat) - used to build the dotted silhouette. */
 const AFRICA_RING: [number, number][] = [
@@ -63,7 +64,7 @@ function useDots(step: number): { x: number; y: number; mad: boolean }[] {
   }, [step]);
 }
 
-export function AfricaMap() {
+export function AfricaMap({ nextHref = "#ecosystem" }: { nextHref?: string }) {
   const { t, lang, localize } = useI18n();
   const dots = useDots(2.6);
   const [selectedId, setSelectedId] = useState<string | null>(null);
@@ -88,7 +89,7 @@ export function AfricaMap() {
   }
 
   return (
-    <section className="section-dark on-dark relative overflow-hidden">
+    <section id="africa" className="section-dark on-dark relative overflow-hidden">
       <div className="absolute inset-0 bg-grid-dark" aria-hidden="true" />
       <div
         className="absolute left-1/2 top-1/2 h-[560px] w-[560px] -translate-x-1/2 -translate-y-1/2 rounded-full"
@@ -197,10 +198,8 @@ export function AfricaMap() {
                     aria-label={tx(c.name, lang)}
                     title={tx(c.name, lang)}
                     className={cn(
-                      "grid h-9 w-10 place-items-center overflow-hidden rounded-[3px] border transition-colors",
-                      active
-                        ? "border-gold-500 bg-gold-500/10"
-                        : "border-white/10 bg-white/5 hover:border-white/25",
+                      "grid h-9 w-10 place-items-center overflow-hidden rounded-[3px] transition-opacity",
+                      active ? "opacity-100" : "opacity-80 hover:opacity-100",
                     )}
                   >
                     <img
@@ -268,6 +267,7 @@ export function AfricaMap() {
           </div>
         </ScrollReveal>
       </div>
+      <NextSectionArrow href={nextHref} dark />
     </section>
   );
 }

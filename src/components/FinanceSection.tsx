@@ -3,6 +3,7 @@ import { useI18n } from "@/i18n";
 import { ButtonLink } from "./Button";
 import { SectionHeading } from "./SectionHeading";
 import { ScrollReveal } from "./ScrollReveal";
+import { NextSectionArrow } from "./NextSectionArrow";
 
 export function FinanceSection() {
   const { t, localize } = useI18n();
@@ -12,7 +13,7 @@ export function FinanceSection() {
   for (let i = 0; i < 5; i++) flow.push(t(`finance.flow.${i}`));
 
   return (
-    <section className="section bg-mist-50">
+    <section id="finance" className="section bg-mist-50">
       <div className="container-x grid items-start gap-14 lg:grid-cols-2">
         <div>
           <SectionHeading
@@ -64,6 +65,7 @@ export function FinanceSection() {
           </div>
         </ScrollReveal>
       </div>
+      <NextSectionArrow href="#projets" />
     </section>
   );
 }
