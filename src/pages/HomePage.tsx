@@ -78,11 +78,11 @@ export default function HomePage() {
           </div>
           <a
             href="#intro"
-            className="mt-24 inline-flex self-center text-white/60 transition-colors hover:text-gold-400 md:mt-32"
+            className="mt-32 inline-flex h-16 w-16 items-center justify-center self-center rounded-full border border-white/25 text-white/60 transition-colors hover:border-gold-400 hover:text-gold-400 md:mt-44"
             style={{ animationDelay: "0.5s" }}
             aria-label={t("hero.scroll")}
           >
-            <ChevronDown className="h-10 w-10 animate-bounce" strokeWidth={2.5} aria-hidden="true" />
+            <ChevronDown className="h-9 w-9 animate-bounce" strokeWidth={2.5} aria-hidden="true" />
           </a>
         </div>
       </section>

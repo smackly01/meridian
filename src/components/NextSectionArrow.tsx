@@ -16,12 +16,11 @@ export function NextSectionArrow({ href, dark }: Props) {
         aria-label={t("hero.scroll")}
         className={
           dark
-            ? "inline-flex items-center gap-2 font-display text-xs font-semibold uppercase tracking-widest text-white/50 transition-colors hover:text-gold-400"
-            : "inline-flex items-center gap-2 font-display text-xs font-semibold uppercase tracking-widest text-mist-400 transition-colors hover:text-gold-600"
+            ? "inline-flex h-14 w-14 items-center justify-center rounded-full border border-white/25 text-white/60 transition-colors hover:border-gold-400 hover:text-gold-400"
+            : "inline-flex h-14 w-14 items-center justify-center rounded-full border border-mist-300 text-mist-400 transition-colors hover:border-gold-600 hover:text-gold-600"
         }
       >
-        {t("hero.scroll")}
-        <ChevronDown className="h-4 w-4 animate-bounce" aria-hidden="true" />
+        <ChevronDown className="h-7 w-7 animate-bounce" aria-hidden="true" />
       </a>
     </div>
   );

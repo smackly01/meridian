@@ -58,6 +58,7 @@ export function LanguageSwitcher({ className, inverted }: { className?: string; 
   const [open, setOpen] = useState(false);
   const [pos, setPos] = useState<{ top: number; right: number } | null>(null);
   const rootRef = useRef<HTMLDivElement>(null);
+  const buttonRef = useRef<HTMLButtonElement>(null);
   const listRef = useRef<HTMLUListElement>(null);
 
   useEffect(() => {
@@ -86,8 +87,8 @@ export function LanguageSwitcher({ className, inverted }: { className?: string; 
   }, [open]);
 
   const toggle = () => {
-    if (!open && rootRef.current) {
-      const rect = rootRef.current.getBoundingClientRect();
+    if (!open && buttonRef.current) {
+      const rect = buttonRef.current.getBoundingClientRect();
       setPos({ top: rect.bottom, right: rect.right });
     }
     setOpen((v) => !v);
@@ -96,6 +97,7 @@ export function LanguageSwitcher({ className, inverted }: { className?: string; 
   return (
     <div ref={rootRef} className={cn("relative", className)}>
       <button
+        ref={buttonRef}
         type="button"
         aria-haspopup="listbox"
         aria-expanded={open}
