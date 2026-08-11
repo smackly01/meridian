@@ -6,7 +6,7 @@ import type { NewsItem } from "@/types";
  * African infrastructure markets. Replace with the company's real
  * publications before any public publishing.
  * `date` should be an ISO date string (YYYY-MM-DD).
- * Set `published: true` once real data is validated.
+ * `published: true` renders the item on the site (temporarily enabled for demo).
  */
 export const news: NewsItem[] = [
   {
@@ -43,7 +43,7 @@ export const news: NewsItem[] = [
         pt: "Este acordo confirma a confiança depositada na Méridian para fazer emergir projetos bancáveis, mobilizar os financiamentos adequados e acompanhar a sua realização, em conformidade com as prioridades estratégicas do país.",
       },
     ],
-    published: false,
+    published: true,
   },
   {
     id: "n2",
@@ -79,7 +79,7 @@ export const news: NewsItem[] = [
         pt: "A entrega está prevista em 24 meses. A infraestrutura deverá gerar várias centenas de postos de trabalho diretos e reforçar a competitividade do corredor Abidjan – Ouagadougou.",
       },
     ],
-    published: false,
+    published: true,
   },
   {
     id: "n3",
@@ -115,7 +115,7 @@ export const news: NewsItem[] = [
         pt: "Com entrada em serviço prevista para 2028, a instalação alimentará mais de 250.000 lares e contribuirá para a diversificação do mix energético nacional.",
       },
     ],
-    published: false,
+    published: true,
   },
   {
     id: "n4",
@@ -151,7 +151,7 @@ export const news: NewsItem[] = [
         pt: "O evento permitiu igualmente iniciar novas discussões com parceiros financeiros e institucionais em torno de projetos em desenvolvimento.",
       },
     ],
-    published: false,
+    published: true,
   },
   {
     id: "n5",
@@ -187,6 +187,6 @@ export const news: NewsItem[] = [
         pt: "É precisamente este trabalho de estruturação - técnico, jurídico, financeiro e operacional - que faz emergir projetos que os bancos, os fundos e os investidores podem apoiar. Constitui o núcleo da atividade da Méridian.",
       },
     ],
-    published: false,
+    published: true,
   },
 ];

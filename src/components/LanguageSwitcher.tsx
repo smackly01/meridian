@@ -103,7 +103,7 @@ export function LanguageSwitcher({ className, inverted }: { className?: string; 
         title={LOCALE_NAMES[lang]}
         onClick={toggle}
         className={cn(
-          "inline-flex h-10 items-center gap-2 rounded-[3px] border px-5 transition-colors",
+          "inline-flex h-10 items-center gap-2 rounded-[3px] border px-3 transition-colors",
           inverted
             ? "border-white/15 hover:border-white/30"
             : "border-ink-900/15 hover:border-ink-900/30",
@@ -128,7 +128,7 @@ export function LanguageSwitcher({ className, inverted }: { className?: string; 
             role="listbox"
             aria-label="Language"
             className="fixed z-[100] w-44 origin-top overflow-hidden rounded-[6px] border border-white/10 bg-ink-900 py-1.5 shadow-panel"
-            style={{ top: pos.top + 8, left: Math.max(8, pos.right - LIST_WIDTH) }}
+            style={{ top: pos.top + 4, left: Math.max(8, pos.right - LIST_WIDTH) }}
           >
             {LANGS.map((l) => {
               const active = l.code === lang;

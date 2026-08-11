@@ -7,7 +7,7 @@ import type { Project } from "@/types";
  * African infrastructure markets. Replace with the company's real data
  * before any public publishing.
  * A project with `confidential: true` is displayed without sensitive details.
- * Set `published: true` once real data is validated.
+ * `published: true` renders the project on the site (temporarily enabled for demo).
  */
 export const projects: Project[] = [
   {
@@ -40,7 +40,7 @@ export const projects: Project[] = [
       "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1200&q=80",
     ],
     confidential: false,
-    published: false,
+    published: true,
   },
   {
     id: "p2",
@@ -72,7 +72,7 @@ export const projects: Project[] = [
       "https://images.unsplash.com/photo-1548337138-e87d889cc369?auto=format&fit=crop&w=1200&q=80",
     ],
     confidential: false,
-    published: false,
+    published: true,
   },
   {
     id: "p3",
@@ -104,7 +104,7 @@ export const projects: Project[] = [
       "https://images.unsplash.com/photo-1476231682828-37e571bc172f?auto=format&fit=crop&w=1200&q=80",
     ],
     confidential: false,
-    published: false,
+    published: true,
   },
   {
     id: "p5",
@@ -136,7 +136,7 @@ export const projects: Project[] = [
       "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1200&q=80",
     ],
     confidential: false,
-    published: false,
+    published: true,
   },
   {
     id: "p7",
@@ -168,7 +168,7 @@ export const projects: Project[] = [
       "https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?auto=format&fit=crop&w=1200&q=80",
     ],
     confidential: false,
-    published: false,
+    published: true,
   },
   {
     id: "p8",
@@ -200,6 +200,6 @@ export const projects: Project[] = [
       "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
     ],
     confidential: false,
-    published: false,
+    published: true,
   },
 ];

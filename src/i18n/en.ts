@@ -535,6 +535,7 @@ export const en = {
     language: "Language",
     sitemap: "Sitemap",
     statement: "Building the infrastructure that shapes tomorrow.",
+    rights: "All rights reserved.",
   },
   sitemapPage: {
     overline: "Sitemap",
@@ -542,6 +543,18 @@ export const en = {
     body: "A complete overview of Méridian's pages: the company, its expertise, the sectors, the projects, the partners, the news and contact.",
     mainTitle: "Main pages",
     infoTitle: "Information",
+    desc: {
+      home: "Home and a general introduction to Méridian.",
+      about: "The company, its history, vision and mission.",
+      expertise: "Our approach, financing model and portfolio.",
+      sectors: "Our sectors of intervention: transport, energy, water, digital.",
+      projects: "Projects developed, structured and financed.",
+      partners: "Our ecosystem of institutional and financial partners.",
+      news: "News, events and sector analyses.",
+      contact: "How to get in touch with our team.",
+      legal: "Website publisher, hosting and liability.",
+      privacy: "Collection, use and protection of your personal data.",
+    },
   },
   notFound: {
     title: "Page not found",

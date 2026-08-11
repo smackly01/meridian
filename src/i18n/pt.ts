@@ -528,6 +528,7 @@ export const pt = {
     language: "Idioma",
     sitemap: "Mapa do site",
     statement: "Construir as infraestruturas que moldam o amanhã.",
+    rights: "Todos os direitos reservados.",
   },
   sitemapPage: {
     overline: "Mapa do site",
@@ -535,6 +536,18 @@ export const pt = {
     body: "Uma visão completa das páginas da Méridian: a empresa, as suas expertises, os setores de intervenção, os projetos, os parceiros, as notícias e o contacto.",
     mainTitle: "Páginas principais",
     infoTitle: "Informações",
+    desc: {
+      home: "Início e apresentação geral da Méridian.",
+      about: "A empresa, a sua história, visão e missão.",
+      expertise: "A nossa abordagem, modelo de financiamento e portfólio.",
+      sectors: "Os setores de intervenção: transporte, energia, água, digital.",
+      projects: "Os projetos desenvolvidos, estruturados e financiados.",
+      partners: "O ecossistema de parceiros institucionais e financeiros.",
+      news: "Notícias, eventos e análises do setor.",
+      contact: "Como entrar em contacto com a nossa equipa.",
+      legal: "Editor do site, alojamento e responsabilidade.",
+      privacy: "Recolha, utilização e proteção dos seus dados pessoais.",
+    },
   },
   notFound: {
     title: "Página não encontrada",

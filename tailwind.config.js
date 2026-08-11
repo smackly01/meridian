@@ -32,8 +32,8 @@ export default {
         },
       },
       fontFamily: {
-        display: ["Manrope", "system-ui", "sans-serif"],
-        sans: ["Inter", "system-ui", "sans-serif"],
+        display: ["DM Sans", "system-ui", "sans-serif"],
+        sans: ["DM Sans", "system-ui", "sans-serif"],
       },
       maxWidth: {
         container: "80rem",
