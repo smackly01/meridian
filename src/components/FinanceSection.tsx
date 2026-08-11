@@ -14,6 +14,7 @@ export function FinanceSection() {
 
   return (
     <section id="finance" className="section bg-mist-50">
+      <div data-finance-bar aria-hidden="true" className="h-px w-full origin-left bg-gold-500/30" />
       <div className="container-x grid items-start gap-14 lg:grid-cols-2">
         <div>
           <SectionHeading

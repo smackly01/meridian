@@ -10,7 +10,7 @@ interface Props {
 export function NextSectionArrow({ href, dark }: Props) {
   const { t } = useI18n();
   return (
-    <div className="mt-14 flex justify-center">
+    <div className="mt-14 flex justify-end">
       <a
         href={href}
         aria-label={t("hero.scroll")}

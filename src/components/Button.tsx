@@ -21,17 +21,17 @@ interface ButtonNativeProps extends ButtonHTMLAttributes<HTMLButtonElement> {
 }
 
 const base =
-  "inline-flex items-center justify-center gap-2.5 rounded-[3px] font-display font-semibold text-sm tracking-wide transition-all duration-300 ease-premium disabled:cursor-not-allowed disabled:opacity-50";
+  "inline-flex items-center justify-center gap-2.5 rounded-[3px] font-display font-semibold text-sm tracking-wide transition-all duration-300 ease-premium disabled:cursor-not-allowed disabled:opacity-50 active:translate-y-0";
 
 const variants: Record<Variant, string> = {
   primary:
-    "bg-gold-500 text-ink-900 hover:bg-gold-400 hover:shadow-card",
-  dark: "bg-ink-900 text-white hover:bg-ink-700",
+    "bg-gold-500 text-ink-900 hover:bg-gold-400 hover:shadow-card hover:-translate-y-0.5",
+  dark: "bg-ink-900 text-white hover:bg-ink-700 hover:-translate-y-0.5",
   "outline-light":
-    "border border-white/25 text-white hover:border-white/60 hover:bg-white/5",
+    "border border-white/25 text-white hover:border-white/60 hover:bg-white/5 hover:-translate-y-0.5",
   "outline-dark":
-    "border border-ink-900/20 text-ink-900 hover:border-ink-900 hover:bg-ink-900 hover:text-white",
-  "ghost-gold": "text-gold-600 hover:text-gold-700",
+    "border border-ink-900/20 text-ink-900 hover:border-ink-900 hover:bg-ink-900 hover:text-white hover:-translate-y-0.5",
+  "ghost-gold": "text-gold-600 hover:text-gold-700 hover:-translate-y-0.5",
 };
 
 const sizes: Record<Size, string> = {

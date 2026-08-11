@@ -15,6 +15,13 @@
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
   }
+  html.lenis,
+  html.lenis body {
+    height: auto;
+  }
+  html.lenis-smooth {
+    scroll-behavior: auto !important;
+  }
 
   body {
     @apply font-sans text-mist-800 bg-white;
@@ -190,6 +197,11 @@
     }
     .map-modal,
     .map-modal-backdrop {
+      animation: none;
+    }
+    .hero-anim {
+      opacity: 1;
+      transform: none;
       animation: none;
     }
     html {

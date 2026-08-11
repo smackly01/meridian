@@ -5,6 +5,7 @@ import { site } from "@/config/site";
 import { sectors } from "@/data/sectors";
 import { tx } from "@/lib/utils";
 import { LanguageSwitcher } from "./LanguageSwitcher";
+import { ScrollReveal } from "./ScrollReveal";
 
 function FacebookIcon({ className }: { className?: string }) {
   return (
@@ -53,7 +54,7 @@ export function Footer() {
   return (
     <footer className="bg-ink-950 text-white">
       <div className="container-x pb-10 pt-16 md:pt-20">
-        <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-12">
+        <ScrollReveal className="grid gap-12 md:grid-cols-2 lg:grid-cols-12">
           {/* Brand */}
           <div className="md:col-span-2 lg:col-span-4">
             <div className="inline-flex items-center gap-3">
@@ -157,7 +158,7 @@ export function Footer() {
               <LanguageSwitcher inverted />
             </div>
           </div>
-        </div>
+        </ScrollReveal>
 
         {/* Legal bar */}
         <div className="mt-12 flex flex-col items-start justify-between gap-4 border-t border-white/10 pt-6 md:flex-row md:items-center">

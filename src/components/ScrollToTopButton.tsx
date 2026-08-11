@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { ArrowUp } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useI18n } from "@/i18n";
+import { getLenis } from "@/lib/motion";
 
 const SHOW_AFTER = 480;
 
@@ -17,6 +18,11 @@ export function ScrollToTopButton() {
   }, []);
 
   const scrollToTop = () => {
+    const lenis = getLenis();
+    if (lenis) {
+      lenis.scrollTo(0);
+      return;
+    }
     const prefersReducedMotion = window.matchMedia(
       "(prefers-reduced-motion: reduce)",
     ).matches;

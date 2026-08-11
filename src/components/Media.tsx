@@ -1,4 +1,4 @@
-import { useId, type CSSProperties } from "react";
+import { useId, type CSSProperties, type HTMLAttributes } from "react";
 import { cn } from "@/lib/utils";
 import { getIcon } from "@/lib/icons";
 
@@ -64,7 +64,7 @@ export function SvgPlaceholder({ label, icon, className, style }: SvgPlaceholder
   );
 }
 
-interface MediaProps {
+interface MediaProps extends HTMLAttributes<HTMLDivElement> {
   src?: string;
   alt: string;
   label?: string;
@@ -78,12 +78,21 @@ interface MediaProps {
  * Image with an elegant fallback. If `src` is empty, a premium placeholder
  * is rendered instead - never a broken image.
  */
-export function Media({ src, alt, label, icon, className, imgClassName, eager }: MediaProps) {
+export function Media({
+  src,
+  alt,
+  label,
+  icon,
+  className,
+  imgClassName,
+  eager,
+  ...rest
+}: MediaProps) {
   if (!src) {
     return <SvgPlaceholder label={label} icon={icon} className={className} />;
   }
   return (
-    <div className={cn("relative overflow-hidden bg-mist-100", className)}>
+    <div className={cn("relative overflow-hidden bg-mist-100", className)} {...rest}>
       <img
         src={src}
         alt={alt}

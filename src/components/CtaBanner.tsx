@@ -1,5 +1,7 @@
+import { useLayoutEffect, useRef } from "react";
 import { ArrowRight } from "lucide-react";
 import { useI18n } from "@/i18n";
+import { gsap, prefersReducedMotion } from "@/lib/motion";
 import { ButtonLink } from "./Button";
 import { ScrollReveal } from "./ScrollReveal";
 import { Media } from "./Media";
@@ -8,10 +10,35 @@ import { images } from "@/config/images";
 /** Full-width call-to-action banner, used at the bottom of pages. */
 export function CtaBanner() {
   const { t, localize } = useI18n();
+  const sectionRef = useRef<HTMLElement>(null);
+
+  useLayoutEffect(() => {
+    const section = sectionRef.current;
+    if (!section || prefersReducedMotion()) return;
+    const bg = section.querySelector<HTMLElement>("[data-cta-bg]");
+    if (!bg) return;
+    const ctx = gsap.context(() => {
+      gsap.fromTo(
+        bg,
+        { yPercent: -6, scale: 1.1 },
+        {
+          yPercent: 6,
+          ease: "none",
+          scrollTrigger: {
+            trigger: section,
+            start: "top bottom",
+            end: "bottom top",
+            scrub: true,
+          },
+        },
+      );
+    }, section);
+    return () => ctx.revert();
+  }, []);
 
   return (
-    <section id="cta" className="relative overflow-hidden bg-ink-900 py-20 md:py-28">
-      <div className="absolute inset-0">
+    <section ref={sectionRef} id="cta" className="relative overflow-hidden bg-ink-900 py-20 md:py-28">
+      <div data-cta-bg className="absolute inset-0">
         <Media src={images.projects} alt="" className="h-full w-full" eager />
         <div className="absolute inset-0 bg-gradient-to-b from-ink-950/92 via-ink-950/78 to-ink-950/92" />
       </div>

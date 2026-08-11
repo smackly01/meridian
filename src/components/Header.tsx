@@ -67,6 +67,12 @@ export function Header() {
     { key: "contact", to: "/contact" },
   ];
 
+  const isActive = (to: string): boolean => {
+    const active = localize(to);
+    if (active === localize("/")) return location.pathname === active;
+    return location.pathname === active || location.pathname.startsWith(active + "/");
+  };
+
   return (
     <header
       className={cn(
@@ -84,10 +90,18 @@ export function Header() {
             <Link
               key={item.key}
               to={localize(item.to)}
-              className="group relative font-display text-[0.82rem] font-semibold tracking-wide text-white/80 transition-colors hover:text-white"
+              className={cn(
+                "group relative font-display text-[0.82rem] font-semibold tracking-wide transition-colors hover:text-white",
+                isActive(item.to) ? "text-white" : "text-white/80",
+              )}
             >
               {t(`nav.${item.key}`)}
-              <span className="absolute -bottom-1.5 left-0 h-px w-0 bg-gold-500 transition-all duration-300 group-hover:w-full" />
+              <span
+                className={cn(
+                  "absolute -bottom-1.5 left-0 h-px bg-gold-500 transition-all duration-300",
+                  isActive(item.to) ? "w-full" : "w-0 group-hover:w-full",
+                )}
+              />
             </Link>
           ))}
         </nav>
@@ -124,7 +138,8 @@ export function Header() {
               to={localize(item.to)}
               style={{ transitionDelay: open ? `${i * 30}ms` : "0ms" }}
               className={cn(
-                "border-b border-white/5 py-4 font-display text-lg font-semibold text-white/90 transition-all hover:text-gold-400",
+                "border-b border-white/5 py-4 font-display text-lg font-semibold transition-all hover:text-gold-400",
+                isActive(item.to) ? "text-gold-400" : "text-white/90",
                 open ? "translate-y-0 opacity-100" : "translate-y-2 opacity-0",
               )}
             >

@@ -19,6 +19,8 @@ import { sectors } from "@/data/sectors";
 import { projects } from "@/data/projects";
 import { images } from "@/config/images";
 import { site } from "@/config/site";
+import { useLayoutEffect, useRef } from "react";
+import { setupHomeAnimations } from "@/lib/animations/home";
 
 export default function HomePage() {
   const { t, localize } = useI18n();
@@ -30,8 +32,11 @@ export default function HomePage() {
   const visibleProjects = projects.filter((p) => p.published !== false).slice(0, 3);
   const visibleSectors = sectors.slice(0, 4);
 
+  const rootRef = useRef<HTMLDivElement>(null);
+  useLayoutEffect(() => setupHomeAnimations(rootRef.current), []);
+
   return (
-    <>
+    <div ref={rootRef}>
       <Seo
         title={t("meta.home.title")}
         description={t("meta.home.description")}
@@ -40,8 +45,8 @@ export default function HomePage() {
       />
 
       {/* HERO */}
-      <section className="relative flex min-h-[100svh] items-end overflow-hidden bg-ink-950 md:items-center">
-        <div className="absolute inset-0">
+      <section data-hero className="relative flex min-h-[100svh] items-end overflow-hidden bg-ink-950 md:items-center">
+        <div data-hero-bg className="absolute inset-0">
           <Media
             src={images.hero}
             alt=""
@@ -54,20 +59,20 @@ export default function HomePage() {
           <div className="absolute inset-0 bg-grid-dark opacity-70" />
         </div>
 
-        <div className="container-x relative flex flex-col pb-24 pt-40 md:pb-28 md:pt-48">
+        <div data-hero-content className="container-x relative flex flex-col pb-24 pt-40 md:pb-28 md:pt-60">
           <h1
-            className="t-display on-dark mt-6 max-w-4xl text-balance hero-anim"
-            style={{ animationDelay: "0.2s" }}
+            data-hero-title
+            className="t-display on-dark mt-6 max-w-4xl text-balance"
           >
             {t("hero.title")}
           </h1>
           <p
-            className="on-dark mt-6 max-w-2xl text-lg leading-relaxed text-white/75 hero-anim"
-            style={{ animationDelay: "0.3s" }}
+            data-hero-subtitle
+            className="on-dark mt-6 max-w-2xl text-lg leading-relaxed text-white/75"
           >
             {t("hero.subtitle")}
           </p>
-          <div className="mt-10 flex flex-col gap-4 sm:flex-row hero-anim" style={{ animationDelay: "0.4s" }}>
+          <div data-hero-cta className="mt-10 flex flex-col gap-4 sm:flex-row">
             <ButtonLink to={localize("/contact")} variant="primary" size="lg">
               {t("common.contactUs")}
               <ArrowRight className="h-4 w-4" aria-hidden="true" />
@@ -76,15 +81,15 @@ export default function HomePage() {
               {t("hero.ctaSecondary")}
             </ButtonLink>
           </div>
-          <a
-            href="#intro"
-            className="mt-32 inline-flex h-16 w-16 items-center justify-center self-center rounded-full border border-white/25 text-white/60 transition-colors hover:border-gold-400 hover:text-gold-400 md:mt-44"
-            style={{ animationDelay: "0.5s" }}
-            aria-label={t("hero.scroll")}
-          >
-            <ChevronDown className="h-9 w-9 animate-bounce" strokeWidth={2.5} aria-hidden="true" />
-          </a>
         </div>
+        <a
+          data-hero-cue
+          href="#intro"
+          className="absolute bottom-6 right-6 z-10 inline-flex h-16 w-16 items-center justify-center rounded-full border border-white/25 text-white/60 transition-colors hover:border-gold-400 hover:text-gold-400 md:bottom-10 md:right-10"
+          aria-label={t("hero.scroll")}
+        >
+          <ChevronDown className="h-9 w-9 animate-bounce" strokeWidth={2.5} aria-hidden="true" />
+        </a>
       </section>
 
       {/* INTRO */}
@@ -98,6 +103,7 @@ export default function HomePage() {
                 label={t("intro.overline")}
                 icon="Building2"
                 className="aspect-[4/5] w-full rounded-[3px]"
+                data-intro-media
               />
               <div className="absolute -bottom-6 -right-6 hidden border border-mist-200 bg-white p-6 shadow-panel md:block">
                 <p className="overline-on-light">{t("approach.overline")}</p>
@@ -121,7 +127,12 @@ export default function HomePage() {
       </section>
 
       {/* STATS */}
-      <section id="stats" className="border-y border-mist-200 bg-mist-50">
+      <section id="stats" className="relative border-y border-mist-200 bg-mist-50">
+        <div
+          data-stats-line
+          aria-hidden="true"
+          className="absolute left-0 top-0 h-px w-full origin-left bg-gold-500/40"
+        />
         <div className="container-x py-16">
           <ScrollReveal className="flex flex-col items-center text-center">
             <p className="overline flex items-center gap-3">
@@ -131,7 +142,7 @@ export default function HomePage() {
             </p>
             <h2 className="t-h2 mt-4">{t("stats.title")}</h2>
           </ScrollReveal>
-          <div className="mt-12 grid grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-2 lg:grid-cols-5">
+          <div data-stats-grid className="mt-12 grid grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-2 lg:grid-cols-5">
             {stats.map((s, i) => (
               <ScrollReveal key={s.label} delay={i * 60}>
                 <div className="relative border-t border-mist-300 pt-6">
@@ -158,7 +169,8 @@ export default function HomePage() {
             title={t("approach.title")}
             body={t("approach.subtitle")}
           />
-          <div className="mt-16">
+          <div data-approach-line aria-hidden="true" className="mt-14 h-px w-full origin-left bg-white/10" />
+          <div className="mt-14">
             <ApproachTimeline />
           </div>
           <NextSectionArrow href="#secteurs" dark />
@@ -203,10 +215,10 @@ export default function HomePage() {
               body={t("homeProjects.subtitle")}
             />
             <div className="mt-14 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-              {visibleProjects.map((project, i) => (
-                <ScrollReveal key={project.id} delay={(i % 3) * 60} className="h-full">
+              {visibleProjects.map((project) => (
+                <div key={project.id} data-project-card className="h-full">
                   <ProjectCard project={project} />
-                </ScrollReveal>
+                </div>
               ))}
             </div>
             <ScrollReveal className="mt-12 flex justify-center">
@@ -231,6 +243,6 @@ export default function HomePage() {
 
       {/* CTA */}
       <CtaBanner />
-    </>
+    </div>
   );
 }

@@ -1,6 +1,8 @@
 import { useEffect, type ReactNode } from "react";
 import { useLocation } from "react-router-dom";
 import { useI18n } from "@/i18n";
+import { useLenis } from "@/hooks/useLenis";
+import { getLenis } from "@/lib/motion";
 import { Header } from "./Header";
 import { Footer } from "./Footer";
 import { ScrollToTopButton } from "./ScrollToTopButton";
@@ -9,8 +11,16 @@ export function Layout({ children }: { children: ReactNode }) {
   const location = useLocation();
   const { t } = useI18n();
 
+  // Smooth scrolling (skipped automatically when reduced motion is active).
+  useLenis();
+
   useEffect(() => {
-    window.scrollTo({ top: 0, behavior: "auto" });
+    const lenis = getLenis();
+    if (lenis) {
+      lenis.scrollTo(0, { immediate: true });
+    } else {
+      window.scrollTo({ top: 0, behavior: "auto" });
+    }
   }, [location.pathname]);
 
   return (
