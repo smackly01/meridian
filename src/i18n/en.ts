@@ -209,6 +209,9 @@ export const en = {
       "We focus on markets where infrastructure needs have the greatest impact on development.",
     legend: "Countries of presence",
     note: "Confirmed operational presence in the countries where we develop and structure projects.",
+    hint: "Click a point to view details.",
+    close: "Close",
+    noProjects: "Projects currently being structured.",
   },
   ecosystem: {
     overline: "Our ecosystem",

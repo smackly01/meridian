@@ -1,5 +1,4 @@
-import { Link } from "react-router-dom";
-import { ArrowRight, ArrowUpRight, ChevronDown, Building2 } from "lucide-react";
+import { ArrowRight, ArrowUpRight, ChevronDown } from "lucide-react";
 import { useI18n } from "@/i18n";
 import { Seo, organizationJsonLd } from "@/components/Seo";
 import { SectionHeading } from "@/components/SectionHeading";
@@ -28,7 +27,7 @@ export default function HomePage() {
     stats.push({ value: t(`stats.items.${i}.value`), label: t(`stats.items.${i}.label`) });
   }
   const visibleProjects = projects.filter((p) => p.published !== false).slice(0, 3);
-  const visibleSectors = sectors.slice(0, 6);
+  const visibleSectors = sectors.slice(0, 4);
 
   return (
     <>
@@ -182,28 +181,12 @@ export default function HomePage() {
               </ButtonLink>
             </ScrollReveal>
           </div>
-          <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {visibleSectors.map((sector, i) => (
-              <ScrollReveal key={sector.id} delay={(i % 3) * 60} className="h-full">
+              <ScrollReveal key={sector.id} delay={(i % 4) * 60} className="h-full">
                 <SectorCard sector={sector} index={i} />
               </ScrollReveal>
             ))}
-            {/* CTA tile completes the grid */}
-            <ScrollReveal delay={120}>
-              <Link
-                to={localize("/secteurs")}
-                className="group flex h-full min-h-[320px] flex-col justify-between rounded-[3px] border border-dashed border-ink-900/20 bg-mist-50 p-7 transition-all duration-300 hover:border-gold-500/60 hover:bg-mist-100"
-              >
-                <Building2 className="h-8 w-8 text-ink-800/40 transition-colors group-hover:text-gold-600" strokeWidth={1.4} aria-hidden="true" />
-                <div>
-                  <h3 className="font-display text-xl font-bold text-ink-900">{t("homeSectors.cta")}</h3>
-                  <span className="mt-3 inline-flex items-center gap-1.5 font-display text-sm font-semibold text-gold-600">
-                    {t("common.viewAll")}
-                    <ArrowUpRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
-                  </span>
-                </div>
-              </Link>
-            </ScrollReveal>
           </div>
         </div>
       </section>

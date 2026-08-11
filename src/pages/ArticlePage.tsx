@@ -8,17 +8,7 @@ import { SectionHeading } from "@/components/SectionHeading";
 import { NewsCard } from "@/components/NewsCard";
 import { CtaBanner } from "@/components/CtaBanner";
 import { news } from "@/data/news";
-import { tx, formatDate, cn } from "@/lib/utils";
-
-const CATEGORY_STYLES: Record<string, string> = {
-  news: "border-gold-500/40 bg-gold-500/10 text-gold-700",
-  press: "border-mist-300 bg-mist-100 text-mist-600",
-  event: "border-sky-500/30 bg-sky-50 text-sky-700",
-  conference: "border-indigo-500/30 bg-indigo-50 text-indigo-700",
-  partnership: "border-emerald-500/30 bg-emerald-50 text-emerald-700",
-  project: "border-amber-500/30 bg-amber-50 text-amber-700",
-  analysis: "border-rose-500/30 bg-rose-50 text-rose-700",
-};
+import { tx, formatDate } from "@/lib/utils";
 
 export default function ArticlePage() {
   const { slug } = useParams();
@@ -71,12 +61,7 @@ export default function ArticlePage() {
             {t("articlePage.backToNews")}
           </Link>
           <div className="mt-6 flex flex-wrap items-center gap-4">
-            <span
-              className={cn(
-                "rounded-[3px] border px-2.5 py-1 font-display text-[0.65rem] font-bold uppercase tracking-wider",
-                CATEGORY_STYLES[article.category],
-              )}
-            >
+            <span className="inline-flex items-center gap-2 rounded-[3px] border border-white/15 bg-white/10 px-2.5 py-1 font-display text-[0.65rem] font-bold uppercase tracking-[0.14em] text-white backdrop-blur-sm">
               {t(`newsPage.filters.${article.category}`)}
             </span>
             <span className="inline-flex items-center gap-1.5 text-sm text-white/60">

@@ -29,7 +29,7 @@ export function ScrollToTopButton() {
       onClick={scrollToTop}
       aria-label={t("common.scrollToTop")}
       className={cn(
-        "fixed bottom-6 right-6 z-40 flex size-11 items-center justify-center rounded-[3px] border border-ink-900/10 bg-white text-ink-900 shadow-lg shadow-ink-900/15 transition-[opacity,transform,background-color,border-color] duration-300 hover:border-gold-500 hover:bg-gold-500 hover:text-ink-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold-500 focus-visible:ring-offset-2",
+        "fixed bottom-6 right-6 z-40 flex size-11 items-center justify-center rounded-[3px] bg-gold-500 text-ink-900 shadow-lg shadow-ink-900/25 transition-[opacity,transform,background-color,color] duration-300 hover:bg-ink-900 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold-500 focus-visible:ring-offset-2",
         visible
           ? "translate-y-0 opacity-100"
           : "pointer-events-none translate-y-3 opacity-0",

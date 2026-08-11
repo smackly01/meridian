@@ -2,18 +2,8 @@ import { Link } from "react-router-dom";
 import { CalendarDays, ArrowUpRight } from "lucide-react";
 import { useI18n } from "@/i18n";
 import { tx, formatDate, cn } from "@/lib/utils";
-import type { NewsItem, NewsCategory } from "@/types";
+import type { NewsItem } from "@/types";
 import { Media } from "./Media";
-
-const CATEGORY_STYLES: Record<NewsCategory, string> = {
-  news: "border-gold-500/40 bg-gold-500/10 text-gold-700",
-  press: "border-mist-300 bg-mist-100 text-mist-600",
-  event: "border-sky-500/30 bg-sky-50 text-sky-700",
-  conference: "border-indigo-500/30 bg-indigo-50 text-indigo-700",
-  partnership: "border-emerald-500/30 bg-emerald-50 text-emerald-700",
-  project: "border-amber-500/30 bg-amber-50 text-amber-700",
-  analysis: "border-rose-500/30 bg-rose-50 text-rose-700",
-};
 
 export function NewsCard({ item, featured }: { item: NewsItem; featured?: boolean }) {
   const { t, lang, localize } = useI18n();
@@ -36,12 +26,7 @@ export function NewsCard({ item, featured }: { item: NewsItem; featured?: boolea
       </div>
       <div className={cn("flex flex-1 flex-col p-6", featured && "md:p-8")}>
         <div className="flex items-center gap-3">
-          <span
-            className={cn(
-              "rounded-[3px] border px-2 py-0.5 font-display text-[0.65rem] font-bold uppercase tracking-wider",
-              CATEGORY_STYLES[item.category],
-            )}
-          >
+          <span className="inline-flex items-center gap-2 font-display text-[0.65rem] font-bold uppercase tracking-[0.14em] text-ink-900">
             {t(`newsPage.filters.${item.category}`)}
           </span>
           <span className="inline-flex items-center gap-1.5 text-xs text-mist-400">

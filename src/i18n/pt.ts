@@ -202,6 +202,9 @@ export const pt = {
       "Concentramos a nossa atividade nos mercados onde as necessidades de infraestrutura são mais estruturantes para o desenvolvimento.",
     legend: "Países de presença",
     note: "Presença operacional confirmada nos países onde desenvolvemos e estruturamos projetos.",
+    hint: "Clique num ponto para ver os detalhes.",
+    close: "Fechar",
+    noProjects: "Projetos em fase de estruturação.",
   },
   ecosystem: {
     overline: "O nosso ecossistema",

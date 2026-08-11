@@ -1,7 +1,9 @@
-import { useMemo } from "react";
+import { useEffect, useMemo, useState } from "react";
+import { X } from "lucide-react";
 import { useI18n } from "@/i18n";
 import { countries } from "@/data/countries";
-import { tx } from "@/lib/utils";
+import { projects } from "@/data/projects";
+import { cn, tx } from "@/lib/utils";
 import { SectionHeading } from "./SectionHeading";
 import { ScrollReveal } from "./ScrollReveal";
 
@@ -63,6 +65,26 @@ function useDots(step: number): { x: number; y: number; mad: boolean }[] {
 export function AfricaMap() {
   const { t, lang } = useI18n();
   const dots = useDots(2.6);
+  const [selectedId, setSelectedId] = useState<string | null>(null);
+
+  const selected = countries.find((c) => c.id === selectedId) ?? null;
+  const selectedName = selected ? tx(selected.name, lang) : "";
+  const selectedProjects = selected
+    ? projects.filter((p) => p.published !== false && tx(p.country, lang) === selectedName)
+    : [];
+
+  useEffect(() => {
+    if (!selectedId) return;
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") setSelectedId(null);
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [selectedId]);
+
+  function toggle(id: string) {
+    setSelectedId((prev) => (prev === id ? null : id));
+  }
 
   return (
     <section className="section-dark on-dark relative overflow-hidden">
@@ -106,36 +128,141 @@ export function AfricaMap() {
               {dots.map((d, i) => (
                 <circle
                   key={i}
+                  className="map-dot"
                   cx={d.x}
                   cy={d.y}
                   r={d.mad ? 0.55 : 0.85}
                   fill={d.mad ? "rgba(255,255,255,0.4)" : "rgba(255,255,255,0.55)"}
+                  style={{ animationDelay: `${(d.x / 100) * 1.4}s` }}
                 />
               ))}
               {countries.map((c) => {
                 const name = tx(c.name, lang);
+                const active = c.id === selectedId;
                 return (
-                  <g key={c.id} role="listitem" aria-label={name}>
+                  <g
+                    key={c.id}
+                    role="button"
+                    tabIndex={0}
+                    aria-label={name}
+                    aria-pressed={active}
+                    className="cursor-pointer"
+                    onClick={() => toggle(c.id)}
+                    onKeyDown={(e) => {
+                      if (e.key === "Enter" || e.key === " ") {
+                        e.preventDefault();
+                        toggle(c.id);
+                      }
+                    }}
+                  >
                     <circle cx={c.position.x} cy={c.position.y} r="4.2" fill="rgba(201,163,92,0.2)">
                       <title>{name}</title>
                     </circle>
-                    <circle cx={c.position.x} cy={c.position.y} r={c.hasData ? 2.4 : 1.6} fill="#C9A35C">
+                    <circle
+                      cx={c.position.x}
+                      cy={c.position.y}
+                      r={c.hasData ? 2.4 : 1.6}
+                      fill="#C9A35C"
+                      className="transition-all duration-300"
+                      style={active ? { fill: "#FFFFFF" } : undefined}
+                    >
                       <title>{name}</title>
                     </circle>
+                    {c.hasData && (
+                      <circle
+                        className="map-halo"
+                        cx={c.position.x}
+                        cy={c.position.y}
+                        r="2.6"
+                        fill="none"
+                        stroke="#C9A35C"
+                        strokeWidth="0.35"
+                        style={{
+                          animationDelay: `${((c.position.x + c.position.y) * 0.02).toFixed(2)}s`,
+                          ...(active ? { opacity: 0 } : {}),
+                        }}
+                      >
+                        <title>{name}</title>
+                      </circle>
+                    )}
+                    {active && (
+                      <circle
+                        cx={c.position.x}
+                        cy={c.position.y}
+                        r="6"
+                        fill="none"
+                        stroke="#C9A35C"
+                        strokeWidth="0.5"
+                        opacity="0.9"
+                      />
+                    )}
                   </g>
                 );
               })}
             </svg>
-            <div className="mt-6 flex flex-wrap gap-2">
-              {countries.map((c) => (
-                <span
-                  key={c.id}
-                  className="rounded-[3px] border border-white/10 bg-white/5 px-2.5 py-1 font-display text-xs font-semibold text-white/70"
-                >
-                  {tx(c.name, lang)}
-                </span>
-              ))}
+
+            <p className="mt-6 text-xs text-white/40">{t("africa.hint")}</p>
+            <div className="mt-3 flex flex-wrap gap-2">
+              {countries.map((c) => {
+                const active = c.id === selectedId;
+                return (
+                  <button
+                    key={c.id}
+                    type="button"
+                    onClick={() => toggle(c.id)}
+                    aria-pressed={active}
+                    aria-label={tx(c.name, lang)}
+                    title={tx(c.name, lang)}
+                    className={cn(
+                      "grid h-9 w-9 place-items-center rounded-[3px] border text-lg leading-none transition-colors",
+                      active
+                        ? "border-gold-500 bg-gold-500/10"
+                        : "border-white/10 bg-white/5 hover:border-white/25",
+                    )}
+                  >
+                    <span aria-hidden="true">{c.flag}</span>
+                  </button>
+                );
+              })}
             </div>
+
+            {selected && (
+              <div
+                className="map-modal-backdrop absolute inset-0 z-10 flex items-center justify-center rounded-[3px] bg-ink-950/70 backdrop-blur-[2px]"
+                onClick={() => setSelectedId(null)}
+              >
+                <div
+                  role="dialog"
+                  aria-modal="true"
+                  aria-label={selectedName}
+                  className="map-modal w-[280px] max-w-[85%] rounded-[3px] border border-gold-500/40 bg-ink-900 p-6 shadow-panel"
+                  onClick={(e) => e.stopPropagation()}
+                >
+                  <div className="flex items-start justify-between gap-4">
+                    <h3 className="font-display text-xl font-bold text-white">{selectedName}</h3>
+                    <button
+                      type="button"
+                      onClick={() => setSelectedId(null)}
+                      aria-label={t("africa.close")}
+                      className="rounded-[3px] border border-white/10 p-1.5 text-white/60 transition-colors hover:border-white/25 hover:text-white"
+                    >
+                      <X className="h-4 w-4" aria-hidden="true" />
+                    </button>
+                  </div>
+                  {selectedProjects.length > 0 ? (
+                    <ul className="mt-3 space-y-1.5">
+                      {selectedProjects.map((p) => (
+                        <li key={p.id} className="text-sm leading-relaxed text-white/75">
+                          {tx(p.title, lang)}
+                        </li>
+                      ))}
+                    </ul>
+                  ) : (
+                    <p className="mt-3 text-sm text-white/50">{t("africa.noProjects")}</p>
+                  )}
+                </div>
+              </div>
+            )}
           </div>
         </ScrollReveal>
       </div>

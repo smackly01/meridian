@@ -97,6 +97,8 @@ export interface GalleryPhoto {
 export interface CountryPresence {
   id: string;
   name: Localized;
+  /** country flag emoji */
+  flag: string;
   /** normalized map position, 0..100 (x, y) */
   position: { x: number; y: number };
   /** whether presence data is available */

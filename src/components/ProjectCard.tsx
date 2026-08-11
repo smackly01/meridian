@@ -1,27 +1,15 @@
 import { Link } from "react-router-dom";
 import { MapPin, ArrowUpRight, Lock } from "lucide-react";
 import { useI18n } from "@/i18n";
-import { tx, cn } from "@/lib/utils";
+import { tx } from "@/lib/utils";
 import { sectors } from "@/data/sectors";
 import type { Project } from "@/types";
 import { Media } from "./Media";
 
-export const STATUS_STYLES: Record<Project["status"], string> = {
-  realized: "border-emerald-500/30 bg-emerald-50 text-emerald-700",
-  ongoing: "border-sky-500/30 bg-sky-50 text-sky-700",
-  development: "border-amber-500/30 bg-amber-50 text-amber-700",
-  confidential: "border-mist-300 bg-mist-100 text-mist-600",
-};
-
 export function StatusBadge({ status }: { status: Project["status"] }) {
   const { t } = useI18n();
   return (
-    <span
-      className={cn(
-        "inline-flex items-center gap-1.5 rounded-[3px] border px-2.5 py-1 font-display text-[0.68rem] font-bold uppercase tracking-wider",
-        STATUS_STYLES[status],
-      )}
-    >
+    <span className="inline-flex items-center gap-2 rounded-[3px] border border-white/15 bg-ink-950/70 px-2.5 py-1 font-display text-[0.65rem] font-bold uppercase tracking-[0.14em] text-white backdrop-blur-sm">
       {status === "confidential" && <Lock className="h-3 w-3" aria-hidden="true" />}
       {t(`projectDetail.statuses.${status}`)}
     </span>

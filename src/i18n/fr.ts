@@ -111,7 +111,7 @@ export const fr = {
     cta: "Découvrir notre approche",
   },
   stats: {
-    overline: "Présence &amp; capacité",
+    overline: "Présence & capacité",
     title: "Une capacité confirmée par la pratique",
     note: "Indicateurs consolidés au 31 décembre 2025.",
     items: [
@@ -209,6 +209,9 @@ export const fr = {
       "Nous concentrons notre activité sur les marchés où les besoins en infrastructures sont les plus structurants pour le développement.",
     legend: "Pays de présence",
     note: "Présence opérationnelle confirmée dans les pays où nous développons et structurons des projets.",
+    hint: "Cliquez sur un point pour afficher les détails.",
+    close: "Fermer",
+    noProjects: "Projets en cours de structuration.",
   },
   ecosystem: {
     overline: "Notre écosystème",
