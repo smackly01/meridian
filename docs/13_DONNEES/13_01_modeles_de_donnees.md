@@ -1,4 +1,4 @@
-# 13.01 - Modèles de données
+﻿# 13.01 - Modèles de données
 
 > **Document** : 13.01 - Modèles de données
 > **Version** : 1.0
@@ -51,7 +51,7 @@ Documenter les structures de données du projet.
 ### 2.9 Contenus légaux (`src/data/legal.ts`)
 
 - `LegalSection` : titre + paragraphes ; `legalSections[page]` avec `page: "legal" | "privacy"`.
-- Données d'éditeur : Méridian SA, capital 10 000 000 F CFA, RCCM B 2011 B 01452 (Brazzaville), directeur de publication, hébergeur InfraCloud SAS.
+- Données d'éditeur : Fil Investment Group SA, capital 10 000 000 F CFA, RCCM B 2011 B 01452 (Brazzaville), directeur de publication, hébergeur InfraCloud SAS.
 
 ## 3. Interprétations & recommandations
 

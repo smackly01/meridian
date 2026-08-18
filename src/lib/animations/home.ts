@@ -1,4 +1,4 @@
-import {
+﻿import {
   gsap,
   ScrollTrigger,
   EASE_PREMIUM,

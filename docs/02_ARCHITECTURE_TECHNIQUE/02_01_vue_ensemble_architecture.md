@@ -1,4 +1,4 @@
-# 02.01 - Vue d'ensemble de l'architecture
+﻿# 02.01 - Vue d'ensemble de l'architecture
 
 > **Document** : 02.01 - Vue d'ensemble de l'architecture
 > **Version** : 1.0

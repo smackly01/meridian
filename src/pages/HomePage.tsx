@@ -1,4 +1,4 @@
-import { ArrowRight, ArrowUpRight, ChevronDown } from "lucide-react";
+﻿import { ArrowRight, ArrowUpRight, ChevronDown } from "lucide-react";
 import { useI18n } from "@/i18n";
 import { Seo, organizationJsonLd } from "@/components/Seo";
 import { SectionHeading } from "@/components/SectionHeading";
@@ -93,7 +93,7 @@ export default function HomePage() {
       </section>
 
       {/* INTRO */}
-      <section id="intro" className="section bg-white">
+      <section id="intro" className="section relative bg-white">
         <div className="container-x grid items-center gap-14 lg:grid-cols-2">
           <ScrollReveal>
             <div className="relative">
@@ -173,12 +173,12 @@ export default function HomePage() {
           <div className="mt-14">
             <ApproachTimeline />
           </div>
-          <NextSectionArrow href="#secteurs" dark />
         </div>
+        <NextSectionArrow href="#secteurs" dark />
       </section>
 
       {/* SECTORS */}
-      <section id="secteurs" className="section bg-white">
+      <section id="secteurs" className="section relative bg-white">
         <div className="container-x">
           <SectionHeading
             overline={t("homeSectors.overline")}
@@ -207,7 +207,7 @@ export default function HomePage() {
 
       {/* PROJECTS */}
       {visibleProjects.length > 0 && (
-        <section id="projets" className="section bg-white">
+        <section id="projets" className="section relative bg-white">
           <div className="container-x">
             <SectionHeading
               overline={t("homeProjects.overline")}

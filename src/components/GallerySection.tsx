@@ -1,3 +1,4 @@
+﻿import { useState } from "react";
 import { MapPin } from "lucide-react";
 import { useI18n } from "@/i18n";
 import { gallery } from "@/data/gallery";
@@ -6,6 +7,7 @@ import { SectionHeading } from "./SectionHeading";
 import { ScrollReveal } from "./ScrollReveal";
 import { Media } from "./Media";
 import { NextSectionArrow } from "./NextSectionArrow";
+import { GalleryLightbox } from "./GalleryLightbox";
 
 /**
  * Editorial gallery - client photographs with context, location and caption.
@@ -14,9 +16,10 @@ import { NextSectionArrow } from "./NextSectionArrow";
 export function GallerySection() {
   const { t, lang } = useI18n();
   const [featured, ...rest] = gallery;
+  const [lightboxIndex, setLightboxIndex] = useState<number | null>(null);
 
   return (
-    <section id="galerie" className="section bg-mist-50">
+    <section id="galerie" className="section relative bg-mist-50">
       <div className="container-x">
         <SectionHeading
           align="center"
@@ -27,7 +30,19 @@ export function GallerySection() {
 
         <div className="mt-14 grid gap-6 lg:grid-cols-3">
           <ScrollReveal className="lg:row-span-2">
-            <figure className="group relative h-full min-h-[300px] overflow-hidden rounded-[3px] sm:min-h-[420px]">
+            <figure
+              role="button"
+              tabIndex={0}
+              aria-label={tx(featured.caption, lang) || t("gallery.overline")}
+              onClick={() => setLightboxIndex(0)}
+              onKeyDown={(e) => {
+                if (e.key === "Enter" || e.key === " ") {
+                  e.preventDefault();
+                  setLightboxIndex(0);
+                }
+              }}
+              className="group relative h-full min-h-[300px] cursor-zoom-in overflow-hidden rounded-[3px] outline-none focus-visible:ring-2 focus-visible:ring-gold-500 sm:min-h-[420px]"
+            >
               <Media
                 src={featured.image}
                 alt={tx(featured.caption, lang)}
@@ -49,7 +64,19 @@ export function GallerySection() {
           <div className="grid gap-6 sm:grid-cols-2 lg:col-span-2">
             {rest.map((photo, i) => (
               <ScrollReveal key={photo.id} delay={i * 60}>
-                <figure className="group relative aspect-[4/3] overflow-hidden rounded-[3px]">
+                <figure
+                  role="button"
+                  tabIndex={0}
+                  aria-label={tx(photo.caption, lang) || t("gallery.overline")}
+                  onClick={() => setLightboxIndex(i + 1)}
+                  onKeyDown={(e) => {
+                    if (e.key === "Enter" || e.key === " ") {
+                      e.preventDefault();
+                      setLightboxIndex(i + 1);
+                    }
+                  }}
+                  className="group relative aspect-[4/3] cursor-zoom-in overflow-hidden rounded-[3px] outline-none focus-visible:ring-2 focus-visible:ring-gold-500"
+                >
                   <Media
                     src={photo.image}
                     alt={tx(photo.caption, lang)}
@@ -71,8 +98,17 @@ export function GallerySection() {
             ))}
           </div>
         </div>
-        <NextSectionArrow href="#cta" />
       </div>
+      <NextSectionArrow href="#cta" />
+
+      {lightboxIndex !== null && (
+        <GalleryLightbox
+          photos={gallery}
+          index={lightboxIndex}
+          onClose={() => setLightboxIndex(null)}
+          onChange={setLightboxIndex}
+        />
+      )}
     </section>
   );
 }

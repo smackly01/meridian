@@ -1,4 +1,4 @@
-import { MapPin, Phone, Mail, Clock, Linkedin, Instagram, Facebook } from "lucide-react";
+﻿import { MapPin, Phone, Mail, Clock, Linkedin, Instagram, Facebook } from "lucide-react";
 import { useI18n } from "@/i18n";
 import { PageHero } from "@/components/PageHero";
 import { ScrollReveal } from "@/components/ScrollReveal";

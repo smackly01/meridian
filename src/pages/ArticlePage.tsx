@@ -1,4 +1,4 @@
-import { Link, useParams, Navigate } from "react-router-dom";
+﻿import { Link, useParams, Navigate } from "react-router-dom";
 import { ArrowLeft, CalendarDays, Link2 } from "lucide-react";
 import { useI18n } from "@/i18n";
 import { Seo, articleJsonLd, breadcrumbJsonLd } from "@/components/Seo";

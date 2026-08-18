@@ -1,4 +1,4 @@
-import { useI18n } from "@/i18n";
+﻿import { useI18n } from "@/i18n";
 import { PageHero } from "@/components/PageHero";
 import { SectorCard } from "@/components/SectorCard";
 import { ScrollReveal } from "@/components/ScrollReveal";

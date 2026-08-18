@@ -1,4 +1,4 @@
-# 02.04 - État et données
+﻿# 02.04 - État et données
 
 > **Document** : 02.04 - État et données
 > **Version** : 1.0

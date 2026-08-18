@@ -1,6 +1,7 @@
-# www.meridian.africa
+﻿# www.filinvestmentgroup.com
 User-agent: *
 Allow: /
+Disallow: /api/
 
-# Update this URL once the real production domain is live.
-Sitemap: https://www.meridian.africa/sitemap.xml
+# Sitemaps
+Sitemap: https://www.filinvestmentgroup.com/sitemap.xml

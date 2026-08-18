@@ -1,4 +1,4 @@
-import { Building2, Landmark, TrendingUp, HardHat, Briefcase } from "lucide-react";
+﻿import { Building2, Landmark, TrendingUp, HardHat, Briefcase } from "lucide-react";
 import { useI18n } from "@/i18n";
 import { SectionHeading } from "./SectionHeading";
 import { ScrollReveal } from "./ScrollReveal";
@@ -11,7 +11,7 @@ export function EcosystemSection() {
   const { t } = useI18n();
 
   return (
-    <section id="ecosystem" className="section bg-white">
+    <section id="ecosystem" className="section relative bg-white">
       <div className="container-x">
         <SectionHeading
           align="center"
@@ -45,8 +45,8 @@ export function EcosystemSection() {
         <ScrollReveal className="mt-10">
           <p className="text-center text-xs text-mist-400">{t("common.placeholderNote")}</p>
         </ScrollReveal>
-        <NextSectionArrow href="#galerie" />
       </div>
+      <NextSectionArrow href="#galerie" />
     </section>
   );
 }

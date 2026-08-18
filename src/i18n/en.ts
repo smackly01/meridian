@@ -1,63 +1,63 @@
-export const en = {
+﻿export const en = {
   meta: {
     home: {
-      title: "Méridian - Development of infrastructure projects",
+      title: "Fil Investment Group - Development of infrastructure projects",
       description:
         "We identify the strategic needs of territories and transform them into structured, financed and deliverable infrastructure projects, primarily in Africa.",
     },
     about: {
-      title: "About - Méridian",
+      title: "About - Fil Investment Group",
       description:
         "Our history, our vision, our mission, our values and our team.",
     },
     expertise: {
-      title: "Expertise - Méridian",
+      title: "Expertise - Fil Investment Group",
       description:
         "Project development, structuring, financing and partner mobilisation.",
     },
     sectors: {
-      title: "Sectors - Méridian",
+      title: "Sectors - Fil Investment Group",
       description:
         "Transport, energy, water, digital and telecommunications.",
     },
     projects: {
-      title: "Projects - Méridian",
+      title: "Projects - Fil Investment Group",
       description:
         "An overview of our projects and our role in their structuring, financing and delivery.",
     },
     partners: {
-      title: "Partners - Méridian",
+      title: "Partners - Fil Investment Group",
       description:
         "The ecosystem of institutional, financial and technical partners we mobilise.",
     },
     news: {
-      title: "News - Méridian",
+      title: "News - Fil Investment Group",
       description:
         "News, events, conferences and analysis on infrastructure project development.",
     },
     contact: {
-      title: "Contact - Méridian",
+      title: "Contact - Fil Investment Group",
       description:
         "Get in touch with our team to discuss a partnership or a project.",
     },
     notFound: {
-      title: "Page not found - Méridian",
+      title: "Page not found - Fil Investment Group",
       description: "The page you are looking for does not exist or has been moved.",
     },
     legal: {
-      title: "Legal notice - Méridian",
+      title: "Legal notice - Fil Investment Group",
       description:
-        "Information regarding the publication, hosting and liability of the Méridian website.",
+        "Information regarding the publication, hosting and liability of the Fil Investment Group website.",
     },
     privacy: {
-      title: "Privacy policy - Méridian",
+      title: "Privacy policy - Fil Investment Group",
       description:
-        "How Méridian collects, uses and protects your personal data.",
+        "How Fil Investment Group collects, uses and protects your personal data.",
     },
     sitemap: {
-      title: "Sitemap - Méridian",
+      title: "Sitemap - Fil Investment Group",
       description:
-        "All the pages of the Méridian website, gathered for quick navigation.",
+        "All the pages of the Fil Investment Group website, gathered for quick navigation.",
     },
   },
   nav: {
@@ -94,7 +94,7 @@ export const en = {
     notAvailable: "Information coming soon",
     scrollToTop: "Back to top",
     placeholderNote:
-      "Méridian's full partner ecosystem is presented on the Partners page.",
+      "Fil Investment Group's full partner ecosystem is presented on the Partners page.",
   },
   hero: {
     overline: "Development · Financing · Delivery",
@@ -264,9 +264,9 @@ export const en = {
       overline: "Our story",
       title: "The origin of the company",
       body1:
-        "Méridian was founded in 2011 in Brazzaville by Surya Aniel MACKLYMAN, together with a team of professionals from project development, finance and engineering. The founding idea was simple: Africa's infrastructure needs are enormous, yet too few projects ever reach the financing and delivery stage because they have not been rigorously structured.",
+        "Fil Investment Group was founded in 2011 in Brazzaville by Surya Aniel MACKLYMAN, together with a team of professionals from project development, finance and engineering. The founding idea was simple: Africa's infrastructure needs are enormous, yet too few projects ever reach the financing and delivery stage because they have not been rigorously structured.",
       body2:
-        "Over the past fifteen years, Méridian has developed and structured projects in some ten countries - from transport to energy, from water to health - mobilising financing from international institutions and private investors. Every project has reinforced the same conviction: major infrastructure is built first on trust and rigour.",
+        "Over the past fifteen years, Fil Investment Group has developed and structured projects in some ten countries - from transport to energy, from water to health - mobilising financing from international institutions and private investors. Every project has reinforced the same conviction: major infrastructure is built first on trust and rigour.",
     },
     vision: {
       overline: "Our vision",
@@ -296,7 +296,7 @@ export const en = {
       title: "The women and men of the company",
       subtitle:
         "A multidisciplinary team rooted in Africa, combining project development, financial engineering, legal advisory and institutional relations.",
-      memberNote: "Méridian team",
+      memberNote: "Fil Investment Group team",
     },
   },
   expertise: {
@@ -492,7 +492,7 @@ export const en = {
     phoneLabel: "Phone",
     phone: "+242 22 555 00 00",
     emailLabel: "Email",
-    email: "contact@meridian.africa",
+    email: "contact@filinvestmentgroup.com",
     hoursLabel: "Hours",
     hours: "Monday – Friday, 9:00 AM – 6:00 PM (WAT)",
     socialLabel: "Follow us",
@@ -543,11 +543,11 @@ export const en = {
   sitemapPage: {
     overline: "Sitemap",
     title: "Every page of the site, in one place.",
-    body: "A complete overview of Méridian's pages: the company, its expertise, the sectors, the projects, the partners, the news and contact.",
+    body: "A complete overview of Fil Investment Group's pages: the company, its expertise, the sectors, the projects, the partners, the news and contact.",
     mainTitle: "Main pages",
     infoTitle: "Information",
     desc: {
-      home: "Home and a general introduction to Méridian.",
+      home: "Home and a general introduction to Fil Investment Group.",
       about: "The company, its history, vision and mission.",
       expertise: "Our approach, financing model and portfolio.",
       sectors: "Our sectors of intervention: transport, energy, water, digital.",

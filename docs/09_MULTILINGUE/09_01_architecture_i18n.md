@@ -1,4 +1,4 @@
-# 09.01 - Architecture i18n
+﻿# 09.01 - Architecture i18n
 
 > **Document** : 09.01 - Architecture i18n
 > **Version** : 1.0

@@ -1,4 +1,4 @@
-# 04.02 - Composants UX et interactions
+﻿# 04.02 - Composants UX et interactions
 
 > **Document** : 04.02 - Composants UX et interactions
 > **Version** : 1.0

@@ -1,4 +1,4 @@
-# 08.04 - Contenu des pages (revue)
+﻿# 08.04 - Contenu des pages (revue)
 
 > **Document** : 08.04 - Contenu des pages (revue)
 > **Version** : 1.0
@@ -135,8 +135,8 @@
 ### 2.2 Histoire — « Notre histoire »
 - Sur-titre : Notre histoire
 - Titre : **L'origine de la société**
-- Paragraphe 1 : Méridian a été fondé en 2011 à Brazzaville par Surya Aniel MACKLYMAN, entouré d'une équipe de professionnels venus du développement de projets, de la finance et de l'ingénierie. L'idée de départ était simple : en Afrique, les besoins en infrastructures sont immenses, mais trop peu de projets parviennent au stade du financement et de la réalisation, faute d'une structuration rigoureuse.
-- Paragraphe 2 : En quinze ans, Méridian a développé et structuré des projets dans une dizaine de pays - du transport à l'énergie, de l'eau à la santé - en mobilisant des financements auprès des institutions internationales et des investisseurs privés. Chaque projet a renforcé la même conviction : les grandes infrastructures se construisent d'abord sur la confiance et la rigueur.
+- Paragraphe 1 : Fil Investment Group a été fondé en 2011 à Brazzaville par Surya Aniel MACKLYMAN, entouré d'une équipe de professionnels venus du développement de projets, de la finance et de l'ingénierie. L'idée de départ était simple : en Afrique, les besoins en infrastructures sont immenses, mais trop peu de projets parviennent au stade du financement et de la réalisation, faute d'une structuration rigoureuse.
+- Paragraphe 2 : En quinze ans, Fil Investment Group a développé et structuré des projets dans une dizaine de pays - du transport à l'énergie, de l'eau à la santé - en mobilisant des financements auprès des institutions internationales et des investisseurs privés. Chaque projet a renforcé la même conviction : les grandes infrastructures se construisent d'abord sur la confiance et la rigueur.
 
 ### 2.3 Vision / Mission
 - **Notre vision** — *Une vision de long terme*
@@ -161,7 +161,7 @@
 - Titre : **Les femmes et les hommes de la société**
 - Texte : Une équipe pluridisciplinaire, ancrée en Afrique, alliant le développement de projets, l'ingénierie financière, le conseil juridique et les relations institutionnelles.
 - Membres (non publiés actuellement) :
-  1. **Surya Aniel MACKLYMAN** — Président & Directeur général — Plus de 20 ans d'expérience dans le développement de projets d'infrastructures en Afrique. Il a fondé Méridian en 2011 à Brazzaville avec la conviction que les projets structurants naissent d'un travail rigoureux de structuration.
+  1. **Surya Aniel MACKLYMAN** — Président & Directeur général — Plus de 20 ans d'expérience dans le développement de projets d'infrastructures en Afrique. Il a fondé Fil Investment Group en 2011 à Brazzaville avec la conviction que les projets structurants naissent d'un travail rigoureux de structuration.
   2. **Gloire Loemba** — Directeur de la structuration financière — Expert en ingénierie financière et montage de projets, il pilote les plans de financement et les relations avec les banques, les fonds et les institutions financières internationales.
   3. **Grâce Milandou** — Directrice du développement de projets — Elle conduit l'identification, le cadrage et le développement des projets, de l'émergence de l'opportunité jusqu'à la constitution d'un dossier crédible et documenté.
   4. **Roland Samba** — Directeur des partenariats institutionnels — Il anime l'écosystème de partenaires publics, financiers et techniques, et coordonne les consortiums de réalisation des grands projets d'infrastructures.
@@ -409,32 +409,32 @@ Bouton « Nous contacter ».
 
 ### 9.2 Articles (contenus démo, non publiés)
 
-1. **Méridian signe un accord-cadre de partenariat avec un État d'Afrique de l'Ouest** — Partenariats — 15/06/2026
-   - Extrait : Méridian a signé un accord-cadre avec un État d'Afrique de l'Ouest portant sur le développement et la structuration d'un portefeuille d'infrastructures stratégiques à horizon 2030.
+1. **Fil Investment Group signe un accord-cadre de partenariat avec un État d'Afrique de l'Ouest** — Partenariats — 15/06/2026
+   - Extrait : Fil Investment Group a signé un accord-cadre avec un État d'Afrique de l'Ouest portant sur le développement et la structuration d'un portefeuille d'infrastructures stratégiques à horizon 2030.
    - Corps :
-     - Méridian et les autorités nationales ont officialisé, le 12 juin 2026, la signature d'un accord-cadre de partenariat portant sur le développement, la structuration et le financement d'un portefeuille d'infrastructures stratégiques.
+     - Fil Investment Group et les autorités nationales ont officialisé, le 12 juin 2026, la signature d'un accord-cadre de partenariat portant sur le développement, la structuration et le financement d'un portefeuille d'infrastructures stratégiques.
      - Le portefeuille prioritaire comprend des projets de transport, d'énergie et d'accès à l'eau identifiés pour leur impact structurant sur l'économie du pays. Chaque projet fera l'objet d'un montage dédié, associant partenaires financiers internationaux et investisseurs privés.
-     - Cet accord confirme la confiance accordée à Méridian pour faire émerger des projets bancables, mobiliser les financements adaptés et accompagner leur réalisation, dans le respect des priorités stratégiques du pays.
+     - Cet accord confirme la confiance accordée à Fil Investment Group pour faire émerger des projets bancables, mobiliser les financements adaptés et accompagner leur réalisation, dans le respect des priorités stratégiques du pays.
 
 2. **Pose de la première pierre du port sec de Ouagadougou** — Projets — 08/04/2026
    - Extrait : La cérémonie de pose de la première pierre du port sec de Ouagadougou s'est tenue en présence des autorités, marquant le lancement des travaux d'une infrastructure logistique majeure.
    - Corps :
-     - Le 4 avril 2026, la pose de la première pierre du port sec de Ouagadougou a réuni les autorités nationales, les partenaires financiers et les équipes de Méridian autour du lancement officiel des travaux.
+     - Le 4 avril 2026, la pose de la première pierre du port sec de Ouagadougou a réuni les autorités nationales, les partenaires financiers et les équipes de Fil Investment Group autour du lancement officiel des travaux.
      - Étendu sur 40 hectares, l'ouvrage accueillera une plateforme logistique, des zones de stockage et des services douaniers intégrés. Il viendra doubler la capacité de traitement des conteneurs du pays et réduire sensiblement les coûts logistiques.
      - La livraison est prévue dans 24 mois. À terme, l'infrastructure devrait générer plusieurs centaines d'emplois directs et renforcer la compétitivité du corridor Abidjan – Ouagadougou.
 
-3. **Méridian clôture la structuration financière du parc solaire de Dosso** — Communiqués — 10/12/2025
+3. **Fil Investment Group clôture la structuration financière du parc solaire de Dosso** — Communiqués — 10/12/2025
    - Extrait : La structuration financière du parc solaire photovoltaïque de Dosso (80 MWc) est finalisée : un financement mixte associant institutions de développement et investisseurs privés est sécurisé.
    - Corps :
-     - Méridian annonce la finalisation de la structuration financière du parc solaire photovoltaïque de Dosso, d'une puissance de 80 MWc, situé au Niger.
+     - Fil Investment Group annonce la finalisation de la structuration financière du parc solaire photovoltaïque de Dosso, d'une puissance de 80 MWc, situé au Niger.
      - Le montage réunit des institutions financières de développement, un fonds dédié aux énergies renouvelables et des investisseurs privés, dans le cadre d'un financement mixte adapté à l'envergure du projet. Le contrat de construction a été notifié et la réalisation a débuté.
      - Mise en service prévue en 2028, l'installation alimentera plus de 250 000 foyers et contribuera à la diversification du mix énergétique national.
 
-4. **Méridian au Forum africain des infrastructures de Dakar** — Conférences — 22/10/2025
-   - Extrait : Méridian a participé au Forum africain des infrastructures de Dakar, dédié au financement des grands projets structurants du continent.
+4. **Fil Investment Group au Forum africain des infrastructures de Dakar** — Conférences — 22/10/2025
+   - Extrait : Fil Investment Group a participé au Forum africain des infrastructures de Dakar, dédié au financement des grands projets structurants du continent.
    - Corps :
-     - Du 20 au 22 octobre 2025, l'équipe de Méridian a participé au Forum africain des infrastructures de Dakar, réunissant gouvernements, institutions financières et développeurs de projets.
-     - Dans le cadre d'un panel dédié à la bancabilité des projets, Méridian a partagé son retour d'expérience sur les facteurs clés qui transforment un besoin territorial en infrastructure financée et réalisée.
+     - Du 20 au 22 octobre 2025, l'équipe de Fil Investment Group a participé au Forum africain des infrastructures de Dakar, réunissant gouvernements, institutions financières et développeurs de projets.
+     - Dans le cadre d'un panel dédié à la bancabilité des projets, Fil Investment Group a partagé son retour d'expérience sur les facteurs clés qui transforment un besoin territorial en infrastructure financée et réalisée.
      - Ce rendez-vous a également permis d'engager de nouvelles discussions avec des partenaires financiers et institutionnels autour de projets en développement.
 
 5. **Infrastructures en Afrique : du besoin au projet bancable** — Analyses — 03/09/2025
@@ -442,7 +442,7 @@ Bouton « Nous contacter ».
    - Corps :
      - Le déficit d'infrastructures du continent est estimé à plusieurs centaines de milliards d'euros par an. Pourtant, les besoins ne manquent pas : mobilité, énergie, eau, santé, connectivité. Ce qui fait défaut, c'est la capacité à transformer ces besoins en projets structurés et bancables.
      - Un projet bancable repose sur quatre piliers : une demande clairement documentée, un cadre juridique et contractuel solide, un modèle économique crédible et une répartition maîtrisée des risques. Chacun de ces piliers doit être construit avec rigueur dès les premières études.
-     - C'est précisément ce travail de structuration - technique, juridique, financière et opérationnelle - qui fait émerger des projets que les banques, les fonds et les investisseurs peuvent accompagner. Il constitue le cœur du métier de Méridian.
+     - C'est précisément ce travail de structuration - technique, juridique, financière et opérationnelle - qui fait émerger des projets que les banques, les fonds et les investisseurs peuvent accompagner. Il constitue le cœur du métier de Fil Investment Group.
 
 ---
 
@@ -472,7 +472,7 @@ Bouton « Nous contacter ».
 ### 11.2 Coordonnées (valeurs à confirmer)
 - Adresse : Avenue Amilcar Cabral, Centre-ville - Brazzaville, République du Congo
 - Téléphone : +242 22 555 00 00
-- Email : contact@meridian.africa
+- Email : contact@filinvestmentgroup.com
 - Horaires : Lundi – Vendredi, 9h00 – 18h00 (WAT)
 - Réseaux sociaux : Facebook · Instagram · LinkedIn (liens à configurer)
 
@@ -497,7 +497,7 @@ par « Nous contacter » (`/contact`).
 
 - Sur-titre : Plan du site
 - Titre : **Toutes les pages du site, au même endroit.**
-- Texte : Un panorama complet des pages de Méridian : la société, ses expertises, les secteurs d'intervention, les projets, les partenaires, les actualités et le contact.
+- Texte : Un panorama complet des pages de Fil Investment Group : la société, ses expertises, les secteurs d'intervention, les projets, les partenaires, les actualités et le contact.
 - Pages principales : Accueil · À propos · Expertise · Secteurs · Projets · Partenaires · Actualités · Contact
 - Secteurs : Transport · Énergie · Eau · Numérique & Télécommunications
 - Informations : Mentions légales · Politique de confidentialité
@@ -507,7 +507,7 @@ par « Nous contacter » (`/contact`).
 ## 14. MENTIONS LÉGALES — `/mentions-legales`
 
 - Sur-titre : Informations légales — Titre : **Mentions légales** — Texte : Les informations relatives à l'édition, à l'hébergement et à la responsabilité du site.
-- **Éditeur du site** : Méridian - société anonyme au capital de 10 000 000 F CFA, immatriculée au registre du commerce et du crédit mobilier de Brazzaville sous le numéro RCCM B 2011 B 01452. Siège social : Avenue Amilcar Cabral, Centre-ville, Brazzaville - République du Congo. / Directeur de la publication : Surya Aniel MACKLYMAN. Contact : contact@meridian.africa.
+- **Éditeur du site** : Fil Investment Group - société anonyme au capital de 10 000 000 F CFA, immatriculée au registre du commerce et du crédit mobilier de Brazzaville sous le numéro RCCM B 2011 B 01452. Siège social : Avenue Amilcar Cabral, Centre-ville, Brazzaville - République du Congo. / Directeur de la publication : Surya Aniel MACKLYMAN. Contact : contact@filinvestmentgroup.com.
 - **Hébergement** : InfraCloud SAS - 12 rue des Flandres, 75019 Paris, France.
 - **Propriété intellectuelle** : L'ensemble des contenus du site (textes, images, logo, marques) est protégé par le droit de la propriété intellectuelle. Toute reproduction, représentation ou diffusion sans autorisation est interdite.
 - **Responsabilité** : Le site présente des informations générales sur la société et ses activités. Ces informations ne constituent ni une offre, ni un engagement contractuel. Les éléments relatifs aux projets sont donnés à titre illustratif.
@@ -518,7 +518,7 @@ par « Nous contacter » (`/contact`).
 
 - Sur-titre : Confidentialité — Titre : **Politique de confidentialité** — Texte : La manière dont nous collectons, utilisons et protégeons vos données personnelles.
 - Reprend les sections des mentions légales (§14), plus :
-- **Données personnelles** : Les informations transmises via les formulaires du site sont utilisées uniquement pour traiter vos demandes. Elles ne sont ni vendues, ni transmises à des tiers en dehors de ce cadre. / Conformément à la réglementation applicable, vous disposez d'un droit d'accès, de rectification et de suppression de vos données. Pour l'exercer, contactez-nous : contact@meridian.africa.
+- **Données personnelles** : Les informations transmises via les formulaires du site sont utilisées uniquement pour traiter vos demandes. Elles ne sont ni vendues, ni transmises à des tiers en dehors de ce cadre. / Conformément à la réglementation applicable, vous disposez d'un droit d'accès, de rectification et de suppression de vos données. Pour l'exercer, contactez-nous : contact@filinvestmentgroup.com.
 - **Confidentialité des projets** : Les documents transmis dans le cadre d'une soumission de projet sont traités comme des informations potentiellement confidentielles. Ils ne sont utilisés que dans le cadre de l'évaluation de votre projet.
 - **Cookies** : Le site utilise des cookies techniques nécessaires à son bon fonctionnement (préférences de langue, session) ainsi que des cookies d'audience anonymisés destinés à mesurer la fréquentation. Aucune donnée personnelle n'est utilisée à des fins publicitaires. Vous pouvez configurer votre navigateur pour refuser les cookies ; certaines fonctionnalités du site pourraient alors être altérées.
 

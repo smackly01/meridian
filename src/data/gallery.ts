@@ -1,4 +1,4 @@
-import type { GalleryPhoto } from "@/types";
+﻿import type { GalleryPhoto } from "@/types";
 
 /**
  * Client photo gallery - "Des partenariats construits sur le terrain".

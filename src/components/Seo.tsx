@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+﻿import { useEffect } from "react";
 import { useI18n, LANGS, DEFAULT_LANG, LOCALE_NAMES, type Lang } from "@/i18n";
 import { site } from "@/config/site";
 
@@ -9,6 +9,8 @@ interface SeoProps {
   path: string;
   jsonLd?: Record<string, unknown>[];
   type?: "website" | "article";
+  /** explicit robots directive for this page; defaults to "index, follow" */
+  robots?: string;
 }
 
 function upsertMeta(attr: "name" | "property", key: string, content: string) {
@@ -31,7 +33,7 @@ function upsertLink(rel: string, href: string) {
   el.setAttribute("href", href);
 }
 
-export function Seo({ title, description, path, jsonLd, type = "website" }: SeoProps) {
+export function Seo({ title, description, path, jsonLd, type = "website", robots }: SeoProps) {
   const { lang } = useI18n();
   const canonical = `${site.url}/${lang}${path === "/" ? "" : path}`;
   const ogImage = `${site.url}/og-image.jpg`;
@@ -41,6 +43,7 @@ export function Seo({ title, description, path, jsonLd, type = "website" }: SeoP
     document.documentElement.lang = lang;
 
     upsertMeta("name", "description", description);
+    upsertMeta("name", "robots", robots ?? "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1");
     upsertMeta("property", "og:title", title);
     upsertMeta("property", "og:description", description);
     upsertMeta("property", "og:url", canonical);
@@ -51,6 +54,9 @@ export function Seo({ title, description, path, jsonLd, type = "website" }: SeoP
       upsertMeta("property", "og:locale:alternate", ogLocale(l.code)),
     );
     upsertMeta("property", "og:image", ogImage);
+    upsertMeta("property", "og:image:width", "1200");
+    upsertMeta("property", "og:image:height", "630");
+    upsertMeta("property", "og:image:alt", site.name);
     upsertMeta("name", "twitter:card", "summary_large_image");
     upsertMeta("name", "twitter:title", title);
     upsertMeta("name", "twitter:description", description);
@@ -95,7 +101,7 @@ export function Seo({ title, description, path, jsonLd, type = "website" }: SeoP
     return () => {
       document.head.querySelectorAll('script[data-jsonld="1"]').forEach((n) => n.remove());
     };
-  }, [title, description, canonical, jsonLd, lang, type]);
+  }, [title, description, canonical, jsonLd, lang, type, robots]);
 
   return null;
 }
@@ -104,15 +110,22 @@ export function organizationJsonLd() {
   return {
     "@context": "https://schema.org",
     "@type": "Organization",
+    "@id": `${site.url}#organization`,
     name: site.name,
     legalName: site.legalName,
     url: site.url,
+    logo: `${site.url}/logo.jpeg`,
+    image: `${site.url}/og-image.jpg`,
     email: site.contact.email,
     telephone: site.contact.phone,
     foundingDate: "2011",
     description:
-      "Développement, structuration et financement de projets d'infrastructures stratégiques en Afrique.",
-    address: { "@type": "PostalAddress", streetAddress: site.contact.address },
+      "Fil Investment Group développe, structure et finance des projets d'infrastructures stratégiques, principalement en Afrique.",
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: site.contact.address,
+      addressCountry: "CG",
+    },
     contactPoint: {
       "@type": "ContactPoint",
       contactType: "customer service",
@@ -120,6 +133,28 @@ export function organizationJsonLd() {
       telephone: site.contact.phone,
       availableLanguage: LANGS.map((l) => LOCALE_NAMES[l.code]),
     },
+    areaServed: [
+      { "@type": "Country", name: "Sénégal" },
+      { "@type": "Country", name: "Niger" },
+      { "@type": "Country", name: "Côte d'Ivoire" },
+      { "@type": "Country", name: "Rwanda" },
+      { "@type": "Country", name: "Burkina Faso" },
+      { "@type": "Country", name: "Mozambique" },
+      { "@type": "Country", name: "République du Congo" },
+      { "@type": "Country", name: "Cameroun" },
+      { "@type": "Country", name: "Gabon" },
+    ],
+    knowsAbout: [
+      "Infrastructure development",
+      "Project finance",
+      "Public-private partnerships",
+      "Transport infrastructure",
+      "Energy infrastructure",
+      "Water infrastructure",
+      "Digital infrastructure",
+      "Project structuring",
+      "Africa infrastructure",
+    ],
     sameAs: [
       site.social.facebook,
       site.social.instagram,
@@ -135,8 +170,32 @@ export function articleJsonLd(title: string, description: string, published: str
     headline: title,
     description,
     datePublished: `${published}T09:00:00Z`,
-    publisher: { "@type": "Organization", name: site.name, url: site.url },
+    publisher: {
+      "@type": "Organization",
+      name: site.name,
+      url: site.url,
+      logo: { "@type": "ImageObject", url: `${site.url}/logo.jpeg` },
+    },
     inLanguage: langToBcp47(),
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": `${site.url}/${langToBcp47()}/actualites`,
+    },
+  };
+}
+
+export function faqPageJsonLd(items: { question: string; answer: string }[]) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: items.map((item) => ({
+      "@type": "Question",
+      name: item.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: item.answer,
+      },
+    })),
   };
 }
 

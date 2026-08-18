@@ -1,4 +1,4 @@
-# 02.02 - Structure des fichiers
+﻿# 02.02 - Structure des fichiers
 
 > **Document** : 02.02 - Structure des fichiers
 > **Version** : 1.0
@@ -15,7 +15,7 @@ Cartographier l'arborescence complète du projet pour permettre la navigation et
 ### 2.1 Racine du projet
 
 ```
-Méridian/
+Fil Investment Group/
 ├── .claude/                 → settings.local.json (autorisation Bash netstat)
 ├── .gitignore
 ├── dist/                    → sortie de build

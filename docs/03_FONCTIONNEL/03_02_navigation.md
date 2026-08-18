@@ -1,4 +1,4 @@
-# 03.02 - Navigation
+﻿# 03.02 - Navigation
 
 > **Document** : 03.02 - Navigation
 > **Version** : 1.0
@@ -16,7 +16,7 @@ Détailler les zones de navigation (header, footer, utilitaires) et leur comport
 
 - **Comportement** : barre fixe ; l'arrière-plan devient opaque après un léger scroll (`sticky`/`fixed` + état `scrolled`, `src/components/Header.tsx`).
 - **Contenu** :
-  - Logo Méridian (SVG) à gauche (`src/components/Header.tsx`).
+  - Logo Fil Investment Group (SVG) à gauche (`src/components/Header.tsx`).
   - Menu principal (6 entrées) : À propos, Expertise, Secteurs, Projets, Actualités, Contact (`src/components/Header.tsx:60-67`).
   - Bouton « Soumettre un projet » (`src/components/Header.tsx:60`).
   - Sélecteur de langue FR / EN / PT (`src/components/Header.tsx:95,141`).
@@ -25,7 +25,7 @@ Détailler les zones de navigation (header, footer, utilitaires) et leur comport
 ### 2.2 Pied de page (Footer)
 
 - **Colonnes** :
-  1. Présentation Méridian + réseaux sociaux (`src/components/Footer.tsx`).
+  1. Présentation Fil Investment Group + réseaux sociaux (`src/components/Footer.tsx`).
   2. Navigation principale (8 entrées : À propos, Expertise, Secteurs, Projets, Partenaires, Actualités, Contact, Soumettre un projet).
   3. Les 7 secteurs en liens.
   4. Coordonnées : adresse, téléphone, email, horaires (`src/components/Footer.tsx:79-96`).

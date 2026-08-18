@@ -1,4 +1,4 @@
-import type { Sector } from "@/types";
+﻿import type { Sector } from "@/types";
 
 /**
  * Sectors - structured content, easily extended.

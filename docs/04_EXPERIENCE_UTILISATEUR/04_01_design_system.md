@@ -1,4 +1,4 @@
-# 04.01 - Design system et identité visuelle
+﻿# 04.01 - Design system et identité visuelle
 
 > **Document** : 04.01 - Design system et identité visuelle
 > **Version** : 1.0

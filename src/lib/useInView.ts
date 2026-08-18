@@ -1,4 +1,4 @@
-import { useEffect, useState, type RefObject } from "react";
+﻿import { useEffect, useState, type RefObject } from "react";
 
 export function useInView<T extends HTMLElement>(
   ref: RefObject<T>,

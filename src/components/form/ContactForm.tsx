@@ -1,4 +1,4 @@
-import { useState, type FormEvent } from "react";
+﻿import { useState, type FormEvent } from "react";
 import { CheckCircle2, Send } from "lucide-react";
 import { useI18n } from "@/i18n";
 import { CONTACT_ENDPOINT } from "@/config/site";

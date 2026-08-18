@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+﻿import { useEffect } from "react";
 import Lenis from "lenis";
 import { gsap, ScrollTrigger, setLenis, prefersReducedMotion } from "@/lib/motion";
 

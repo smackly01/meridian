@@ -1,4 +1,4 @@
-import { useLayoutEffect, useRef } from "react";
+﻿import { useLayoutEffect, useRef } from "react";
 import { ArrowRight } from "lucide-react";
 import { useI18n } from "@/i18n";
 import { gsap, prefersReducedMotion } from "@/lib/motion";

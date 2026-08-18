@@ -1,4 +1,4 @@
-# 09.02 - Gestion des traductions
+﻿# 09.02 - Gestion des traductions
 
 > **Document** : 09.02 - Gestion des traductions
 > **Version** : 1.0

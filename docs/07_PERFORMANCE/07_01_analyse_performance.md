@@ -1,4 +1,4 @@
-# 07.01 - Analyse performance
+﻿# 07.01 - Analyse performance
 
 > **Document** : 07.01 - Analyse performance
 > **Version** : 1.0

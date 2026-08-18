@@ -1,4 +1,4 @@
-# 01.01 - Contexte et objectifs
+﻿# 01.01 - Contexte et objectifs
 
 > **Document** : 01.01 - Contexte et objectifs
 > **Version** : 1.0
@@ -14,9 +14,9 @@ Ce document situe le projet dans son contexte métier et technique, tel qu'obser
 
 ### 2.1 Identité du projet
 
-- Nom du package : `infrastructure-Méridian`, version `1.0.0`, déclaré `private` (`package.json:2-4`).
-- Le site se présente comme celui de la société « Méridian », dont l'activité annoncée dans les textes est le développement, la structuration et le financement de projets d'infrastructures en Afrique (`src/config/site.ts:30-31` ; `index.html:8-12`).
-- Nom légal utilisé : `Méridian` ; site public : `https://www.Méridian.africa` (`src/config/site.ts:31-32`).
+- Nom du package : `infrastructure-Fil Investment Group`, version `1.0.0`, déclaré `private` (`package.json:2-4`).
+- Le site se présente comme celui de la société « Fil Investment Group », dont l'activité annoncée dans les textes est le développement, la structuration et le financement de projets d'infrastructures en Afrique (`src/config/site.ts:30-31` ; `index.html:8-12`).
+- Nom légal utilisé : `Fil Investment Group` ; site public : `https://www.Fil Investment Group.africa` (`src/config/site.ts:31-32`).
 - Langue de référence du document HTML : `fr` (`index.html:2`).
 
 ### 2.2 Activité affichée

@@ -1,4 +1,4 @@
-import type { Lang } from "@/i18n";
+﻿import type { Lang } from "@/i18n";
 
 /** A string that exists in several languages. Falls back fr -> en -> pt. */
 export type Localized = Partial<Record<Lang, string>>;
@@ -28,7 +28,7 @@ export interface Sector {
   short: Localized;
   description: Localized;
   issues: Localized;
-  /** how Méridian intervenes in this sector */
+  /** how Fil Investment Group intervenes in this sector */
   approach: Localized;
   /** concrete results expected from the interventions */
   outcomes: Localized[];

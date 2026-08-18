@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+﻿import { Link } from "react-router-dom";
 import { ArrowUpRight } from "lucide-react";
 import { useI18n } from "@/i18n";
 import { PageHero } from "@/components/PageHero";

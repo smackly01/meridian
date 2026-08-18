@@ -1,63 +1,63 @@
-export const fr = {
+﻿export const fr = {
   meta: {
     home: {
-      title: "Méridian - Développement de projets d'infrastructures",
+      title: "Fil Investment Group - Développement de projets d'infrastructures",
       description:
         "Nous identifions les besoins stratégiques des territoires et les transformons en infrastructures structurées, financées et réalisables, principalement en Afrique.",
     },
     about: {
-      title: "À propos - Méridian",
+      title: "À propos - Fil Investment Group",
       description:
         "Notre histoire, notre vision, notre mission, nos valeurs et notre équipe.",
     },
     expertise: {
-      title: "Expertise - Méridian",
+      title: "Expertise - Fil Investment Group",
       description:
         "Développement, structuration, financement de projets et mobilisation de partenaires.",
     },
     sectors: {
-      title: "Secteurs d'intervention - Méridian",
+      title: "Secteurs d'intervention - Fil Investment Group",
       description:
         "Transport, énergie, eau, numérique et télécommunications.",
     },
     projects: {
-      title: "Projets - Méridian",
+      title: "Projets - Fil Investment Group",
       description:
         "Un aperçu de nos projets et de notre rôle dans leur structuration, leur financement et leur réalisation.",
     },
     partners: {
-      title: "Partenaires - Méridian",
+      title: "Partenaires - Fil Investment Group",
       description:
         "L'écosystème de partenaires institutionnels, financiers et techniques que nous mobilisons.",
     },
     news: {
-      title: "Actualités - Méridian",
+      title: "Actualités - Fil Investment Group",
       description:
         "Actualités, événements, conférences et analyses sur le développement de projets d'infrastructures.",
     },
     contact: {
-      title: "Contact - Méridian",
+      title: "Contact - Fil Investment Group",
       description:
         "Entrez en contact avec notre équipe pour discuter d'un partenariat ou d'un projet.",
     },
     notFound: {
-      title: "Page introuvable - Méridian",
+      title: "Page introuvable - Fil Investment Group",
       description: "La page que vous recherchez n'existe pas ou a été déplacée.",
     },
     legal: {
-      title: "Mentions légales - Méridian",
+      title: "Mentions légales - Fil Investment Group",
       description:
-        "Informations relatives à l'édition, à l'hébergement et à la responsabilité du site de Méridian.",
+        "Informations relatives à l'édition, à l'hébergement et à la responsabilité du site de Fil Investment Group.",
     },
     privacy: {
-      title: "Politique de confidentialité - Méridian",
+      title: "Politique de confidentialité - Fil Investment Group",
       description:
-        "Comment Méridian collecte, utilise et protège vos données personnelles.",
+        "Comment Fil Investment Group collecte, utilise et protège vos données personnelles.",
     },
     sitemap: {
-      title: "Plan du site - Méridian",
+      title: "Plan du site - Fil Investment Group",
       description:
-        "Toutes les pages du site Méridian, réunies pour une navigation rapide.",
+        "Toutes les pages du site Fil Investment Group, réunies pour une navigation rapide.",
     },
   },
   nav: {
@@ -94,7 +94,7 @@ export const fr = {
     notAvailable: "Information à venir",
     scrollToTop: "Retour en haut de page",
     placeholderNote:
-      "L'écosystème complet des partenaires de Méridian est présenté sur la page Partenaires.",
+      "L'écosystème complet des partenaires de Fil Investment Group est présenté sur la page Partenaires.",
   },
   hero: {
     overline: "Développement · Financement · Réalisation",
@@ -264,9 +264,9 @@ export const fr = {
       overline: "Notre histoire",
       title: "L'origine de la société",
       body1:
-        "Méridian a été fondé en 2011 à Brazzaville par Surya Aniel MACKLYMAN, entouré d'une équipe de professionnels venus du développement de projets, de la finance et de l'ingénierie. L'idée de départ était simple : en Afrique, les besoins en infrastructures sont immenses, mais trop peu de projets parviennent au stade du financement et de la réalisation, faute d'une structuration rigoureuse.",
+        "Fil Investment Group a été fondé en 2011 à Brazzaville par Surya Aniel MACKLYMAN, entouré d'une équipe de professionnels venus du développement de projets, de la finance et de l'ingénierie. L'idée de départ était simple : en Afrique, les besoins en infrastructures sont immenses, mais trop peu de projets parviennent au stade du financement et de la réalisation, faute d'une structuration rigoureuse.",
       body2:
-        "En quinze ans, Méridian a développé et structuré des projets dans une dizaine de pays - du transport à l'énergie, de l'eau à la santé - en mobilisant des financements auprès des institutions internationales et des investisseurs privés. Chaque projet a renforcé la même conviction : les grandes infrastructures se construisent d'abord sur la confiance et la rigueur.",
+        "En quinze ans, Fil Investment Group a développé et structuré des projets dans une dizaine de pays - du transport à l'énergie, de l'eau à la santé - en mobilisant des financements auprès des institutions internationales et des investisseurs privés. Chaque projet a renforcé la même conviction : les grandes infrastructures se construisent d'abord sur la confiance et la rigueur.",
     },
     vision: {
       overline: "Notre vision",
@@ -296,7 +296,7 @@ export const fr = {
       title: "Les femmes et les hommes de la société",
       subtitle:
         "Une équipe pluridisciplinaire, ancrée en Afrique, alliant le développement de projets, l'ingénierie financière, le conseil juridique et les relations institutionnelles.",
-      memberNote: "Équipe Méridian",
+      memberNote: "Équipe Fil Investment Group",
     },
   },
   expertise: {
@@ -492,7 +492,7 @@ export const fr = {
     phoneLabel: "Téléphone",
     phone: "+242 22 555 00 00",
     emailLabel: "Email",
-    email: "contact@meridian.africa",
+    email: "contact@filinvestmentgroup.com",
     hoursLabel: "Horaires",
     hours: "Lundi – Vendredi, 9h00 – 18h00 (WAT)",
     socialLabel: "Suivez-nous",
@@ -543,11 +543,11 @@ export const fr = {
   sitemapPage: {
     overline: "Plan du site",
     title: "Toutes les pages du site, au même endroit.",
-    body: "Un panorama complet des pages de Méridian : la société, ses expertises, les secteurs d'intervention, les projets, les partenaires, les actualités et le contact.",
+    body: "Un panorama complet des pages de Fil Investment Group : la société, ses expertises, les secteurs d'intervention, les projets, les partenaires, les actualités et le contact.",
     mainTitle: "Pages principales",
     infoTitle: "Informations",
     desc: {
-      home: "Accueil et présentation générale de Méridian.",
+      home: "Accueil et présentation générale de Fil Investment Group.",
       about: "La société, son histoire, sa vision et sa mission.",
       expertise: "Notre approche, notre modèle de financement et notre portefeuille.",
       sectors: "Les secteurs d'intervention : transport, énergie, eau, numérique.",

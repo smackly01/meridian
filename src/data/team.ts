@@ -1,4 +1,4 @@
-import type { TeamMember } from "@/types";
+﻿import type { TeamMember } from "@/types";
 
 /**
  * Team - structured content.
@@ -16,9 +16,9 @@ export const team: TeamMember[] = [
       pt: "Presidente & Diretor-Geral",
     },
     bio: {
-      fr: "Plus de 20 ans d'expérience dans le développement de projets d'infrastructures en Afrique. Il a fondé Méridian en 2011 à Brazzaville avec la conviction que les projets structurants naissent d'un travail rigoureux de structuration.",
-      en: "More than 20 years of experience in infrastructure project development in Africa. He founded Méridian in 2011 in Brazzaville with the conviction that structuring projects are born from rigorous structuring work.",
-      pt: "Mais de 20 anos de experiência no desenvolvimento de projetos de infraestruturas em África. Fundou a Méridian em 2011 em Brazzaville com a convicção de que os projetos estruturantes nascem de um trabalho rigoroso de estruturação.",
+      fr: "Plus de 20 ans d'expérience dans le développement de projets d'infrastructures en Afrique. Il a fondé Fil Investment Group en 2011 à Brazzaville avec la conviction que les projets structurants naissent d'un travail rigoureux de structuration.",
+      en: "More than 20 years of experience in infrastructure project development in Africa. He founded Fil Investment Group in 2011 in Brazzaville with the conviction that structuring projects are born from rigorous structuring work.",
+      pt: "Mais de 20 anos de experiência no desenvolvimento de projetos de infraestruturas em África. Fundou a Fil Investment Group em 2011 em Brazzaville com a convicção de que os projetos estruturantes nascem de um trabalho rigoroso de estruturação.",
     },
     linkedin: undefined,
     photo: undefined,

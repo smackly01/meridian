@@ -1,4 +1,4 @@
-# 01.02 - Présentation du site
+﻿# 01.02 - Présentation du site
 
 > **Document** : 01.02 - Présentation du site
 > **Version** : 1.0

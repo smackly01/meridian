@@ -1,4 +1,4 @@
-import type { Localized } from "@/types";
+﻿import type { Localized } from "@/types";
 
 export interface LegalSection {
   title: Localized;
@@ -10,14 +10,14 @@ const SHARED: LegalSection[] = [
     title: { fr: "Éditeur du site", en: "Website publisher", pt: "Editor do site" },
     body: [
       {
-        fr: "Méridian - société anonyme au capital de 10 000 000 F CFA, immatriculée au registre du commerce et du crédit mobilier de Brazzaville sous le numéro RCCM B 2011 B 01452. Siège social : Avenue Amilcar Cabral, Centre-ville, Brazzaville - République du Congo.",
-        en: "Méridian - a public limited company with a share capital of 10,000,000 F CFA, registered with the Brazzaville trade and personal property credit register under number RCCM B 2011 B 01452. Registered office: Avenue Amilcar Cabral, city centre, Brazzaville - Republic of the Congo.",
-        pt: "Méridian - sociedade anónima com capital social de 10.000.000 F CFA, registada no registo comercial e de crédito mobiliário de Brazzaville sob o número RCCM B 2011 B 01452. Sede social: Avenida Amilcar Cabral, centro da cidade, Brazzaville - República do Congo.",
+        fr: "Fil Investment Group - société anonyme au capital de 10 000 000 F CFA, immatriculée au registre du commerce et du crédit mobilier de Brazzaville sous le numéro RCCM B 2011 B 01452. Siège social : Avenue Amilcar Cabral, Centre-ville, Brazzaville - République du Congo.",
+        en: "Fil Investment Group - a public limited company with a share capital of 10,000,000 F CFA, registered with the Brazzaville trade and personal property credit register under number RCCM B 2011 B 01452. Registered office: Avenue Amilcar Cabral, city centre, Brazzaville - Republic of the Congo.",
+        pt: "Fil Investment Group - sociedade anónima com capital social de 10.000.000 F CFA, registada no registo comercial e de crédito mobiliário de Brazzaville sob o número RCCM B 2011 B 01452. Sede social: Avenida Amilcar Cabral, centro da cidade, Brazzaville - República do Congo.",
       },
       {
-        fr: "Directeur de la publication : Surya Aniel MACKLYMAN. Contact : contact@meridian.africa.",
-        en: "Publication director: Surya Aniel MACKLYMAN. Contact: contact@meridian.africa.",
-        pt: "Diretor de publicação: Surya Aniel MACKLYMAN. Contacto: contact@meridian.africa.",
+        fr: "Directeur de la publication : Surya Aniel MACKLYMAN. Contact : contact@filinvestmentgroup.com.",
+        en: "Publication director: Surya Aniel MACKLYMAN. Contact: contact@filinvestmentgroup.com.",
+        pt: "Diretor de publicação: Surya Aniel MACKLYMAN. Contacto: contact@filinvestmentgroup.com.",
       },
     ],
   },
@@ -63,9 +63,9 @@ const PRIVACY: LegalSection[] = [
         pt: "As informações transmitidas através dos formulários do site são utilizadas apenas para tratar os seus pedidos. Não são vendidas nem transmitidas a terceiros fora deste âmbito.",
       },
       {
-        fr: "Conformément à la réglementation applicable, vous disposez d'un droit d'accès, de rectification et de suppression de vos données. Pour l'exercer, contactez-nous : contact@meridian.africa.",
-        en: "In accordance with applicable regulations, you have the right to access, rectify and delete your data. To exercise it, contact us: contact@meridian.africa.",
-        pt: "Em conformidade com a regulamentação aplicável, tem o direito de aceder, retificar e eliminar os seus dados. Para o exercer, contacte-nos: contact@meridian.africa.",
+        fr: "Conformément à la réglementation applicable, vous disposez d'un droit d'accès, de rectification et de suppression de vos données. Pour l'exercer, contactez-nous : contact@filinvestmentgroup.com.",
+        en: "In accordance with applicable regulations, you have the right to access, rectify and delete your data. To exercise it, contact us: contact@filinvestmentgroup.com.",
+        pt: "Em conformidade com a regulamentação aplicável, tem o direito de aceder, retificar e eliminar os seus dados. Para o exercer, contacte-nos: contact@filinvestmentgroup.com.",
       },
     ],
   },

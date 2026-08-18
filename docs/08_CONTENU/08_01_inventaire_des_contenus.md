@@ -1,4 +1,4 @@
-# 08.01 - Inventaire des contenus
+﻿# 08.01 - Inventaire des contenus
 
 > **Document** : 08.01 - Inventaire des contenus
 > **Version** : 1.0
@@ -44,7 +44,7 @@ Inventorier l'ensemble des contenus (données structurées et textes) présents 
 - **Équipe** (démo) : fondateur « Surya Aniel MACKLYMAN » (Président & DG), « Gloire Loemba » (Directeur structuration financière).
 - **Pays** : Sénégal, Côte d'Ivoire, Burkina Faso, Niger, Nigeria, Cameroun, Gabon, etc.
 - **Galerie** : Dakar (réunion institutionnelle), Ouagadougou (signature).
-- **Légal** : éditeur « Méridian SA », capital 10 000 000 F CFA, RCCM B 2011 B 01452, hébergeur « InfraCloud SAS ».
+- **Légal** : éditeur « Fil Investment Group SA », capital 10 000 000 F CFA, RCCM B 2011 B 01452, hébergeur « InfraCloud SAS ».
 
 ## 3. Interprétations & recommandations
 

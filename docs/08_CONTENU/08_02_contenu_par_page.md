@@ -1,4 +1,4 @@
-# 08.02 - Contenu par page
+﻿# 08.02 - Contenu par page
 
 > **Document** : 08.02 - Contenu par page
 > **Version** : 1.0
@@ -74,7 +74,7 @@ Détailler le contenu affiché sur chaque page.
 
 ### 2.11 Contact (`ContactPage.tsx`)
 
-- Coordonnées : adresse, téléphone (+242 22 555 00 00), email (contact@Méridian.africa), horaires (Lun–Ven 9h–18h).
+- Coordonnées : adresse, téléphone (+242 22 555 00 00), email (contact@Fil Investment Group.africa), horaires (Lun–Ven 9h–18h).
 - Réseaux sociaux.
 - Formulaire de contact.
 

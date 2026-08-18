@@ -1,4 +1,4 @@
-# 12.03 - Hébergement et domaines
+﻿# 12.03 - Hébergement et domaines
 
 > **Document** : 12.03 - Hébergement et domaines
 > **Version** : 1.0
@@ -14,7 +14,7 @@ Documenter les informations d'hébergement et de domaine telles qu'elles apparai
 
 ### 2.1 Domaine public
 
-- `site.url = "https://www.Méridian.africa"` (`src/config/site.ts:31-32`).
+- `site.url = "https://www.Fil Investment Group.africa"` (`src/config/site.ts:31-32`).
 - Utilisé pour : canonical (`src/components/Seo.tsx`), URL de partage, JSON-LD.
 
 ### 2.2 Types de déploiement supportés par la config
@@ -37,11 +37,11 @@ Documenter les informations d'hébergement et de domaine telles qu'elles apparai
 
 ## 3. Interprétations & recommandations
 
-Hypothèse / interprétation : le domaine annoncé est `Méridian.africa` ; le projet est compatible avec les hébergeurs statiques modernes.
+Hypothèse / interprétation : le domaine annoncé est `Fil Investment Group.africa` ; le projet est compatible avec les hébergeurs statiques modernes.
 
 Recommandations (interprétation) :
 1. Servir le site en **HTTPS** (les hébergeurs cités le font par défaut).
-2. Rediriger `Méridian.africa` (sans www) vers `www.Méridian.africa` ou l'inverse, et faire pointer le canonical/`site.url` sur l'URL finale.
+2. Rediriger `Fil Investment Group.africa` (sans www) vers `www.Fil Investment Group.africa` ou l'inverse, et faire pointer le canonical/`site.url` sur l'URL finale.
 3. Vérifier que le sous-domaine ou le domaine racine est bien celui du certificat SSL.
 4. Penser au CDN et au cache long pour les assets hashés.
 

@@ -1,4 +1,4 @@
-import type { Lang } from "@/i18n";
+﻿import type { Lang } from "@/i18n";
 
 export interface SiteConfig {
   name: string;
@@ -27,16 +27,16 @@ export interface SiteConfig {
 }
 
 export const site: SiteConfig = {
-  name: "Méridian",
-  legalName: "Méridian",
+  name: "Fil Investment Group",
+  legalName: "Fil Investment Group",
   // Placeholder domain (no accent — ASCII required). Replace with the real
   // production domain before launch: canonical, OG, JSON-LD and sitemap
   // all derive from this value.
-  url: "https://www.meridian.africa",
+  url: "https://www.filinvestmentgroup.com",
   contact: {
     address: "Avenue Amilcar Cabral, Centre-ville — Brazzaville, République du Congo",
     phone: "+242 22 555 00 00",
-    email: "contact@meridian.africa",
+    email: "contact@filinvestmentgroup.com",
     hours: "Lundi – Vendredi, 9h00 – 18h00 (WAT)",
   },
   social: {

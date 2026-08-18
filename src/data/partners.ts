@@ -1,9 +1,9 @@
-import type { Partner } from "@/types";
+﻿import type { Partner } from "@/types";
 
 /**
  * Partners - structured content.
  * Demo content: realistic but fictional partner names, aligned with the
- * types of institutions Méridian typically works with. Replace with the
+ * types of institutions Fil Investment Group typically works with. Replace with the
  * company's real partners before any public publishing.
  * To add a real partner, duplicate the shape and set `name`/`type`.
  */

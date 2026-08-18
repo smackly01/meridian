@@ -1,4 +1,4 @@
-/**
+﻿/**
  * Central image catalog - the single place to plug in the company's real
  * photographs. While a value is empty, an elegant placeholder is rendered
  * automatically (no broken images).

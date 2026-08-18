@@ -1,4 +1,4 @@
-import { Handshake } from "lucide-react";
+﻿import { Handshake } from "lucide-react";
 import { useI18n } from "@/i18n";
 import { PageHero } from "@/components/PageHero";
 import { SectionHeading } from "@/components/SectionHeading";

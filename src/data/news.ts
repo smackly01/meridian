@@ -1,4 +1,4 @@
-import type { NewsItem } from "@/types";
+﻿import type { NewsItem } from "@/types";
 
 /**
  * News - structured content, easily extended.
@@ -13,24 +13,24 @@ export const news: NewsItem[] = [
     id: "n1",
     slug: "accord-cadre-partenariat-afrique-de-l-ouest",
     title: {
-      fr: "Méridian signe un accord-cadre de partenariat avec un État d'Afrique de l'Ouest",
-      en: "Méridian signs a framework partnership agreement with a West African state",
-      pt: "Méridian assina um acordo-quadro de parceria com um Estado da África Ocidental",
+      fr: "Fil Investment Group signe un accord-cadre de partenariat avec un État d'Afrique de l'Ouest",
+      en: "Fil Investment Group signs a framework partnership agreement with a West African state",
+      pt: "Fil Investment Group assina um acordo-quadro de parceria com um Estado da África Ocidental",
     },
     category: "partnership",
     date: "2026-06-15",
     image:
       "https://images.unsplash.com/photo-1758519289200-384c7ef2d163?auto=format&fit=crop&w=1200&q=80",
     excerpt: {
-      fr: "Méridian a signé un accord-cadre avec un État d'Afrique de l'Ouest portant sur le développement et la structuration d'un portefeuille d'infrastructures stratégiques à horizon 2030.",
-      en: "Méridian has signed a framework agreement with a West African state covering the development and structuring of a portfolio of strategic infrastructure projects by 2030.",
-      pt: "A Méridian assinou um acordo-quadro com um Estado da África Ocidental relativo ao desenvolvimento e à estruturação de um portfólio de infraestruturas estratégicas até 2030.",
+      fr: "Fil Investment Group a signé un accord-cadre avec un État d'Afrique de l'Ouest portant sur le développement et la structuration d'un portefeuille d'infrastructures stratégiques à horizon 2030.",
+      en: "Fil Investment Group has signed a framework agreement with a West African state covering the development and structuring of a portfolio of strategic infrastructure projects by 2030.",
+      pt: "A Fil Investment Group assinou um acordo-quadro com um Estado da África Ocidental relativo ao desenvolvimento e à estruturação de um portfólio de infraestruturas estratégicas até 2030.",
     },
     body: [
       {
-        fr: "Méridian et les autorités nationales ont officialisé, le 12 juin 2026, la signature d'un accord-cadre de partenariat portant sur le développement, la structuration et le financement d'un portefeuille d'infrastructures stratégiques.",
-        en: "On 12 June 2026, Méridian and the national authorities formalised the signing of a framework partnership agreement covering the development, structuring and financing of a portfolio of strategic infrastructure projects.",
-        pt: "A 12 de junho de 2026, a Méridian e as autoridades nacionais formalizaram a assinatura de um acordo-quadro de parceria relativo ao desenvolvimento, à estruturação e ao financiamento de um portefólio de infraestruturas estratégicas.",
+        fr: "Fil Investment Group et les autorités nationales ont officialisé, le 12 juin 2026, la signature d'un accord-cadre de partenariat portant sur le développement, la structuration et le financement d'un portefeuille d'infrastructures stratégiques.",
+        en: "On 12 June 2026, Fil Investment Group and the national authorities formalised the signing of a framework partnership agreement covering the development, structuring and financing of a portfolio of strategic infrastructure projects.",
+        pt: "A 12 de junho de 2026, a Fil Investment Group e as autoridades nacionais formalizaram a assinatura de um acordo-quadro de parceria relativo ao desenvolvimento, à estruturação e ao financiamento de um portefólio de infraestruturas estratégicas.",
       },
       {
         fr: "Le portefeuille prioritaire comprend des projets de transport, d'énergie et d'accès à l'eau identifiés pour leur impact structurant sur l'économie du pays. Chaque projet fera l'objet d'un montage dédié, associant partenaires financiers internationaux et investisseurs privés.",
@@ -38,9 +38,9 @@ export const news: NewsItem[] = [
         pt: "O portefólio prioritário inclui projetos de transporte, energia e acesso à água identificados pelo seu impacto estruturante na economia do país. Cada projeto será objeto de uma estrutura dedicada, reunindo parceiros financeiros internacionais e investidores privados.",
       },
       {
-        fr: "Cet accord confirme la confiance accordée à Méridian pour faire émerger des projets bancables, mobiliser les financements adaptés et accompagner leur réalisation, dans le respect des priorités stratégiques du pays.",
-        en: "This agreement confirms the trust placed in Méridian to bring bankable projects to life, mobilise appropriate financing and support their delivery, in line with the country's strategic priorities.",
-        pt: "Este acordo confirma a confiança depositada na Méridian para fazer emergir projetos bancáveis, mobilizar os financiamentos adequados e acompanhar a sua realização, em conformidade com as prioridades estratégicas do país.",
+        fr: "Cet accord confirme la confiance accordée à Fil Investment Group pour faire émerger des projets bancables, mobiliser les financements adaptés et accompagner leur réalisation, dans le respect des priorités stratégiques du pays.",
+        en: "This agreement confirms the trust placed in Fil Investment Group to bring bankable projects to life, mobilise appropriate financing and support their delivery, in line with the country's strategic priorities.",
+        pt: "Este acordo confirma a confiança depositada na Fil Investment Group para fazer emergir projetos bancáveis, mobilizar os financiamentos adequados e acompanhar a sua realização, em conformidade com as prioridades estratégicas do país.",
       },
     ],
     published: true,
@@ -64,9 +64,9 @@ export const news: NewsItem[] = [
     },
     body: [
       {
-        fr: "Le 4 avril 2026, la pose de la première pierre du port sec de Ouagadougou a réuni les autorités nationales, les partenaires financiers et les équipes de Méridian autour du lancement officiel des travaux.",
-        en: "On 4 April 2026, the groundbreaking ceremony for the Ouagadougou dry port brought together national authorities, financial partners and Méridian's teams for the official launch of works.",
-        pt: "A 4 de abril de 2026, a colocação da primeira pedra do porto seco de Ouagadougou reuniu as autoridades nacionais, os parceiros financeiros e as equipas da Méridian em torno do lançamento oficial das obras.",
+        fr: "Le 4 avril 2026, la pose de la première pierre du port sec de Ouagadougou a réuni les autorités nationales, les partenaires financiers et les équipes de Fil Investment Group autour du lancement officiel des travaux.",
+        en: "On 4 April 2026, the groundbreaking ceremony for the Ouagadougou dry port brought together national authorities, financial partners and Fil Investment Group's teams for the official launch of works.",
+        pt: "A 4 de abril de 2026, a colocação da primeira pedra do porto seco de Ouagadougou reuniu as autoridades nacionais, os parceiros financeiros e as equipas da Fil Investment Group em torno do lançamento oficial das obras.",
       },
       {
         fr: "Étendu sur 40 hectares, l'ouvrage accueillera une plateforme logistique, des zones de stockage et des services douaniers intégrés. Il viendra doubler la capacité de traitement des conteneurs du pays et réduire sensiblement les coûts logistiques.",
@@ -85,9 +85,9 @@ export const news: NewsItem[] = [
     id: "n3",
     slug: "cloture-structuration-financiere-parc-solaire-dosso",
     title: {
-      fr: "Méridian clôture la structuration financière du parc solaire de Dosso",
-      en: "Méridian closes the financial structuring of the Dosso solar park",
-      pt: "Méridian conclui a estruturação financeira do parque solar de Dosso",
+      fr: "Fil Investment Group clôture la structuration financière du parc solaire de Dosso",
+      en: "Fil Investment Group closes the financial structuring of the Dosso solar park",
+      pt: "Fil Investment Group conclui a estruturação financeira do parque solar de Dosso",
     },
     category: "press",
     date: "2025-12-10",
@@ -100,9 +100,9 @@ export const news: NewsItem[] = [
     },
     body: [
       {
-        fr: "Méridian annonce la finalisation de la structuration financière du parc solaire photovoltaïque de Dosso, d'une puissance de 80 MWc, situé au Niger.",
-        en: "Méridian announces the completion of the financial structuring of the Dosso solar photovoltaic park, with a capacity of 80 MWp, located in Niger.",
-        pt: "A Méridian anuncia a conclusão da estruturação financeira do parque solar fotovoltaico de Dosso, com uma potência de 80 MWp, localizado no Níger.",
+        fr: "Fil Investment Group annonce la finalisation de la structuration financière du parc solaire photovoltaïque de Dosso, d'une puissance de 80 MWc, situé au Niger.",
+        en: "Fil Investment Group announces the completion of the financial structuring of the Dosso solar photovoltaic park, with a capacity of 80 MWp, located in Niger.",
+        pt: "A Fil Investment Group anuncia a conclusão da estruturação financeira do parque solar fotovoltaico de Dosso, com uma potência de 80 MWp, localizado no Níger.",
       },
       {
         fr: "Le montage réunit des institutions financières de développement, un fonds dédié aux énergies renouvelables et des investisseurs privés, dans le cadre d'un financement mixte adapté à l'envergure du projet. Le contrat de construction a été notifié et la réalisation a débuté.",
@@ -119,31 +119,31 @@ export const news: NewsItem[] = [
   },
   {
     id: "n4",
-    slug: "Méridian-au-forum-infrastructures-dakar",
+    slug: "Fil Investment Group-au-forum-infrastructures-dakar",
     title: {
-      fr: "Méridian au Forum africain des infrastructures de Dakar",
-      en: "Méridian at the Dakar African Infrastructure Forum",
-      pt: "Méridian no Fórum africano das infraestruturas de Dakar",
+      fr: "Fil Investment Group au Forum africain des infrastructures de Dakar",
+      en: "Fil Investment Group at the Dakar African Infrastructure Forum",
+      pt: "Fil Investment Group no Fórum africano das infraestruturas de Dakar",
     },
     category: "conference",
     date: "2025-10-22",
     image:
       "https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&w=1200&q=80",
     excerpt: {
-      fr: "Méridian a participé au Forum africain des infrastructures de Dakar, dédié au financement des grands projets structurants du continent.",
-      en: "Méridian took part in the Dakar African Infrastructure Forum, dedicated to financing the continent's major structuring projects.",
-      pt: "A Méridian participou no Fórum africano das infraestruturas de Dakar, dedicado ao financiamento dos grandes projetos estruturantes do continente.",
+      fr: "Fil Investment Group a participé au Forum africain des infrastructures de Dakar, dédié au financement des grands projets structurants du continent.",
+      en: "Fil Investment Group took part in the Dakar African Infrastructure Forum, dedicated to financing the continent's major structuring projects.",
+      pt: "A Fil Investment Group participou no Fórum africano das infraestruturas de Dakar, dedicado ao financiamento dos grandes projetos estruturantes do continente.",
     },
     body: [
       {
-        fr: "Du 20 au 22 octobre 2025, l'équipe de Méridian a participé au Forum africain des infrastructures de Dakar, réunissant gouvernements, institutions financières et développeurs de projets.",
-        en: "From 20 to 22 October 2025, the Méridian team took part in the Dakar African Infrastructure Forum, bringing together governments, financial institutions and project developers.",
-        pt: "De 20 a 22 de outubro de 2025, a equipa da Méridian participou no Fórum africano das infraestruturas de Dakar, reunindo governos, instituições financeiras e promotores de projetos.",
+        fr: "Du 20 au 22 octobre 2025, l'équipe de Fil Investment Group a participé au Forum africain des infrastructures de Dakar, réunissant gouvernements, institutions financières et développeurs de projets.",
+        en: "From 20 to 22 October 2025, the Fil Investment Group team took part in the Dakar African Infrastructure Forum, bringing together governments, financial institutions and project developers.",
+        pt: "De 20 a 22 de outubro de 2025, a equipa da Fil Investment Group participou no Fórum africano das infraestruturas de Dakar, reunindo governos, instituições financeiras e promotores de projetos.",
       },
       {
-        fr: "Dans le cadre d'un panel dédié à la bancabilité des projets, Méridian a partagé son retour d'expérience sur les facteurs clés qui transforment un besoin territorial en infrastructure financée et réalisée.",
-        en: "During a panel dedicated to project bankability, Méridian shared its experience on the key factors that turn a territorial need into a financed and delivered infrastructure.",
-        pt: "Num painel dedicado à bancabilidade dos projetos, a Méridian partilhou a sua experiência sobre os fatores-chave que transformam uma necessidade territorial numa infraestrutura financiada e realizada.",
+        fr: "Dans le cadre d'un panel dédié à la bancabilité des projets, Fil Investment Group a partagé son retour d'expérience sur les facteurs clés qui transforment un besoin territorial en infrastructure financée et réalisée.",
+        en: "During a panel dedicated to project bankability, Fil Investment Group shared its experience on the key factors that turn a territorial need into a financed and delivered infrastructure.",
+        pt: "Num painel dedicado à bancabilidade dos projetos, a Fil Investment Group partilhou a sua experiência sobre os fatores-chave que transformam uma necessidade territorial numa infraestrutura financiada e realizada.",
       },
       {
         fr: "Ce rendez-vous a également permis d'engager de nouvelles discussions avec des partenaires financiers et institutionnels autour de projets en développement.",
@@ -182,9 +182,9 @@ export const news: NewsItem[] = [
         pt: "Um projeto bancável assenta em quatro pilares: uma procura claramente documentada, um quadro jurídico e contratual sólido, um modelo económico credível e uma repartição controlada dos riscos. Cada um destes pilares deve ser construído com rigor desde os primeiros estudos.",
       },
       {
-        fr: "C'est précisément ce travail de structuration - technique, juridique, financière et opérationnelle - qui fait émerger des projets que les banques, les fonds et les investisseurs peuvent accompagner. Il constitue le cœur du métier de Méridian.",
-        en: "It is precisely this structuring work - technical, legal, financial and operational - that brings to life projects that banks, funds and investors can support. It is the core of Méridian's business.",
-        pt: "É precisamente este trabalho de estruturação - técnico, jurídico, financeiro e operacional - que faz emergir projetos que os bancos, os fundos e os investidores podem apoiar. Constitui o núcleo da atividade da Méridian.",
+        fr: "C'est précisément ce travail de structuration - technique, juridique, financière et opérationnelle - qui fait émerger des projets que les banques, les fonds et les investisseurs peuvent accompagner. Il constitue le cœur du métier de Fil Investment Group.",
+        en: "It is precisely this structuring work - technical, legal, financial and operational - that brings to life projects that banks, funds and investors can support. It is the core of Fil Investment Group's business.",
+        pt: "É precisamente este trabalho de estruturação - técnico, jurídico, financeiro e operacional - que faz emergir projetos que os bancos, os fundos e os investidores podem apoiar. Constitui o núcleo da atividade da Fil Investment Group.",
       },
     ],
     published: true,

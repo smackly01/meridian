@@ -1,4 +1,4 @@
-import { Check, ArrowRight, ArrowDown } from "lucide-react";
+﻿import { Check, ArrowRight, ArrowDown } from "lucide-react";
 import { useI18n } from "@/i18n";
 import { ButtonLink } from "./Button";
 import { SectionHeading } from "./SectionHeading";
@@ -13,7 +13,7 @@ export function FinanceSection() {
   for (let i = 0; i < 5; i++) flow.push(t(`finance.flow.${i}`));
 
   return (
-    <section id="finance" className="section bg-mist-50">
+    <section id="finance" className="section relative bg-mist-50">
       <div data-finance-bar aria-hidden="true" className="h-px w-full origin-left bg-gold-500/30" />
       <div className="container-x grid items-start gap-14 lg:grid-cols-2">
         <div>

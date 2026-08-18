@@ -1,4 +1,4 @@
-import type { CountryPresence } from "@/types";
+﻿import type { CountryPresence } from "@/types";
 
 /**
  * Africa map - structured content, easily configured.

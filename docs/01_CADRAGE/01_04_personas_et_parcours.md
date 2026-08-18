@@ -1,4 +1,4 @@
-# 01.04 - Personas et parcours
+﻿# 01.04 - Personas et parcours
 
 > **Document** : 01.04 - Personas et parcours
 > **Version** : 1.0
@@ -16,7 +16,7 @@ Décrire les profils d'utilisateurs (personas) et les parcours de navigation tel
 
 | Persona | Motivation | Parcours supporté par le site |
 | --- | --- | --- |
-| Décideur institutionnel (État, opérateur public) | Évaluer la crédibilité de Méridian comme partenaire | Accueil → À propos → Expertise → Secteurs → Contact |
+| Décideur institutionnel (État, opérateur public) | Évaluer la crédibilité de Fil Investment Group comme partenaire | Accueil → À propos → Expertise → Secteurs → Contact |
 | Investisseur / bailleur de fonds | Identifier le modèle de financement et l'écosystème | Accueil → Expertise → Partenaires → Contact |
 | Porteur de projet | Soumettre une opportunité d'infrastructure | Accueil → Secteurs → Soumettre un projet → Formulaire 5 étapes |
 | Presse / observateur | Consulter l'actualité de l'entreprise | Accueil → Actualités → Article |

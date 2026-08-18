@@ -1,4 +1,4 @@
-# 05.01 - Balisage SEO
+﻿# 05.01 - Balisage SEO
 
 > **Document** : 05.01 - Balisage SEO
 > **Version** : 1.0
@@ -17,7 +17,7 @@ Documenter le balisage SEO mis en place (title, meta, canonical, Open Graph, JSO
 - Accepte : `title`, `description`, `path`, `jsonLd` (optionnel), `type`.
 - Construit et insère dynamiquement (via `document.head`) :
   - `<title>` et `<meta name="description">`.
-  - Canonical : `https://www.Méridian.africa/{lang}{path}` (`src/components/Seo.tsx`).
+  - Canonical : `https://www.Fil Investment Group.africa/{lang}{path}` (`src/components/Seo.tsx`).
   - Open Graph : `og:title`, `og:description`, `og:url`, `og:image` (`/og-image.jpg`), `og:locale` (`pt_PT` pour le portugais, `fr_FR`/`en_US` sinon).
   - Twitter Card : `twitter:card` (`summary_large_image`).
   - `hreflang` : alternates pour les langues actives (fr/en/pt).

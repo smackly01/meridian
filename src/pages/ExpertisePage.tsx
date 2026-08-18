@@ -1,4 +1,4 @@
-import { ArrowRight } from "lucide-react";
+﻿import { ArrowRight } from "lucide-react";
 import { useI18n } from "@/i18n";
 import { PageHero } from "@/components/PageHero";
 import { ScrollReveal } from "@/components/ScrollReveal";

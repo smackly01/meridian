@@ -1,4 +1,4 @@
-# 03.01 - Règles métier
+﻿# 03.01 - Règles métier
 
 > **Document** : 03.01 - Règles métier
 > **Version** : 1.0
@@ -35,7 +35,7 @@ Lister les règles de gestion implémentées dans le code (visibilité des conte
 ### 2.4 Règles de contact et localisation
 
 - Langues : 3 actives (fr, en, pt) ; langue par défaut : `fr` (`src/config/site.ts:52-55`, `src/i18n/index.tsx:16`).
-- Coordonnées : adresse à Brazzaville, téléphone `+242 22 555 00 00`, email `contact@Méridian.africa`, horaires « Lun–Ven, 9h–18h » (valeurs placeholder) (`src/config/site.ts:34-42`).
+- Coordonnées : adresse à Brazzaville, téléphone `+242 22 555 00 00`, email `contact@Fil Investment Group.africa`, horaires « Lun–Ven, 9h–18h » (valeurs placeholder) (`src/config/site.ts:34-42`).
 - `gdpr.enabled: true` : signalétique placeholder de conformité RGPD (aucune implémentation de consentement cookie observée) (`src/config/site.ts:44-46`).
 
 ### 2.5 Règles de soumission de projet

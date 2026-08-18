@@ -1,4 +1,4 @@
-# 08.03 - Inventaire des images
+﻿# 08.03 - Inventaire des images
 
 > **Document** : 08.03 - Inventaire des images
 > **Version** : 1.0

@@ -1,544 +1,544 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.meridian.africa/fr</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.meridian.africa/fr"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.meridian.africa/en"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.meridian.africa/pt"/>
+    <loc>https://www.filinvestmentgroup.com/fr</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.filinvestmentgroup.com/fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.filinvestmentgroup.com/en"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.filinvestmentgroup.com/pt"/>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.meridian.africa/fr"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.filinvestmentgroup.com/fr"/>
   </url>
 
   <url>
-    <loc>https://www.meridian.africa/en</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.meridian.africa/fr"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.meridian.africa/en"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.meridian.africa/pt"/>
+    <loc>https://www.filinvestmentgroup.com/en</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.filinvestmentgroup.com/fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.filinvestmentgroup.com/en"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.filinvestmentgroup.com/pt"/>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.meridian.africa/fr"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.filinvestmentgroup.com/fr"/>
   </url>
 
   <url>
-    <loc>https://www.meridian.africa/pt</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.meridian.africa/fr"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.meridian.africa/en"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.meridian.africa/pt"/>
+    <loc>https://www.filinvestmentgroup.com/pt</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.filinvestmentgroup.com/fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.filinvestmentgroup.com/en"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.filinvestmentgroup.com/pt"/>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.meridian.africa/fr"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.filinvestmentgroup.com/fr"/>
   </url>
 
   <url>
-    <loc>https://www.meridian.africa/fr/a-propos</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.meridian.africa/fr/a-propos"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.meridian.africa/en/a-propos"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.meridian.africa/pt/a-propos"/>
+    <loc>https://www.filinvestmentgroup.com/fr/a-propos</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.filinvestmentgroup.com/fr/a-propos"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.filinvestmentgroup.com/en/a-propos"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.filinvestmentgroup.com/pt/a-propos"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.meridian.africa/fr/a-propos"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.filinvestmentgroup.com/fr/a-propos"/>
   </url>
 
   <url>
-    <loc>https://www.meridian.africa/en/a-propos</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.meridian.africa/fr/a-propos"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.meridian.africa/en/a-propos"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.meridian.africa/pt/a-propos"/>
+    <loc>https://www.filinvestmentgroup.com/en/a-propos</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.filinvestmentgroup.com/fr/a-propos"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.filinvestmentgroup.com/en/a-propos"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.filinvestmentgroup.com/pt/a-propos"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.meridian.africa/fr/a-propos"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.filinvestmentgroup.com/fr/a-propos"/>
   </url>
 
   <url>
-    <loc>https://www.meridian.africa/pt/a-propos</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.meridian.africa/fr/a-propos"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.meridian.africa/en/a-propos"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.meridian.africa/pt/a-propos"/>
+    <loc>https://www.filinvestmentgroup.com/pt/a-propos</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.filinvestmentgroup.com/fr/a-propos"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.filinvestmentgroup.com/en/a-propos"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.filinvestmentgroup.com/pt/a-propos"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.meridian.africa/fr/a-propos"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.filinvestmentgroup.com/fr/a-propos"/>
   </url>
 
   <url>
-    <loc>https://www.meridian.africa/fr/expertise</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.meridian.africa/fr/expertise"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.meridian.africa/en/expertise"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.meridian.africa/pt/expertise"/>
+    <loc>https://www.filinvestmentgroup.com/fr/expertise</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.filinvestmentgroup.com/fr/expertise"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.filinvestmentgroup.com/en/expertise"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.filinvestmentgroup.com/pt/expertise"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.meridian.africa/fr/expertise"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.filinvestmentgroup.com/fr/expertise"/>
   </url>
 
   <url>
-    <loc>https://www.meridian.africa/en/expertise</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.meridian.africa/fr/expertise"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.meridian.africa/en/expertise"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.meridian.africa/pt/expertise"/>
+    <loc>https://www.filinvestmentgroup.com/en/expertise</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.filinvestmentgroup.com/fr/expertise"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.filinvestmentgroup.com/en/expertise"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.filinvestmentgroup.com/pt/expertise"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.meridian.africa/fr/expertise"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.filinvestmentgroup.com/fr/expertise"/>
   </url>
 
   <url>
-    <loc>https://www.meridian.africa/pt/expertise</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.meridian.africa/fr/expertise"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.meridian.africa/en/expertise"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.meridian.africa/pt/expertise"/>
+    <loc>https://www.filinvestmentgroup.com/pt/expertise</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.filinvestmentgroup.com/fr/expertise"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.filinvestmentgroup.com/en/expertise"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.filinvestmentgroup.com/pt/expertise"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.meridian.africa/fr/expertise"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.filinvestmentgroup.com/fr/expertise"/>
   </url>
 
   <url>
-    <loc>https://www.meridian.africa/fr/secteurs</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.meridian.africa/fr/secteurs"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.meridian.africa/en/secteurs"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.meridian.africa/pt/secteurs"/>
+    <loc>https://www.filinvestmentgroup.com/fr/secteurs</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.filinvestmentgroup.com/fr/secteurs"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.filinvestmentgroup.com/en/secteurs"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.filinvestmentgroup.com/pt/secteurs"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.meridian.africa/fr/secteurs"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.filinvestmentgroup.com/fr/secteurs"/>
   </url>
 
   <url>
-    <loc>https://www.meridian.africa/en/secteurs</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.meridian.africa/fr/secteurs"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.meridian.africa/en/secteurs"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.meridian.africa/pt/secteurs"/>
+    <loc>https://www.filinvestmentgroup.com/en/secteurs</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.filinvestmentgroup.com/fr/secteurs"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.filinvestmentgroup.com/en/secteurs"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.filinvestmentgroup.com/pt/secteurs"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.meridian.africa/fr/secteurs"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.filinvestmentgroup.com/fr/secteurs"/>
   </url>
 
   <url>
-    <loc>https://www.meridian.africa/pt/secteurs</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.meridian.africa/fr/secteurs"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.meridian.africa/en/secteurs"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.meridian.africa/pt/secteurs"/>
+    <loc>https://www.filinvestmentgroup.com/pt/secteurs</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.filinvestmentgroup.com/fr/secteurs"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.filinvestmentgroup.com/en/secteurs"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.filinvestmentgroup.com/pt/secteurs"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.meridian.africa/fr/secteurs"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.filinvestmentgroup.com/fr/secteurs"/>
   </url>
 
   <url>
-    <loc>https://www.meridian.africa/fr/secteurs/transport</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.meridian.africa/fr/secteurs/transport"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.meridian.africa/en/secteurs/transport"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.meridian.africa/pt/secteurs/transport"/>
+    <loc>https://www.filinvestmentgroup.com/fr/secteurs/transport</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.filinvestmentgroup.com/fr/secteurs/transport"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.filinvestmentgroup.com/en/secteurs/transport"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.filinvestmentgroup.com/pt/secteurs/transport"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.meridian.africa/fr/secteurs/transport"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.filinvestmentgroup.com/fr/secteurs/transport"/>
   </url>
 
   <url>
-    <loc>https://www.meridian.africa/en/secteurs/transport</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.meridian.africa/fr/secteurs/transport"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.meridian.africa/en/secteurs/transport"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.meridian.africa/pt/secteurs/transport"/>
+    <loc>https://www.filinvestmentgroup.com/en/secteurs/transport</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.filinvestmentgroup.com/fr/secteurs/transport"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.filinvestmentgroup.com/en/secteurs/transport"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.filinvestmentgroup.com/pt/secteurs/transport"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.meridian.africa/fr/secteurs/transport"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.filinvestmentgroup.com/fr/secteurs/transport"/>
   </url>
 
   <url>
-    <loc>https://www.meridian.africa/pt/secteurs/transport</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.meridian.africa/fr/secteurs/transport"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.meridian.africa/en/secteurs/transport"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.meridian.africa/pt/secteurs/transport"/>
+    <loc>https://www.filinvestmentgroup.com/pt/secteurs/transport</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.filinvestmentgroup.com/fr/secteurs/transport"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.filinvestmentgroup.com/en/secteurs/transport"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.filinvestmentgroup.com/pt/secteurs/transport"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.meridian.africa/fr/secteurs/transport"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.filinvestmentgroup.com/fr/secteurs/transport"/>
   </url>
 
   <url>
-    <loc>https://www.meridian.africa/fr/secteurs/energy</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.meridian.africa/fr/secteurs/energy"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.meridian.africa/en/secteurs/energy"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.meridian.africa/pt/secteurs/energy"/>
+    <loc>https://www.filinvestmentgroup.com/fr/secteurs/energy</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.filinvestmentgroup.com/fr/secteurs/energy"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.filinvestmentgroup.com/en/secteurs/energy"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.filinvestmentgroup.com/pt/secteurs/energy"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.meridian.africa/fr/secteurs/energy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.filinvestmentgroup.com/fr/secteurs/energy"/>
   </url>
 
   <url>
-    <loc>https://www.meridian.africa/en/secteurs/energy</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.meridian.africa/fr/secteurs/energy"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.meridian.africa/en/secteurs/energy"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.meridian.africa/pt/secteurs/energy"/>
+    <loc>https://www.filinvestmentgroup.com/en/secteurs/energy</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.filinvestmentgroup.com/fr/secteurs/energy"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.filinvestmentgroup.com/en/secteurs/energy"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.filinvestmentgroup.com/pt/secteurs/energy"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.meridian.africa/fr/secteurs/energy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.filinvestmentgroup.com/fr/secteurs/energy"/>
   </url>
 
   <url>
-    <loc>https://www.meridian.africa/pt/secteurs/energy</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.meridian.africa/fr/secteurs/energy"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.meridian.africa/en/secteurs/energy"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.meridian.africa/pt/secteurs/energy"/>
+    <loc>https://www.filinvestmentgroup.com/pt/secteurs/energy</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.filinvestmentgroup.com/fr/secteurs/energy"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.filinvestmentgroup.com/en/secteurs/energy"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.filinvestmentgroup.com/pt/secteurs/energy"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.meridian.africa/fr/secteurs/energy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.filinvestmentgroup.com/fr/secteurs/energy"/>
   </url>
 
   <url>
-    <loc>https://www.meridian.africa/fr/secteurs/water</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.meridian.africa/fr/secteurs/water"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.meridian.africa/en/secteurs/water"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.meridian.africa/pt/secteurs/water"/>
+    <loc>https://www.filinvestmentgroup.com/fr/secteurs/water</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.filinvestmentgroup.com/fr/secteurs/water"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.filinvestmentgroup.com/en/secteurs/water"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.filinvestmentgroup.com/pt/secteurs/water"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.meridian.africa/fr/secteurs/water"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.filinvestmentgroup.com/fr/secteurs/water"/>
   </url>
 
   <url>
-    <loc>https://www.meridian.africa/en/secteurs/water</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.meridian.africa/fr/secteurs/water"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.meridian.africa/en/secteurs/water"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.meridian.africa/pt/secteurs/water"/>
+    <loc>https://www.filinvestmentgroup.com/en/secteurs/water</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.filinvestmentgroup.com/fr/secteurs/water"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.filinvestmentgroup.com/en/secteurs/water"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.filinvestmentgroup.com/pt/secteurs/water"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.meridian.africa/fr/secteurs/water"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.filinvestmentgroup.com/fr/secteurs/water"/>
   </url>
 
   <url>
-    <loc>https://www.meridian.africa/pt/secteurs/water</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.meridian.africa/fr/secteurs/water"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.meridian.africa/en/secteurs/water"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.meridian.africa/pt/secteurs/water"/>
+    <loc>https://www.filinvestmentgroup.com/pt/secteurs/water</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.filinvestmentgroup.com/fr/secteurs/water"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.filinvestmentgroup.com/en/secteurs/water"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.filinvestmentgroup.com/pt/secteurs/water"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.meridian.africa/fr/secteurs/water"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.filinvestmentgroup.com/fr/secteurs/water"/>
   </url>
 
   <url>
-    <loc>https://www.meridian.africa/fr/secteurs/health</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.meridian.africa/fr/secteurs/health"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.meridian.africa/en/secteurs/health"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.meridian.africa/pt/secteurs/health"/>
+    <loc>https://www.filinvestmentgroup.com/fr/secteurs/health</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.filinvestmentgroup.com/fr/secteurs/health"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.filinvestmentgroup.com/en/secteurs/health"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.filinvestmentgroup.com/pt/secteurs/health"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.meridian.africa/fr/secteurs/health"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.filinvestmentgroup.com/fr/secteurs/health"/>
   </url>
 
   <url>
-    <loc>https://www.meridian.africa/en/secteurs/health</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.meridian.africa/fr/secteurs/health"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.meridian.africa/en/secteurs/health"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.meridian.africa/pt/secteurs/health"/>
+    <loc>https://www.filinvestmentgroup.com/en/secteurs/health</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.filinvestmentgroup.com/fr/secteurs/health"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.filinvestmentgroup.com/en/secteurs/health"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.filinvestmentgroup.com/pt/secteurs/health"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.meridian.africa/fr/secteurs/health"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.filinvestmentgroup.com/fr/secteurs/health"/>
   </url>
 
   <url>
-    <loc>https://www.meridian.africa/pt/secteurs/health</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.meridian.africa/fr/secteurs/health"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.meridian.africa/en/secteurs/health"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.meridian.africa/pt/secteurs/health"/>
+    <loc>https://www.filinvestmentgroup.com/pt/secteurs/health</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.filinvestmentgroup.com/fr/secteurs/health"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.filinvestmentgroup.com/en/secteurs/health"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.filinvestmentgroup.com/pt/secteurs/health"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.meridian.africa/fr/secteurs/health"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.filinvestmentgroup.com/fr/secteurs/health"/>
   </url>
 
   <url>
-    <loc>https://www.meridian.africa/fr/secteurs/infrastructures-publiques</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.meridian.africa/fr/secteurs/infrastructures-publiques"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.meridian.africa/en/secteurs/infrastructures-publiques"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.meridian.africa/pt/secteurs/infrastructures-publiques"/>
+    <loc>https://www.filinvestmentgroup.com/fr/secteurs/infrastructures-publiques</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.filinvestmentgroup.com/fr/secteurs/infrastructures-publiques"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.filinvestmentgroup.com/en/secteurs/infrastructures-publiques"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.filinvestmentgroup.com/pt/secteurs/infrastructures-publiques"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.meridian.africa/fr/secteurs/infrastructures-publiques"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.filinvestmentgroup.com/fr/secteurs/infrastructures-publiques"/>
   </url>
 
   <url>
-    <loc>https://www.meridian.africa/en/secteurs/infrastructures-publiques</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.meridian.africa/fr/secteurs/infrastructures-publiques"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.meridian.africa/en/secteurs/infrastructures-publiques"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.meridian.africa/pt/secteurs/infrastructures-publiques"/>
+    <loc>https://www.filinvestmentgroup.com/en/secteurs/infrastructures-publiques</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.filinvestmentgroup.com/fr/secteurs/infrastructures-publiques"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.filinvestmentgroup.com/en/secteurs/infrastructures-publiques"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.filinvestmentgroup.com/pt/secteurs/infrastructures-publiques"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.meridian.africa/fr/secteurs/infrastructures-publiques"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.filinvestmentgroup.com/fr/secteurs/infrastructures-publiques"/>
   </url>
 
   <url>
-    <loc>https://www.meridian.africa/pt/secteurs/infrastructures-publiques</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.meridian.africa/fr/secteurs/infrastructures-publiques"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.meridian.africa/en/secteurs/infrastructures-publiques"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.meridian.africa/pt/secteurs/infrastructures-publiques"/>
+    <loc>https://www.filinvestmentgroup.com/pt/secteurs/infrastructures-publiques</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.filinvestmentgroup.com/fr/secteurs/infrastructures-publiques"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.filinvestmentgroup.com/en/secteurs/infrastructures-publiques"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.filinvestmentgroup.com/pt/secteurs/infrastructures-publiques"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.meridian.africa/fr/secteurs/infrastructures-publiques"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.filinvestmentgroup.com/fr/secteurs/infrastructures-publiques"/>
   </url>
 
   <url>
-    <loc>https://www.meridian.africa/fr/secteurs/sport</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.meridian.africa/fr/secteurs/sport"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.meridian.africa/en/secteurs/sport"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.meridian.africa/pt/secteurs/sport"/>
+    <loc>https://www.filinvestmentgroup.com/fr/secteurs/sport</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.filinvestmentgroup.com/fr/secteurs/sport"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.filinvestmentgroup.com/en/secteurs/sport"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.filinvestmentgroup.com/pt/secteurs/sport"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.meridian.africa/fr/secteurs/sport"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.filinvestmentgroup.com/fr/secteurs/sport"/>
   </url>
 
   <url>
-    <loc>https://www.meridian.africa/en/secteurs/sport</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.meridian.africa/fr/secteurs/sport"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.meridian.africa/en/secteurs/sport"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.meridian.africa/pt/secteurs/sport"/>
+    <loc>https://www.filinvestmentgroup.com/en/secteurs/sport</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.filinvestmentgroup.com/fr/secteurs/sport"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.filinvestmentgroup.com/en/secteurs/sport"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.filinvestmentgroup.com/pt/secteurs/sport"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.meridian.africa/fr/secteurs/sport"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.filinvestmentgroup.com/fr/secteurs/sport"/>
   </url>
 
   <url>
-    <loc>https://www.meridian.africa/pt/secteurs/sport</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.meridian.africa/fr/secteurs/sport"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.meridian.africa/en/secteurs/sport"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.meridian.africa/pt/secteurs/sport"/>
+    <loc>https://www.filinvestmentgroup.com/pt/secteurs/sport</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.filinvestmentgroup.com/fr/secteurs/sport"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.filinvestmentgroup.com/en/secteurs/sport"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.filinvestmentgroup.com/pt/secteurs/sport"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.meridian.africa/fr/secteurs/sport"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.filinvestmentgroup.com/fr/secteurs/sport"/>
   </url>
 
   <url>
-    <loc>https://www.meridian.africa/fr/secteurs/numerique-telecommunications</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.meridian.africa/fr/secteurs/numerique-telecommunications"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.meridian.africa/en/secteurs/numerique-telecommunications"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.meridian.africa/pt/secteurs/numerique-telecommunications"/>
+    <loc>https://www.filinvestmentgroup.com/fr/secteurs/numerique-telecommunications</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.filinvestmentgroup.com/fr/secteurs/numerique-telecommunications"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.filinvestmentgroup.com/en/secteurs/numerique-telecommunications"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.filinvestmentgroup.com/pt/secteurs/numerique-telecommunications"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.meridian.africa/fr/secteurs/numerique-telecommunications"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.filinvestmentgroup.com/fr/secteurs/numerique-telecommunications"/>
   </url>
 
   <url>
-    <loc>https://www.meridian.africa/en/secteurs/numerique-telecommunications</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.meridian.africa/fr/secteurs/numerique-telecommunications"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.meridian.africa/en/secteurs/numerique-telecommunications"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.meridian.africa/pt/secteurs/numerique-telecommunications"/>
+    <loc>https://www.filinvestmentgroup.com/en/secteurs/numerique-telecommunications</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.filinvestmentgroup.com/fr/secteurs/numerique-telecommunications"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.filinvestmentgroup.com/en/secteurs/numerique-telecommunications"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.filinvestmentgroup.com/pt/secteurs/numerique-telecommunications"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.meridian.africa/fr/secteurs/numerique-telecommunications"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.filinvestmentgroup.com/fr/secteurs/numerique-telecommunications"/>
   </url>
 
   <url>
-    <loc>https://www.meridian.africa/pt/secteurs/numerique-telecommunications</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.meridian.africa/fr/secteurs/numerique-telecommunications"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.meridian.africa/en/secteurs/numerique-telecommunications"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.meridian.africa/pt/secteurs/numerique-telecommunications"/>
+    <loc>https://www.filinvestmentgroup.com/pt/secteurs/numerique-telecommunications</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.filinvestmentgroup.com/fr/secteurs/numerique-telecommunications"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.filinvestmentgroup.com/en/secteurs/numerique-telecommunications"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.filinvestmentgroup.com/pt/secteurs/numerique-telecommunications"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.meridian.africa/fr/secteurs/numerique-telecommunications"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.filinvestmentgroup.com/fr/secteurs/numerique-telecommunications"/>
   </url>
 
   <url>
-    <loc>https://www.meridian.africa/fr/projets</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.meridian.africa/fr/projets"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.meridian.africa/en/projets"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.meridian.africa/pt/projets"/>
+    <loc>https://www.filinvestmentgroup.com/fr/projets</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.filinvestmentgroup.com/fr/projets"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.filinvestmentgroup.com/en/projets"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.filinvestmentgroup.com/pt/projets"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.meridian.africa/fr/projets"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.filinvestmentgroup.com/fr/projets"/>
   </url>
 
   <url>
-    <loc>https://www.meridian.africa/en/projets</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.meridian.africa/fr/projets"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.meridian.africa/en/projets"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.meridian.africa/pt/projets"/>
+    <loc>https://www.filinvestmentgroup.com/en/projets</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.filinvestmentgroup.com/fr/projets"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.filinvestmentgroup.com/en/projets"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.filinvestmentgroup.com/pt/projets"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.meridian.africa/fr/projets"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.filinvestmentgroup.com/fr/projets"/>
   </url>
 
   <url>
-    <loc>https://www.meridian.africa/pt/projets</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.meridian.africa/fr/projets"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.meridian.africa/en/projets"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.meridian.africa/pt/projets"/>
+    <loc>https://www.filinvestmentgroup.com/pt/projets</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.filinvestmentgroup.com/fr/projets"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.filinvestmentgroup.com/en/projets"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.filinvestmentgroup.com/pt/projets"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.meridian.africa/fr/projets"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.filinvestmentgroup.com/fr/projets"/>
   </url>
 
   <url>
-    <loc>https://www.meridian.africa/fr/partenaires</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.meridian.africa/fr/partenaires"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.meridian.africa/en/partenaires"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.meridian.africa/pt/partenaires"/>
+    <loc>https://www.filinvestmentgroup.com/fr/partenaires</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.filinvestmentgroup.com/fr/partenaires"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.filinvestmentgroup.com/en/partenaires"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.filinvestmentgroup.com/pt/partenaires"/>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.meridian.africa/fr/partenaires"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.filinvestmentgroup.com/fr/partenaires"/>
   </url>
 
   <url>
-    <loc>https://www.meridian.africa/en/partenaires</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.meridian.africa/fr/partenaires"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.meridian.africa/en/partenaires"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.meridian.africa/pt/partenaires"/>
+    <loc>https://www.filinvestmentgroup.com/en/partenaires</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.filinvestmentgroup.com/fr/partenaires"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.filinvestmentgroup.com/en/partenaires"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.filinvestmentgroup.com/pt/partenaires"/>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.meridian.africa/fr/partenaires"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.filinvestmentgroup.com/fr/partenaires"/>
   </url>
 
   <url>
-    <loc>https://www.meridian.africa/pt/partenaires</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.meridian.africa/fr/partenaires"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.meridian.africa/en/partenaires"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.meridian.africa/pt/partenaires"/>
+    <loc>https://www.filinvestmentgroup.com/pt/partenaires</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.filinvestmentgroup.com/fr/partenaires"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.filinvestmentgroup.com/en/partenaires"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.filinvestmentgroup.com/pt/partenaires"/>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.meridian.africa/fr/partenaires"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.filinvestmentgroup.com/fr/partenaires"/>
   </url>
 
   <url>
-    <loc>https://www.meridian.africa/fr/actualites</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.meridian.africa/fr/actualites"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.meridian.africa/en/actualites"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.meridian.africa/pt/actualites"/>
+    <loc>https://www.filinvestmentgroup.com/fr/actualites</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.filinvestmentgroup.com/fr/actualites"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.filinvestmentgroup.com/en/actualites"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.filinvestmentgroup.com/pt/actualites"/>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.meridian.africa/fr/actualites"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.filinvestmentgroup.com/fr/actualites"/>
   </url>
 
   <url>
-    <loc>https://www.meridian.africa/en/actualites</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.meridian.africa/fr/actualites"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.meridian.africa/en/actualites"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.meridian.africa/pt/actualites"/>
+    <loc>https://www.filinvestmentgroup.com/en/actualites</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.filinvestmentgroup.com/fr/actualites"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.filinvestmentgroup.com/en/actualites"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.filinvestmentgroup.com/pt/actualites"/>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.meridian.africa/fr/actualites"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.filinvestmentgroup.com/fr/actualites"/>
   </url>
 
   <url>
-    <loc>https://www.meridian.africa/pt/actualites</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.meridian.africa/fr/actualites"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.meridian.africa/en/actualites"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.meridian.africa/pt/actualites"/>
+    <loc>https://www.filinvestmentgroup.com/pt/actualites</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.filinvestmentgroup.com/fr/actualites"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.filinvestmentgroup.com/en/actualites"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.filinvestmentgroup.com/pt/actualites"/>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.meridian.africa/fr/actualites"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.filinvestmentgroup.com/fr/actualites"/>
   </url>
 
   <url>
-    <loc>https://www.meridian.africa/fr/contact</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.meridian.africa/fr/contact"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.meridian.africa/en/contact"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.meridian.africa/pt/contact"/>
+    <loc>https://www.filinvestmentgroup.com/fr/contact</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.filinvestmentgroup.com/fr/contact"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.filinvestmentgroup.com/en/contact"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.filinvestmentgroup.com/pt/contact"/>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.meridian.africa/fr/contact"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.filinvestmentgroup.com/fr/contact"/>
   </url>
 
   <url>
-    <loc>https://www.meridian.africa/en/contact</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.meridian.africa/fr/contact"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.meridian.africa/en/contact"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.meridian.africa/pt/contact"/>
+    <loc>https://www.filinvestmentgroup.com/en/contact</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.filinvestmentgroup.com/fr/contact"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.filinvestmentgroup.com/en/contact"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.filinvestmentgroup.com/pt/contact"/>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.meridian.africa/fr/contact"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.filinvestmentgroup.com/fr/contact"/>
   </url>
 
   <url>
-    <loc>https://www.meridian.africa/pt/contact</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.meridian.africa/fr/contact"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.meridian.africa/en/contact"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.meridian.africa/pt/contact"/>
+    <loc>https://www.filinvestmentgroup.com/pt/contact</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.filinvestmentgroup.com/fr/contact"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.filinvestmentgroup.com/en/contact"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.filinvestmentgroup.com/pt/contact"/>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.meridian.africa/fr/contact"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.filinvestmentgroup.com/fr/contact"/>
   </url>
 
   <url>
-    <loc>https://www.meridian.africa/fr/mentions-legales</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.meridian.africa/fr/mentions-legales"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.meridian.africa/en/mentions-legales"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.meridian.africa/pt/mentions-legales"/>
+    <loc>https://www.filinvestmentgroup.com/fr/mentions-legales</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.filinvestmentgroup.com/fr/mentions-legales"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.filinvestmentgroup.com/en/mentions-legales"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.filinvestmentgroup.com/pt/mentions-legales"/>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.meridian.africa/fr/mentions-legales"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.filinvestmentgroup.com/fr/mentions-legales"/>
   </url>
 
   <url>
-    <loc>https://www.meridian.africa/en/mentions-legales</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.meridian.africa/fr/mentions-legales"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.meridian.africa/en/mentions-legales"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.meridian.africa/pt/mentions-legales"/>
+    <loc>https://www.filinvestmentgroup.com/en/mentions-legales</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.filinvestmentgroup.com/fr/mentions-legales"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.filinvestmentgroup.com/en/mentions-legales"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.filinvestmentgroup.com/pt/mentions-legales"/>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.meridian.africa/fr/mentions-legales"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.filinvestmentgroup.com/fr/mentions-legales"/>
   </url>
 
   <url>
-    <loc>https://www.meridian.africa/pt/mentions-legales</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.meridian.africa/fr/mentions-legales"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.meridian.africa/en/mentions-legales"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.meridian.africa/pt/mentions-legales"/>
+    <loc>https://www.filinvestmentgroup.com/pt/mentions-legales</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.filinvestmentgroup.com/fr/mentions-legales"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.filinvestmentgroup.com/en/mentions-legales"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.filinvestmentgroup.com/pt/mentions-legales"/>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.meridian.africa/fr/mentions-legales"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.filinvestmentgroup.com/fr/mentions-legales"/>
   </url>
 
   <url>
-    <loc>https://www.meridian.africa/fr/politique-de-confidentialite</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.meridian.africa/fr/politique-de-confidentialite"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.meridian.africa/en/politique-de-confidentialite"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.meridian.africa/pt/politique-de-confidentialite"/>
+    <loc>https://www.filinvestmentgroup.com/fr/politique-de-confidentialite</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.filinvestmentgroup.com/fr/politique-de-confidentialite"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.filinvestmentgroup.com/en/politique-de-confidentialite"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.filinvestmentgroup.com/pt/politique-de-confidentialite"/>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.meridian.africa/fr/politique-de-confidentialite"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.filinvestmentgroup.com/fr/politique-de-confidentialite"/>
   </url>
 
   <url>
-    <loc>https://www.meridian.africa/en/politique-de-confidentialite</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.meridian.africa/fr/politique-de-confidentialite"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.meridian.africa/en/politique-de-confidentialite"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.meridian.africa/pt/politique-de-confidentialite"/>
+    <loc>https://www.filinvestmentgroup.com/en/politique-de-confidentialite</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.filinvestmentgroup.com/fr/politique-de-confidentialite"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.filinvestmentgroup.com/en/politique-de-confidentialite"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.filinvestmentgroup.com/pt/politique-de-confidentialite"/>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.meridian.africa/fr/politique-de-confidentialite"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.filinvestmentgroup.com/fr/politique-de-confidentialite"/>
   </url>
 
   <url>
-    <loc>https://www.meridian.africa/pt/politique-de-confidentialite</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.meridian.africa/fr/politique-de-confidentialite"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.meridian.africa/en/politique-de-confidentialite"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.meridian.africa/pt/politique-de-confidentialite"/>
+    <loc>https://www.filinvestmentgroup.com/pt/politique-de-confidentialite</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.filinvestmentgroup.com/fr/politique-de-confidentialite"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.filinvestmentgroup.com/en/politique-de-confidentialite"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.filinvestmentgroup.com/pt/politique-de-confidentialite"/>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.meridian.africa/fr/politique-de-confidentialite"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.filinvestmentgroup.com/fr/politique-de-confidentialite"/>
   </url>
 
   <url>
-    <loc>https://www.meridian.africa/fr/plan-du-site</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.meridian.africa/fr/plan-du-site"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.meridian.africa/en/plan-du-site"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.meridian.africa/pt/plan-du-site"/>
+    <loc>https://www.filinvestmentgroup.com/fr/plan-du-site</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.filinvestmentgroup.com/fr/plan-du-site"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.filinvestmentgroup.com/en/plan-du-site"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.filinvestmentgroup.com/pt/plan-du-site"/>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.meridian.africa/fr/plan-du-site"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.filinvestmentgroup.com/fr/plan-du-site"/>
   </url>
 
   <url>
-    <loc>https://www.meridian.africa/en/plan-du-site</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.meridian.africa/fr/plan-du-site"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.meridian.africa/en/plan-du-site"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.meridian.africa/pt/plan-du-site"/>
+    <loc>https://www.filinvestmentgroup.com/en/plan-du-site</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.filinvestmentgroup.com/fr/plan-du-site"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.filinvestmentgroup.com/en/plan-du-site"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.filinvestmentgroup.com/pt/plan-du-site"/>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.meridian.africa/fr/plan-du-site"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.filinvestmentgroup.com/fr/plan-du-site"/>
   </url>
 
   <url>
-    <loc>https://www.meridian.africa/pt/plan-du-site</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.meridian.africa/fr/plan-du-site"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.meridian.africa/en/plan-du-site"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.meridian.africa/pt/plan-du-site"/>
+    <loc>https://www.filinvestmentgroup.com/pt/plan-du-site</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.filinvestmentgroup.com/fr/plan-du-site"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.filinvestmentgroup.com/en/plan-du-site"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.filinvestmentgroup.com/pt/plan-du-site"/>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.meridian.africa/fr/plan-du-site"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.filinvestmentgroup.com/fr/plan-du-site"/>
   </url>
 
 </urlset>

@@ -1,4 +1,4 @@
-# 04.04 - Responsive et compatibilité
+﻿# 04.04 - Responsive et compatibilité
 
 > **Document** : 04.04 - Responsive et compatibilité
 > **Version** : 1.0

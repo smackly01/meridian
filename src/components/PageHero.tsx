@@ -1,4 +1,4 @@
-import type { ReactNode } from "react";
+﻿import type { ReactNode } from "react";
 import { useI18n } from "@/i18n";
 import { Seo } from "./Seo";
 import { Media } from "./Media";

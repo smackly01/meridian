@@ -1,4 +1,4 @@
-# 15.02 - Gestion des contenus
+﻿# 15.02 - Gestion des contenus
 
 > **Document** : 15.02 - Gestion des contenus
 > **Version** : 1.0

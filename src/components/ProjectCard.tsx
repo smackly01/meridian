@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+﻿import { Link } from "react-router-dom";
 import { MapPin, ArrowUpRight, Lock } from "lucide-react";
 import { useI18n } from "@/i18n";
 import { tx } from "@/lib/utils";

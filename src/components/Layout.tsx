@@ -1,4 +1,4 @@
-import { useEffect, type ReactNode } from "react";
+﻿import { useEffect, type ReactNode } from "react";
 import { useLocation } from "react-router-dom";
 import { useI18n } from "@/i18n";
 import { useLenis } from "@/hooks/useLenis";

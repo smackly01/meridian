@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+﻿import { Link } from "react-router-dom";
 import { Mail, MapPin, Phone, ArrowUpRight } from "lucide-react";
 import { useI18n } from "@/i18n";
 import { site } from "@/config/site";
@@ -57,19 +57,8 @@ export function Footer() {
         <ScrollReveal className="grid gap-12 md:grid-cols-2 lg:grid-cols-12">
           {/* Brand */}
           <div className="md:col-span-2 lg:col-span-4">
-            <div className="inline-flex items-center gap-3">
-              <svg width="34" height="34" viewBox="0 0 64 64" aria-hidden="true">
-                <rect width="64" height="64" rx="4" fill="#C9A35C" />
-                <path
-                  d="M18 46V28M27 46V18M36 46V24M45 46V32M12 46h44"
-                  stroke="#081426"
-                  strokeWidth="5"
-                  strokeLinecap="round"
-                />
-              </svg>
-              <span className="font-display text-lg font-extrabold tracking-[0.18em]">
-                Méridian
-              </span>
+            <div className="inline-flex items-center">
+              <img src="/logo.jpeg" alt="Fil Investment Group" className="h-12 w-auto" />
             </div>
             <p className="mt-5 max-w-sm text-sm leading-relaxed text-white/60">
               {t("footer.tagline")}

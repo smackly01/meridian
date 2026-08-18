@@ -1,4 +1,4 @@
-# 05.02 - Sitemap et robots.txt
+﻿# 05.02 - Sitemap et robots.txt
 
 > **Document** : 05.02 - Sitemap et robots.txt
 > **Version** : 1.0
@@ -48,7 +48,7 @@ Hypothèse / interprétation : le sitemap est manuel et statique ; il devra êtr
 Recommandations (interprétation) :
 1. Générer dynamiquement le sitemap (post-build) à partir des données (`src/data/*.ts`) pour éviter les incohérences.
 2. Ajouter les URL de détail projet/article dès qu'un contenu est publié.
-3. Vérifier que l'URL du sitemap dans `robots.txt` correspond à l'URL de production (`https://www.Méridian.africa/sitemap.xml`).
+3. Vérifier que l'URL du sitemap dans `robots.txt` correspond à l'URL de production (`https://www.Fil Investment Group.africa/sitemap.xml`).
 4. Synchroniser les slugs dans le sitemap avec les slugs réels des données (le sitemap liste 7 secteurs - cohérent avec `src/data/sectors.ts`).
 
 ## 4. Points non identifiés

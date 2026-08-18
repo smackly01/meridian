@@ -1,4 +1,4 @@
-import { ArrowLeft } from "lucide-react";
+﻿import { ArrowLeft } from "lucide-react";
 import { useI18n } from "@/i18n";
 import { Seo } from "@/components/Seo";
 import { ButtonLink } from "@/components/Button";

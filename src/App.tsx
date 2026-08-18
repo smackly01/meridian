@@ -1,4 +1,4 @@
-import { Suspense, lazy } from "react";
+﻿import { Suspense, lazy } from "react";
 import { Routes, Route } from "react-router-dom";
 import { I18nProvider } from "@/i18n";
 import { Layout } from "@/components/Layout";
