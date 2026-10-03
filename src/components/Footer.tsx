@@ -56,7 +56,7 @@ export function Footer() {
       <div className="container-x pb-[max(2.5rem,env(safe-area-inset-bottom))] pt-16 md:pt-20">
         <ScrollReveal className="grid gap-10 md:grid-cols-2 md:gap-12 lg:grid-cols-12 lg:gap-x-8">
           {/* Brand */}
-          <div className="md:col-span-2 lg:col-span-4">
+          <div className="lg:col-span-4">
             <div className="inline-flex items-center">
               <img src="/logo-white.png" alt="Fil Investment Group" width="980" height="302" className="h-14 w-auto" />
             </div>
@@ -118,7 +118,7 @@ export function Footer() {
           </div>
 
           {/* Contact */}
-          <div className="md:col-span-2 lg:col-span-3">
+          <div className="lg:col-span-3">
             <h3 className="font-display text-xs font-bold uppercase tracking-overline text-gold-400">
               {t("footer.contactTitle")}
             </h3>
