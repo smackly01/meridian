@@ -53,8 +53,8 @@ export function Footer() {
 
   return (
     <footer className="bg-ink-950 text-white">
-      <div className="container-x pb-10 pt-16 md:pt-20">
-        <ScrollReveal className="grid gap-12 md:grid-cols-2 lg:grid-cols-12">
+      <div className="container-x pb-[max(2.5rem,env(safe-area-inset-bottom))] pt-16 md:pt-20">
+        <ScrollReveal className="grid gap-10 md:grid-cols-2 md:gap-12 lg:grid-cols-12 lg:gap-x-8">
           {/* Brand */}
           <div className="md:col-span-2 lg:col-span-4">
             <div className="inline-flex items-center">
@@ -87,12 +87,12 @@ export function Footer() {
             <ul className="mt-5 space-y-3">
               {nav.map((item) => (
                 <li key={item.key}>
-                  <Link
-                    to={localize(item.to)}
-                    className="text-sm text-white/65 transition-colors hover:text-white"
-                  >
-                    {t(`nav.${item.key}`)}
-                  </Link>
+                      <Link
+                        to={localize(item.to)}
+                        className="inline-block py-1 text-sm text-white/65 transition-colors hover:text-white"
+                      >
+                        {t(`nav.${item.key}`)}
+                      </Link>
                 </li>
               ))}
             </ul>
@@ -106,12 +106,12 @@ export function Footer() {
             <ul className="mt-5 space-y-3">
               {sectors.map((s) => (
                 <li key={s.id}>
-                  <Link
-                    to={localize(`/secteurs/${s.slug}`)}
-                    className="text-sm text-white/65 transition-colors hover:text-white"
-                  >
-                    {tx(s.name, lang)}
-                  </Link>
+                      <Link
+                        to={localize(`/secteurs/${s.slug}`)}
+                        className="inline-block py-1 text-sm text-white/65 transition-colors hover:text-white"
+                      >
+                        {tx(s.name, lang)}
+                      </Link>
                 </li>
               ))}
             </ul>
@@ -125,17 +125,20 @@ export function Footer() {
             <ul className="mt-5 space-y-3 text-sm text-white/65">
               <li className="flex items-start gap-3">
                 <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-gold-500/70" aria-hidden="true" />
-                <span>{site.contact.address}</span>
+                <span className="min-w-0 break-words">{site.contact.address}</span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="h-4 w-4 shrink-0 text-gold-500/70" aria-hidden="true" />
-                <a href={`tel:${site.contact.phone.replace(/[^+\d]/g, "")}`} className="hover:text-white">
+                <a
+                  href={`tel:${site.contact.phone.replace(/[^+\d]/g, "")}`}
+                  className="min-w-0 break-words hover:text-white"
+                >
                   {site.contact.phone}
                 </a>
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="h-4 w-4 shrink-0 text-gold-500/70" aria-hidden="true" />
-                <a href={`mailto:${site.contact.email}`} className="hover:text-white">
+                <a href={`mailto:${site.contact.email}`} className="min-w-0 break-words hover:text-white">
                   {site.contact.email}
                 </a>
               </li>
@@ -154,26 +157,29 @@ export function Footer() {
           <p className="text-xs text-white/40">
             © {new Date().getFullYear()} {site.legalName}. {t("footer.rights")}
           </p>
-          <div className="flex items-center gap-6">
-            <Link to={localize("/mentions-legales")} className="text-xs text-white/45 hover:text-white">
+          <div className="flex flex-wrap items-center gap-x-5 gap-y-1 md:gap-x-6">
+            <Link
+              to={localize("/mentions-legales")}
+              className="inline-block py-1.5 text-xs text-white/45 hover:text-white"
+            >
               {t("footer.legal")}
             </Link>
             <Link
               to={localize("/politique-de-confidentialite")}
-              className="text-xs text-white/45 hover:text-white"
+              className="inline-block py-1.5 text-xs text-white/45 hover:text-white"
             >
               {t("footer.privacy")}
             </Link>
             <Link
               to={localize("/plan-du-site")}
-              className="text-xs text-white/45 hover:text-white"
+              className="inline-block py-1.5 text-xs text-white/45 hover:text-white"
             >
               {t("footer.sitemap")}
             </Link>
             <Link
               to={localize("/contact")}
               aria-label={t("footer.contactTitle")}
-              className="inline-flex items-center gap-1 text-xs text-gold-400 hover:text-gold-300"
+              className="inline-flex items-center gap-1 py-1.5 text-xs text-gold-400 hover:text-gold-300"
             >
               {t("footer.contactTitle")}
               <ArrowUpRight className="h-3.5 w-3.5" />
