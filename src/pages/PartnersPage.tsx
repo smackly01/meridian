@@ -1,5 +1,4 @@
-﻿import { Handshake } from "lucide-react";
-import { useI18n } from "@/i18n";
+﻿import { useI18n } from "@/i18n";
 import { PageHero } from "@/components/PageHero";
 import { SectionHeading } from "@/components/SectionHeading";
 import { ScrollReveal } from "@/components/ScrollReveal";
@@ -50,8 +49,8 @@ export default function PartnersPage() {
                   const catPartners = partners.filter((p) => p.category === cat);
                   return (
                     <ScrollReveal key={cat} delay={(i % 3) * 60}>
-                      <div className="flex h-full flex-col rounded-[3px] border border-mist-200 p-7 transition-colors hover:border-ink-900/20 hover:bg-mist-50">
-                        <h3 className="font-display text-lg font-bold text-ink-900">
+                      <div className="flex h-full flex-col rounded-card border border-mist-200 p-7 transition-colors hover:border-ink-900/20 hover:bg-mist-50">
+                        <h3 className="font-display text-lg font-semibold text-ink-900">
                           {t(`partnersPage.categories.${i}.title`)}
                         </h3>
                         <p className="mt-2 text-sm leading-relaxed text-mist-500">
@@ -85,10 +84,9 @@ export default function PartnersPage() {
 
                 {/* Become a partner */}
                 <ScrollReveal>
-                  <div className="flex h-full flex-col justify-between rounded-[3px] bg-ink-900 p-7 text-white">
-                    <Handshake className="h-8 w-8 text-gold-400" strokeWidth={1.4} aria-hidden="true" />
+                  <div className="flex h-full flex-col justify-end rounded-card bg-ink-900 p-7 text-white">
                     <div>
-                      <h3 className="font-display text-lg font-bold">{t("common.becomePartner")}</h3>
+                      <h3 className="font-serif text-2xl font-normal text-white">{t("common.becomePartner")}</h3>
                       <p className="mt-2 text-sm leading-relaxed text-white/65">
                         {t("ctaBanner.body")}
                       </p>
@@ -105,19 +103,27 @@ export default function PartnersPage() {
               </ScrollReveal>
             </>
           ) : (
-            <ScrollReveal className="mt-14">
-              <div className="mx-auto max-w-2xl rounded-[3px] border border-dashed border-mist-300 bg-mist-50 px-8 py-16 text-center">
-                <span className="inline-flex h-12 w-12 items-center justify-center rounded-[3px] border border-gold-500/40 bg-white text-gold-600">
-                  <Handshake className="h-5 w-5" strokeWidth={1.4} aria-hidden="true" />
-                </span>
-                <h2 className="mt-6 font-display text-2xl font-bold text-ink-900">
-                  {t("partnersPage.soon.title")}
-                </h2>
-                <p className="mt-3 text-sm leading-relaxed text-mist-500">
-                  {t("partnersPage.soon.body")}
-                </p>
-              </div>
-            </ScrollReveal>
+            <>
+              <SectionHeading
+                overline={t("partnersPage.families.overline")}
+                title={t("partnersPage.families.title")}
+              />
+              <dl className="mt-12 border-t border-mist-200">
+                {Array.from({ length: 4 }).map((_, i) => (
+                  <ScrollReveal
+                    key={i}
+                    className="grid gap-3 border-b border-mist-200 py-8 md:grid-cols-12 md:gap-10"
+                  >
+                    <dt className="font-serif text-2xl leading-snug text-ink-900 md:col-span-5">
+                      {t(`partnersPage.families.items.${i}.title`)}
+                    </dt>
+                    <dd className="text-base leading-relaxed text-mist-600 md:col-span-7">
+                      {t(`partnersPage.families.items.${i}.body`)}
+                    </dd>
+                  </ScrollReveal>
+                ))}
+              </dl>
+            </>
           )}
         </div>
       </section>

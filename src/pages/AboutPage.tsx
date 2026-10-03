@@ -1,5 +1,4 @@
-﻿import { Compass, Target } from "lucide-react";
-import { useI18n } from "@/i18n";
+﻿import { useI18n } from "@/i18n";
 import { PageHero } from "@/components/PageHero";
 import { SectionHeading } from "@/components/SectionHeading";
 import { ScrollReveal } from "@/components/ScrollReveal";
@@ -24,7 +23,7 @@ export default function AboutPage() {
   const { t, lang } = useI18n();
 
   const values: { title: string; body: string }[] = [];
-  for (let i = 0; i < 6; i++) {
+  for (let i = 0; i < 3; i++) {
     values.push({ title: t(`about.values.items.${i}.title`), body: t(`about.values.items.${i}.body`) });
   }
 
@@ -49,7 +48,7 @@ export default function AboutPage() {
               alt={t("about.story.title")}
               label={t("about.story.overline")}
               icon="Building2"
-              className="aspect-[4/5] w-full rounded-[3px]"
+              className="aspect-[4/5] w-full rounded-card"
             />
           </ScrollReveal>
           <div>
@@ -62,52 +61,27 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Vision / Mission */}
-      <section className="section-dark on-dark relative overflow-hidden">
-        <div className="absolute inset-0 bg-grid-dark" aria-hidden="true" />
-        <div className="container-x relative">
-          <div className="grid gap-6 lg:grid-cols-2">
-            <ScrollReveal>
-              <div className="flex h-full flex-col border border-white/10 bg-white/[0.03] p-8 md:p-10">
-                <span className="inline-flex h-12 w-12 items-center justify-center rounded-[3px] border border-gold-500/40 bg-gold-500/10">
-                  <Target className="h-5 w-5 text-gold-400" aria-hidden="true" />
-                </span>
-                <h2 className="mt-6 font-display text-2xl font-bold text-white">{t("about.vision.title")}</h2>
-                <p className="mt-4 leading-relaxed text-white/70">{t("about.vision.body")}</p>
-              </div>
-            </ScrollReveal>
-            <ScrollReveal delay={80}>
-              <div className="flex h-full flex-col border border-white/10 bg-white/[0.03] p-8 md:p-10">
-                <span className="inline-flex h-12 w-12 items-center justify-center rounded-[3px] border border-gold-500/40 bg-gold-500/10">
-                  <Compass className="h-5 w-5 text-gold-400" aria-hidden="true" />
-                </span>
-                <h2 className="mt-6 font-display text-2xl font-bold text-white">{t("about.mission.title")}</h2>
-                <p className="mt-4 leading-relaxed text-white/70">{t("about.mission.body")}</p>
-              </div>
-            </ScrollReveal>
-          </div>
+      {/* Vision */}
+      <section className="section-dark on-dark">
+        <div className="container-x">
+          <ScrollReveal className="max-w-4xl">
+            <p className="eyebrow">{t("about.vision.overline")}</p>
+            <p className="mt-6 text-balance font-serif text-3xl leading-snug text-white md:text-[2.6rem]">
+              {t("about.vision.body")}
+            </p>
+          </ScrollReveal>
         </div>
       </section>
 
       {/* Values */}
       <section className="section bg-white">
         <div className="container-x">
-          <SectionHeading
-            align="center"
-            overline={t("about.values.overline")}
-            title={t("about.values.title")}
-            body={t("about.values.subtitle")}
-          />
-          <div className="mt-14 grid gap-px overflow-hidden rounded-[3px] border border-mist-200 bg-mist-200 sm:grid-cols-2 lg:grid-cols-3">
+          <SectionHeading overline={t("about.values.overline")} title={t("about.values.title")} />
+          <div className="mt-14 grid gap-x-10 gap-y-12 md:grid-cols-3">
             {values.map((v, i) => (
-              <ScrollReveal key={v.title} delay={(i % 3) * 60}>
-                <div className="h-full bg-white p-8">
-                  <span className="font-display text-3xl font-extrabold text-mist-200">
-                    {String(i + 1).padStart(2, "0")}
-                  </span>
-                  <h3 className="mt-4 font-display text-lg font-bold text-ink-900">{v.title}</h3>
-                  <p className="mt-2 text-sm leading-relaxed text-mist-500">{v.body}</p>
-                </div>
+              <ScrollReveal key={v.title} delay={i * 60}>
+                <h3 className="font-serif text-2xl font-normal leading-snug text-ink-900">{v.title}</h3>
+                <p className="mt-3 text-base leading-relaxed text-mist-600">{v.body}</p>
               </ScrollReveal>
             ))}
           </div>
@@ -127,7 +101,7 @@ export default function AboutPage() {
             <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
               {publishedTeam.map((m, i) => (
                 <ScrollReveal key={m.id} delay={(i % 4) * 60}>
-                  <div className="group overflow-hidden rounded-[3px] border border-mist-200 bg-white transition-shadow duration-300 hover:shadow-cardhover">
+                  <div className="group overflow-hidden rounded-card border border-mist-200 bg-white transition-shadow duration-300 hover:border-ink-900/25">
                     <div className="relative aspect-[3/4] overflow-hidden">
                       {m.photo ? (
                         <Media
@@ -138,7 +112,7 @@ export default function AboutPage() {
                         />
                       ) : (
                         <div className="flex h-full w-full flex-col items-center justify-center gap-4 bg-mist-100 px-6 text-center">
-                          <span className="font-display text-4xl font-extrabold tracking-[0.18em] text-ink-900/25">
+                          <span className="font-serif text-4xl tracking-[0.12em] text-ink-900/30">
                             {initialsOf(tx(m.name, lang))}
                           </span>
                           <span className="h-px w-10 bg-gold-500/60" aria-hidden="true" />
@@ -146,7 +120,7 @@ export default function AboutPage() {
                       )}
                     </div>
                     <div className="p-5">
-                      <h3 className="font-display text-base font-bold text-ink-900">{tx(m.name, lang)}</h3>
+                      <h3 className="font-display text-base font-semibold text-ink-900">{tx(m.name, lang)}</h3>
                       <p className="mt-1 font-display text-sm font-semibold text-gold-600">{tx(m.role, lang)}</p>
                       <p className="mt-2 line-clamp-3 text-xs leading-relaxed text-mist-500">{tx(m.bio, lang)}</p>
                     </div>

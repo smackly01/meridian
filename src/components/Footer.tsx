@@ -58,7 +58,7 @@ export function Footer() {
           {/* Brand */}
           <div className="md:col-span-2 lg:col-span-4">
             <div className="inline-flex items-center">
-              <img src="/logo.jpeg" alt="Fil Investment Group" className="h-12 w-auto" />
+              <img src="/logo-white.png" alt="Fil Investment Group" width="980" height="302" className="h-14 w-auto" />
             </div>
             <p className="mt-5 max-w-sm text-sm leading-relaxed text-white/60">
               {t("footer.tagline")}

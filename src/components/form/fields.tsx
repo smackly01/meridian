@@ -90,7 +90,7 @@ export function Select({
   return (
     <FieldShell label={label} htmlFor={props.id ?? ""} error={error} required={required} hint={hint}>
       <select
-        className={cn(inputCls(error), "appearance-none bg-[url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%2212%22%20height=%228%22%3E%3Cpath%20d=%22M1%201l5%205%205-5%22%20stroke=%22%23556276%22%20stroke-width=%221.5%22%20fill=%22none%22/%3E%3C/svg%3E')] bg-[position:right_1rem_center] bg-no-repeat pr-10", className)}
+        className={cn(inputCls(error), "field-select", className)}
         aria-invalid={error ? true : undefined}
         aria-describedby={error ? `${props.id}-error` : undefined}
         required={required}

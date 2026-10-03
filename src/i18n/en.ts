@@ -1,44 +1,44 @@
 ﻿export const en = {
   meta: {
     home: {
-      title: "Fil Investment Group - Development of infrastructure projects",
+      title: "Fil Investment Group - Infrastructure project development and finance in Africa",
       description:
-        "We identify the strategic needs of territories and transform them into structured, financed and deliverable infrastructure projects, primarily in Africa.",
+        "We develop, structure and finance public infrastructure projects in Africa: transport, energy, water, digital.",
     },
     about: {
       title: "About - Fil Investment Group",
       description:
-        "Our history, our vision, our mission, our values and our team.",
+        "An infrastructure project development team based in Africa: our story, how we work and the people behind the projects.",
     },
     expertise: {
-      title: "Expertise - Fil Investment Group",
+      title: "Developing, structuring and financing projects - Fil Investment Group",
       description:
-        "Project development, structuring, financing and partner mobilisation.",
+        "Development, legal and financial structuring, fundraising and partner mobilisation: the four steps that make an infrastructure project happen.",
     },
     sectors: {
       title: "Sectors - Fil Investment Group",
       description:
-        "Transport, energy, water, digital and telecommunications.",
+        "We develop public infrastructure projects in four sectors: transport, energy, water, digital and telecommunications.",
     },
     projects: {
       title: "Projects - Fil Investment Group",
       description:
-        "An overview of our projects and our role in their structuring, financing and delivery.",
+        "Public infrastructure projects we have developed, structured or financed, by sector and by country.",
     },
     partners: {
       title: "Partners - Fil Investment Group",
       description:
-        "The ecosystem of institutional, financial and technical partners we mobilise.",
+        "Public project owners, development banks, funds and technical partners: the players we bring together around each project.",
     },
     news: {
       title: "News - Fil Investment Group",
       description:
-        "News, events, conferences and analysis on infrastructure project development.",
+        "Our announcements and our analysis of infrastructure finance in Africa.",
     },
     contact: {
       title: "Contact - Fil Investment Group",
       description:
-        "Get in touch with our team to discuss a partnership or a project.",
+        "Tell us about an infrastructure project: country, sector, stage. Your information stays confidential.",
     },
     notFound: {
       title: "Page not found - Fil Investment Group",
@@ -97,22 +97,21 @@
       "Fil Investment Group's full partner ecosystem is presented on the Partners page.",
   },
   hero: {
-    overline: "Development · Financing · Delivery",
-    title: "Building today the infrastructure of tomorrow.",
+    overline: "Project development · Structuring · Financing",
+    title: "We turn an infrastructure need into a fundable project.",
     subtitle:
-      "We develop and structure strategic infrastructure projects, bringing together the expertise, financing and partners needed to make them happen.",
-    ctaSecondary: "Discover our expertise",
-    scroll: "Discover",
+      "We develop and structure public infrastructure projects in Africa, all the way to financing.",
+    ctaSecondary: "See how we work",
   },
   intro: {
-    overline: "Our purpose",
-    title: "Turning strategic needs into concrete projects.",
-    body: "We identify the infrastructure territories need to grow, then help shape it into projects that are structured, financed and ready to be delivered.",
+    overline: "Our role",
+    title: "A project developer, not a contractor or a lender.",
+    body: "Many useful projects never get built. The need is real, but the file is not strong enough to convince a funder. That file is what we build. We do not carry out the works and we do not replace the banks. We make sure both can commit.",
     cta: "Discover our approach",
   },
   stats: {
-    overline: "Presence &amp; capacity",
-    title: "A capacity confirmed by practice",
+    overline: "In figures",
+    title: "Key figures",
     note: "Indicators consolidated as of 31 December 2025.",
     items: [
       { value: "12", label: "Projects developed" },
@@ -124,91 +123,75 @@
   },
   homeSectors: {
     overline: "Sectors",
-    title: "Infrastructure essential to development",
+    title: "Four sectors, one method.",
     subtitle:
-      "We work across the sectors that build African economies - transport, energy, water, digital and telecommunications.",
+      "Transport, energy, water, digital: the public networks and facilities a country's economy depends on.",
     cta: "All sectors",
   },
   approach: {
     overline: "Our approach",
-    title: "A transformation journey, from need to impact",
+    title: "From stated need to completed project.",
     subtitle:
-      "Every project follows a rigorous path that turns a territorial aspiration into operational infrastructure.",
+      "Every project follows the same path. We work across all of it, or only on the step where the project is stuck.",
     steps: [
       {
         title: "Identify",
-        body: "Identify strategic needs and opportunities.",
+        body: "Spot the needs already written into public plans and the opportunities that can become projects.",
       },
       {
         title: "Study",
-        body: "Assess technical, legal, financial and operational feasibility.",
+        body: "Check technical, legal, economic and financial feasibility before going further.",
       },
       {
         title: "Structure",
-        body: "Define the economic, legal and operational model.",
+        body: "Choose the deal structure, build the financial model, allocate risks between the parties.",
       },
       {
         title: "Finance",
-        body: "Mobilise banks, investors, funds and financial institutions.",
+        body: "Build the financing plan and secure firm commitments from banks, funds and institutions.",
       },
       {
         title: "Mobilise",
-        body: "Bring together technical and operational partners.",
+        body: "Bring in the technical partners: engineering firm, EPC contractor, operator.",
       },
       {
         title: "Deliver",
-        body: "Support implementation and delivery of the project.",
+        body: "Follow the project through to commissioning, then hand it over to the public owner.",
       },
-    ],
-    journey: [
-      "Need",
-      "Project",
-      "Structure",
-      "Finance",
-      "Partners",
-      "Delivery",
-      "Impact",
     ],
   },
   finance: {
     overline: "Project finance",
-    title: "Mobilising the capital required for strategic projects.",
+    title: "Financing is where most projects stall.",
     subtitle:
-      "We structure projects so they are bankable and mobilise capital suited to their scale.",
+      "We prepare the project so that a bank, a fund or a development institution can say yes: a documented request, risks allocated, a sound business model.",
+    pointsTitle: "The funders we work with",
     points: [
       "Banks",
       "Investment funds",
       "Private investors",
-      "International financial institutions",
+      "Development finance institutions",
       "Public partners",
     ],
-    flowTitle: "Our financing chain",
-    flow: [
-      "Project",
-      "Structuring",
-      "Financial analysis",
-      "Financing",
-      "Delivery",
-    ],
-    cta: "Talk about your project",
+    cta: "Discuss a project to finance",
   },
   homeProjects: {
     overline: "Projects",
-    title: "Projects designed for impact",
+    title: "Projects we have led.",
     subtitle:
-      "A glimpse of how we develop, structure and finance strategic infrastructure.",
+      "For each project, our role is spelled out: what we did, with whom, and what the project made possible.",
     viewAll: "All projects",
     statusLabel: "Status",
     confidentialTitle: "Confidential strategic project",
     confidentialBody: "Project currently in the structuring phase.",
   },
   africa: {
-    overline: "African presence",
-    title: "At the heart of the markets shaping tomorrow's Africa.",
+    overline: "Presence",
+    title: "Where we work.",
     subtitle:
-      "We focus on markets where infrastructure needs have the greatest impact on development.",
-    legend: "Countries of presence",
-    note: "Confirmed operational presence in the countries where we develop and structure projects.",
+      "We concentrate on a limited number of countries, where we know the public counterparts and the active lenders.",
+    legend: "Countries where we work",
+    note: "Countries where we develop or follow projects.",
     hint: "Click a point to view details.",
     close: "Close",
     noProjects: "Projects currently being structured.",
@@ -244,21 +227,21 @@
   },
   gallery: {
     overline: "In the field",
-    title: "Partnerships built on the ground.",
+    title: "Meetings, signings, site visits.",
     subtitle:
-      "Institutional meetings, conferences, signatures and project visits: the company's presence is built through direct relationships with its partners.",
+      "An infrastructure project moves forward through meetings first: with ministries, lenders and technical teams.",
     example: "Institutional meeting on the development of strategic infrastructure.",
     viewMore: "View the gallery",
   },
   ctaBanner: {
-    title: "Do you have a strategic infrastructure project?",
-    body: "Tell us about your project. Our team will look at its potential and explore the options for structuring, financing and delivering it.",
+    title: "A project to develop or finance?",
+    body: "Send us a few lines: the country, the sector, where the project stands. We will tell you plainly whether we can help.",
   },
   about: {
     hero: {
       overline: "About",
-      title: "An international organisation at the service of territories.",
-      body: "We support governments, institutions and project sponsors in the development of strategic infrastructure.",
+      title: "Why Fil Investment Group exists.",
+      body: "We carry public infrastructure projects through to financing: the long, technical work that separates a decision from a construction site.",
     },
     story: {
       overline: "Our story",
@@ -270,110 +253,93 @@
     },
     vision: {
       overline: "Our vision",
-      title: "A long-term vision",
-      body: "We believe in an Africa where every territory has the infrastructure it needs to grow, create jobs and improve the lives of its people. We believe in projects carried out by the countries and for the countries, through long-lasting partnerships between public and private players.",
-    },
-    mission: {
-      overline: "Our mission",
-      title: "Our role",
-      body: "Our mission is to turn the strategic needs of territories into concrete infrastructure projects - identifying and developing opportunities, structuring solid, bankable deals, mobilising financing and bringing together the partners who can deliver them.",
+      body: "We want more public projects to reach financing, without countries losing control of them.",
     },
     values: {
-      overline: "Our values",
-      title: "Consistent principles",
-      subtitle: "These values guide every decision we make and every relationship we build.",
+      overline: "How we work",
+      title: "How we work",
       items: [
-        { title: "Integrity", body: "Transparency and ethics in every commitment." },
-        { title: "Excellence", body: "The highest standard in every project." },
-        { title: "Impact", body: "Infrastructure that durably transforms territories." },
-        { title: "Partnership", body: "Trust and cooperation between players." },
-        { title: "Innovation", body: "Solutions adapted to ground realities." },
-        { title: "Responsibility", body: "Prudent management of resources and commitments." },
+        {
+          title: "We say no when a project is not ready.",
+          body: "A poorly prepared file costs everyone time and credibility. If we see no path to financing, we say so in the first conversation.",
+        },
+        {
+          title: "Your documents stay confidential.",
+          body: "What you send us is used only to assess the project. Nothing is shared outside the team that handles it.",
+        },
+        {
+          title: "The project stays in the country.",
+          body: "We work for public project owners. The structure, the contracts and the assets belong to them. Our role ends when the project stands on its own.",
+        },
       ],
     },
     team: {
       overline: "Our team",
-      title: "The women and men of the company",
+      title: "The people behind the projects.",
       subtitle:
-        "A multidisciplinary team rooted in Africa, combining project development, financial engineering, legal advisory and institutional relations.",
+        "Project development, financial engineering, public contract law, institutional relations.",
       memberNote: "Fil Investment Group team",
     },
   },
   expertise: {
     hero: {
       overline: "Expertise",
-      title: "A complete command of the project cycle.",
-      body: "From the identification of needs to the mobilisation of financing, we master every stage of an infrastructure project's lifecycle.",
+      title: "What we do, step by step.",
+      body: "An infrastructure project goes through four steps before it is built. We work on all four, or on just one if the project is already under way.",
     },
     labels: {
       problem: "Problem",
       approach: "Our approach",
-      expertise: "Our expertise",
-      outcome: "Expected outcome",
+      expertise: "What we do",
+      outcome: "What you get",
     },
     items: [
       {
         title: "Project development",
-        problem:
-          "Many strategic needs never become projects for lack of identification and structuring.",
-        approach:
-          "We identify opportunities, assess their relevance and turn them into documented, credible projects.",
-        expertise:
-          "Strategic watch, opportunity identification, scoping, preliminary studies, project file preparation.",
-        outcome:
-          "A portfolio of strategic projects ready to be studied and structured.",
+        problem: "A need written into a national plan is not yet a project. It has to be scoped, checked for economic soundness and documented.",
+        approach: "We start from the priorities already set by the government or the operator, then define the scope, the order of magnitude of costs and the expected demand.",
+        expertise: "Scoping, initial feasibility studies, cost and demand estimates, project presentation file.",
+        outcome: "A file clear enough to put before an investment committee or a lender.",
       },
       {
         title: "Project structuring",
-        problem:
-          "Without a sound structure, a project can neither convince financiers nor be delivered under control.",
-        approach:
-          "We define the economic, legal and operational model that makes the project bankable and deliverable.",
-        expertise:
-          "Legal structuring, economic model, risk analysis, contractual structuring, public-private partnerships.",
-        outcome:
-          "A structured, documented and bankable project with clear allocation of roles and risks.",
+        problem: "A funder does not commit to a good idea. It commits to a structure: who carries what, who pays for what, who takes which risk.",
+        approach: "We define the legal and economic structure (direct management, concession, public-private partnership) and allocate risks in a way each party can live with.",
+        expertise: "Choice of structure, financial model, risk matrix, draft contracts, tender preparation.",
+        outcome: "A bankable project: a structure that banks and investors recognise and agree to appraise.",
       },
       {
-        title: "Project financing",
-        problem:
-          "Mobilising capital is often the main obstacle to delivering infrastructure.",
-        approach:
-          "We design the financing plan and mobilise banks, investors and financial institutions.",
-        expertise:
-          "Financial engineering, financing structuring, due diligence, relationships with financing institutions.",
-        outcome:
-          "Financing mobilised and secured for the delivery of the project.",
+        title: "Project finance",
+        problem: "The right financing rarely comes from a single source. Sources with different rules and horizons have to be combined.",
+        approach: "We build the financing plan, target the lenders and investors suited to the project and the country, and lead the discussions through to commitment.",
+        expertise: "Financing plan, introductions to development banks, funds and lenders, due diligence responses, negotiation support.",
+        outcome: "Firm financing commitments, ready to be signed.",
       },
       {
         title: "Partner mobilisation",
-        problem:
-          "No single player delivers a major infrastructure project alone.",
-        approach:
-          "We bring together technical, industrial and operational partners around a clear, shared project.",
-        expertise:
-          "Partner identification and selection, negotiation, consortium coordination, delivery supervision.",
-        outcome:
-          "A complete, aligned and operational project team.",
+        problem: "No one delivers an infrastructure project alone: it takes an EPC contractor, an engineer, sometimes an operator.",
+        approach: "We identify credible technical partners for this project and this country, and bring them together around a shared specification.",
+        expertise: "Partner selection, competitive tendering, consortium coordination, follow-up until works begin.",
+        outcome: "A complete project team, with written roles and responsibilities.",
       },
     ],
   },
   sectorsPage: {
     hero: {
       overline: "Sectors",
-      title: "Working across the sectors that structure the economy.",
-      body: "From transport infrastructure to digital connectivity, we develop projects in the most structuring sectors.",
+      title: "The sectors we work in.",
+      body: "From roads to data networks, we develop projects in four sectors, always on public facilities and networks.",
     },
     subtitle: {
-      overline: "Our field of intervention",
+      overline: "Our field",
       title: "Public infrastructure",
-      body: "All our projects are public infrastructure. In each of the sectors below, we develop, structure and finance the facilities and networks that serve territories and their people.",
+      body: "All our projects are public infrastructure: networks and facilities financed in the public interest, owned by a government or a public operator.",
     },
     backToSectors: "All sectors",
     issuesTitle: "Sector issues",
     projectTypesTitle: "Project types",
     roleTitle: "Our role in this sector",
-    outcomesTitle: "Expected outcomes",
+    outcomesTitle: "What the project delivers",
     examplesTitle: "Examples of interventions",
     examplesIntro: "What we do in this sector",
     ctaTitle: "A project in this sector?",
@@ -382,8 +348,8 @@
   projectsPage: {
     hero: {
       overline: "Projects",
-      title: "Projects developed, financed and delivered.",
-      body: "The projects shown here reflect how we work at every stage of the infrastructure lifecycle.",
+      title: "Projects we have led.",
+      body: "At every step, our role is spelled out: what we did, with whom, and what the project made possible.",
     },
     filterAll: "All",
     filterSector: "Sector",
@@ -397,7 +363,7 @@
     sector: "Sector",
     status: "Status",
     role: "Our role",
-    impact: "Impact",
+    impact: "Result",
     description: "Description",
     confidentialNotice:
       "This project is confidential. The information provided reveals no sensitive data.",
@@ -414,8 +380,8 @@
   partnersPage: {
     hero: {
       overline: "Partners",
-      title: "An ecosystem of players at the service of projects.",
-      body: "We work with public, financial and technical partners to turn projects into reality.",
+      title: "Who we build projects with.",
+      body: "An infrastructure project brings together a public owner, funders and technical partners. Our job is to make them work together.",
     },
     categories: [
       {
@@ -451,16 +417,34 @@
     slotBody:
       "The logos of real partners will be integrated in these slots as soon as they are validated.",
     slotLabel: "[PARTNER NAME]",
-    soon: {
-      title: "Page under preparation",
-      body: "The list of our partners and their logos will be published here as soon as our partnership agreements are validated.",
+    families: {
+      overline: "Types of partners",
+      title: "Four types of partners around every project.",
+      items: [
+        {
+          title: "Public project owners",
+          body: "Governments, ministries, agencies and state-owned companies. They set the priority and remain the owners of the project.",
+        },
+        {
+          title: "Development banks and financial institutions",
+          body: "They provide the long-term and concessional financing that makes a public project sustainable.",
+        },
+        {
+          title: "Funds and private investors",
+          body: "They take equity risk on the most structured projects.",
+        },
+        {
+          title: "Technical partners",
+          body: "Engineering firms, EPC contractors, operators: they ensure the asset gets built and lasts.",
+        },
+      ],
     },
   },
   newsPage: {
     hero: {
       overline: "News",
-      title: "News from the company and the sector.",
-      body: "News, press releases, events and analysis on infrastructure project development.",
+      title: "News and analysis.",
+      body: "Progress on our projects, and our view on infrastructure finance in Africa.",
     },
     filters: {
       all: "All",
@@ -483,8 +467,8 @@
   contactPage: {
     hero: {
       overline: "Contact",
-      title: "Let's talk about your project or your partnership.",
-      body: "Our team will respond as soon as possible.",
+      title: "Let's talk about your project.",
+      body: "Tell us the country, the sector and where the project stands. We will tell you plainly whether we can help. What you send us stays confidential.",
     },
     infoTitle: "Contact details",
     addressLabel: "Address",
@@ -528,7 +512,7 @@
   },
   footer: {
     tagline:
-      "We develop, structure and finance strategic infrastructure projects, primarily in Africa.",
+      "We develop, structure and finance public infrastructure projects in Africa.",
     navTitle: "Navigation",
     sectorsTitle: "Sectors",
     contactTitle: "Contact",
@@ -537,31 +521,31 @@
     privacy: "Privacy policy",
     language: "Language",
     sitemap: "Sitemap",
-    statement: "Building the infrastructure that shapes tomorrow.",
+    statement: "The work between a public decision and financing.",
     rights: "All rights reserved.",
   },
   sitemapPage: {
     overline: "Sitemap",
     title: "Every page of the site, in one place.",
-    body: "A complete overview of Fil Investment Group's pages: the company, its expertise, the sectors, the projects, the partners, the news and contact.",
+    body: "Every page of the Fil Investment Group site, grouped by section.",
     mainTitle: "Main pages",
     infoTitle: "Information",
     desc: {
-      home: "Home and a general introduction to Fil Investment Group.",
-      about: "The company, its history, vision and mission.",
-      expertise: "Our approach, financing model and portfolio.",
-      sectors: "Our sectors of intervention: transport, energy, water, digital.",
-      projects: "Projects developed, structured and financed.",
-      partners: "Our ecosystem of institutional and financial partners.",
-      news: "News, events and sector analyses.",
-      contact: "How to get in touch with our team.",
-      legal: "Website publisher, hosting and liability.",
-      privacy: "Collection, use and protection of your personal data.",
+      home: "What we do, for whom, and how to reach us.",
+      about: "Why the company exists, how it works, who is behind it.",
+      expertise: "The four steps: develop, structure, finance, mobilise.",
+      sectors: "Transport, energy, water, digital: always public infrastructure.",
+      projects: "What we have led, and our role at each step.",
+      partners: "The players we bring together around a project.",
+      news: "Progress on our projects and our analysis.",
+      contact: "Present a project or a partnership.",
+      legal: "Publisher, host, liability.",
+      privacy: "What happens to your data.",
     },
   },
   notFound: {
-    title: "Page not found",
-    body: "The page you are looking for does not exist or has been moved.",
+    title: "This page does not exist, or no longer does.",
+    body: "The link may be out of date. Start again from the home page.",
     action: "Back to home",
   },
   legalPage: {

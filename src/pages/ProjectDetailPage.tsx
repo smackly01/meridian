@@ -1,5 +1,5 @@
 ﻿import { Link, useParams, Navigate } from "react-router-dom";
-import { ArrowLeft, ArrowRight, MapPin, Lock } from "lucide-react";
+import { ArrowLeft, ArrowRight, Lock } from "lucide-react";
 import { useI18n } from "@/i18n";
 import { Seo, breadcrumbJsonLd } from "@/components/Seo";
 import { StatusBadge } from "@/components/ProjectCard";
@@ -9,7 +9,6 @@ import { CtaBanner } from "@/components/CtaBanner";
 import { projects } from "@/data/projects";
 import { sectors } from "@/data/sectors";
 import { tx } from "@/lib/utils";
-import { getIcon } from "@/lib/icons";
 
 export default function ProjectDetailPage() {
   const { slug } = useParams();
@@ -22,7 +21,6 @@ export default function ProjectDetailPage() {
   }
 
   const sector = sectors.find((s) => s.id === project.sector);
-  const Icon = sector ? getIcon(sector.icon) : null;
   const next = projects[(index + 1) % projects.length];
   const title = tx(project.title, lang);
 
@@ -48,11 +46,10 @@ export default function ProjectDetailPage() {
 
       {/* Hero */}
       <section className="relative overflow-hidden bg-ink-900 pb-16 pt-36 md:pb-20 md:pt-44">
-        <div className="absolute inset-0 bg-grid-dark" aria-hidden="true" />
         <div className="container-x relative">
           <Link
             to={localize("/projets")}
-            className="overline on-dark inline-flex items-center gap-2 hero-anim hover:text-gold-300"
+            className="eyebrow on-dark inline-flex items-center gap-2 hero-anim hover:text-gold-300"
             style={{ animationDelay: "0.05s" }}
           >
             <ArrowLeft className="h-3.5 w-3.5" aria-hidden="true" />
@@ -76,7 +73,6 @@ export default function ProjectDetailPage() {
           <div className="mt-6 flex flex-wrap gap-x-8 gap-y-3 hero-anim" style={{ animationDelay: "0.2s" }}>
             {meta.map((m) => (
               <span key={m.label} className="flex items-center gap-2 text-sm text-white/65">
-                <MapPin className="h-4 w-4 text-gold-400" aria-hidden="true" />
                 <span className="font-display text-xs font-bold uppercase tracking-wider text-white/40">
                   {m.label}
                 </span>
@@ -96,7 +92,7 @@ export default function ProjectDetailPage() {
               alt={title}
               label={project.confidential ? t("homeProjects.confidentialTitle") : title}
               icon={sector?.icon}
-              className="aspect-[21/9] w-full rounded-[3px]"
+              className="aspect-[21/9] w-full rounded-card"
             />
           </ScrollReveal>
         </div>
@@ -123,7 +119,7 @@ export default function ProjectDetailPage() {
                       key={i}
                       src={img}
                       alt={`${title} ${i + 1}`}
-                      className="aspect-[16/10] w-full rounded-[3px]"
+                      className="aspect-[16/10] w-full rounded-card"
                     />
                   ))}
                 </div>
@@ -133,26 +129,21 @@ export default function ProjectDetailPage() {
 
           <aside className="lg:col-span-4">
             <div className="space-y-5 lg:sticky lg:top-28">
-              <div className="rounded-[3px] border border-mist-200 bg-mist-50 p-6">
-                <div className="flex items-center gap-3">
-                  {Icon && <Icon className="h-6 w-6 text-gold-600" strokeWidth={1.5} aria-hidden="true" />}
-                  <h3 className="font-display text-lg font-bold text-ink-900">
-                    {t("projectDetail.impact")}
-                  </h3>
-                </div>
+              <div className="rounded-card border border-mist-200 bg-mist-50 p-6">
+                <h3 className="eyebrow">{t("projectDetail.impact")}</h3>
                 <p className="mt-4 text-sm leading-relaxed text-mist-600">
                   {tx(project.impact, lang)}
                 </p>
               </div>
               <Link
                 to={localize(`/projets/${next.slug}`)}
-                className="group flex items-center justify-between rounded-[3px] border border-mist-200 bg-white p-5 transition-colors hover:border-gold-500/50"
+                className="group flex items-center justify-between rounded-card border border-mist-200 bg-white p-5 transition-colors hover:border-gold-500/50"
               >
                 <div>
                   <p className="font-display text-xs font-bold uppercase tracking-wider text-mist-400">
                     {t("projectDetail.nextProject")}
                   </p>
-                  <p className="mt-1 font-display text-sm font-bold text-ink-900">
+                  <p className="mt-1 font-display text-sm font-semibold text-ink-900">
                     {tx(next.title, lang)}
                   </p>
                 </div>

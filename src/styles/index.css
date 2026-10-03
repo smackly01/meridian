@@ -2,11 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Self-hosted variable fonts (latin subset covers FR/EN/PT). CSP allows font-src 'self'. */
+@font-face {
+  font-family: "Instrument Sans";
+  font-style: normal;
+  font-weight: 400 600;
+  font-display: swap;
+  src: url("/fonts/instrument-sans-latin.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Newsreader";
+  font-style: normal;
+  font-weight: 400 500;
+  font-display: swap;
+  src: url("/fonts/newsreader-latin.woff2") format("woff2");
+}
+
 @layer base {
   :root {
     color-scheme: light;
-    --font-display: "DM Sans", system-ui, sans-serif;
-    --font-sans: "DM Sans", system-ui, sans-serif;
+    /* Cards, panels and images. Buttons, fields and badges stay at 3px. */
+    --radius-card: 10px;
     --navy-800: #0a1b33;
   }
 
@@ -25,7 +41,6 @@
 
   body {
     @apply font-sans text-mist-800 bg-white;
-    font-feature-settings: "cv02", "cv03", "cv04", "ss01";
   }
 
   ::selection {
@@ -39,30 +54,35 @@
   }
 
   h1,
-  h2,
+  h2 {
+    @apply font-serif font-normal text-ink-900;
+  }
   h3,
   h4 {
-    @apply font-display font-bold text-ink-900;
+    @apply font-display font-semibold text-ink-900;
   }
 
   /* Typographic hierarchy */
   .t-display {
-    @apply font-display font-extrabold tracking-tight text-ink-900;
-    font-size: clamp(2.5rem, 5.2vw, 4.5rem);
-    line-height: 1.02;
+    @apply font-serif font-normal text-ink-900;
+    font-size: clamp(2.5rem, 4.6vw, 4.25rem);
+    line-height: 1.04;
+    letter-spacing: -0.02em;
   }
   .t-h1 {
-    @apply font-display font-extrabold tracking-tight text-ink-900;
-    font-size: clamp(2rem, 3.8vw, 3.25rem);
+    @apply font-serif font-normal text-ink-900;
+    font-size: clamp(2.1rem, 4vw, 3.4rem);
     line-height: 1.08;
+    letter-spacing: -0.015em;
   }
   .t-h2 {
-    @apply font-display font-bold tracking-tight text-ink-900;
-    font-size: clamp(1.6rem, 2.8vw, 2.4rem);
-    line-height: 1.15;
+    @apply font-serif font-normal text-ink-900;
+    font-size: clamp(1.75rem, 3vw, 2.6rem);
+    line-height: 1.12;
+    letter-spacing: -0.01em;
   }
   .t-h3 {
-    @apply font-display font-bold text-ink-900;
+    @apply font-display font-semibold text-ink-900;
     font-size: clamp(1.2rem, 1.8vw, 1.45rem);
     line-height: 1.3;
   }
@@ -101,16 +121,14 @@
     color: rgba(221, 228, 236, 0.82);
   }
 
-  /* Overline label */
-  .overline {
-    @apply font-display font-semibold uppercase tracking-overline text-xs text-gold-500;
+  /* Overline label: quiet, gold is reserved for actions */
+  .eyebrow,
+  .eyebrow-on-light {
+    @apply font-display font-medium uppercase tracking-overline text-[0.7rem] text-mist-500;
   }
-  .on-dark .overline,
-  .overline.on-dark {
-    color: #d4af6a;
-  }
-  .overline-on-light {
-    @apply font-display font-semibold uppercase tracking-overline text-xs text-gold-600;
+  .on-dark .eyebrow,
+  .eyebrow.on-dark {
+    color: rgba(255, 255, 255, 0.55);
   }
 
   /* Hairline */
@@ -164,6 +182,11 @@
 
   .field {
     @apply w-full rounded-sm border border-mist-300 bg-white px-4 py-3 text-sm text-ink-900 placeholder:text-mist-400 transition-colors focus:border-ink-700 focus:outline-none focus:ring-2 focus:ring-ink-700/10;
+  }
+  .field-select {
+    @apply field cursor-pointer appearance-none bg-no-repeat pr-11 font-display font-medium hover:border-ink-900/40;
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%230E2440' stroke-width='1.5' fill='none'/%3E%3C/svg%3E");
+    background-position: right 1rem center;
   }
   .field-label {
     @apply mb-1.5 block font-display text-sm font-semibold text-ink-800;
@@ -325,20 +348,11 @@
 }
 
 @layer utilities {
+  .rounded-card {
+    border-radius: var(--radius-card);
+  }
   .text-balance {
     text-wrap: balance;
-  }
-  .bg-grid-dark {
-    background-image:
-      linear-gradient(rgba(255, 255, 255, 0.035) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(255, 255, 255, 0.035) 1px, transparent 1px);
-    background-size: 56px 56px;
-  }
-  .bg-grid-light {
-    background-image:
-      linear-gradient(rgba(8, 20, 38, 0.045) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(8, 20, 38, 0.045) 1px, transparent 1px);
-    background-size: 56px 56px;
   }
   .no-scrollbar::-webkit-scrollbar {
     display: none;

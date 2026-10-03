@@ -13,9 +13,8 @@ export default function NotFoundPage() {
         description={t("meta.notFound.description")}
         path="/"
       />
-      <div className="absolute inset-0 bg-grid-dark" aria-hidden="true" />
       <div className="container-x relative py-32 text-center">
-        <p className="font-display text-8xl font-extrabold text-gold-500/25 md:text-9xl">404</p>
+        <p className="font-serif text-7xl text-white/25 md:text-8xl">404</p>
         <h1 className="on-dark t-h1 mt-4">{t("notFound.title")}</h1>
         <p className="on-dark mx-auto mt-4 max-w-md text-lg text-white/70">{t("notFound.body")}</p>
         <div className="mt-9 flex justify-center">

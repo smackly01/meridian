@@ -51,11 +51,10 @@ export default function ArticlePage() {
 
       {/* Hero */}
       <section className="relative overflow-hidden bg-ink-900 pb-16 pt-36 md:pt-44">
-        <div className="absolute inset-0 bg-grid-dark" aria-hidden="true" />
         <div className="container-x relative max-w-4xl">
           <Link
             to={localize("/actualites")}
-            className="overline on-dark inline-flex items-center gap-2 hover:text-gold-300"
+            className="eyebrow on-dark inline-flex items-center gap-2 hover:text-gold-300"
           >
             <ArrowLeft className="h-3.5 w-3.5" aria-hidden="true" />
             {t("articlePage.backToNews")}
@@ -89,7 +88,7 @@ export default function ArticlePage() {
               src={article.image}
               alt={title}
               label={t("newsPage.hero.overline")}
-              className="aspect-[21/10] w-full rounded-[3px]"
+              className="aspect-[21/10] w-full rounded-card"
             />
           </ScrollReveal>
         </div>

@@ -1,37 +1,37 @@
 ﻿export const pt = {
   meta: {
     home: {
-      title: "Fil Investment Group - Desenvolvimento de projetos de infraestrutura",
+      title: "Fil Investment Group - Desenvolvimento e financiamento de projetos de infraestrutura em África",
       description:
-        "Identificamos as necessidades estratégicas dos territórios e as transformamos em projetos de infraestrutura estruturados, financiados e realizáveis, principalmente em África.",
+        "Desenvolvemos, estruturamos e financiamos projetos de infraestruturas públicas em África: transportes, energia, água, digital.",
     },
     about: {
       title: "Sobre - Fil Investment Group",
-      description: "A nossa história, a nossa visão, a nossa missão, os nossos valores e a nossa equipa.",
+      description: "Uma equipa de desenvolvimento de projetos de infraestrutura baseada em África: a nossa história, a nossa forma de trabalhar e as pessoas que conduzem os dossiês.",
     },
     expertise: {
-      title: "Expertise - Fil Investment Group",
-      description: "Desenvolvimento, estruturação e financiamento de projetos e mobilização de parceiros.",
+      title: "Desenvolver, estruturar e financiar projetos - Fil Investment Group",
+      description: "Desenvolvimento, estruturação jurídica e financeira, angariação de financiamento e mobilização de parceiros: as quatro etapas que tornam um projeto de infraestrutura realizável.",
     },
     sectors: {
       title: "Setores - Fil Investment Group",
-      description: "Transportes, energia, água, digital e telecomunicações.",
+      description: "Desenvolvemos projetos de infraestruturas públicas em quatro setores: transportes, energia, água, digital e telecomunicações.",
     },
     projects: {
       title: "Projetos - Fil Investment Group",
-      description: "Uma visão geral dos nossos projetos e do nosso papel na sua estruturação, financiamento e realização.",
+      description: "Projetos de infraestruturas públicas que desenvolvemos, estruturámos ou financiámos, por setor e por país.",
     },
     partners: {
       title: "Parceiros - Fil Investment Group",
-      description: "O ecossistema de parceiros institucionais, financeiros e técnicos que mobilizamos.",
+      description: "Donos de obra públicos, bancos de desenvolvimento, fundos e parceiros técnicos: os atores que reunimos em torno de cada projeto.",
     },
     news: {
       title: "Notícias - Fil Investment Group",
-      description: "Notícias, eventos, conferências e análises sobre o desenvolvimento de projetos de infraestrutura.",
+      description: "Os nossos comunicados e as nossas análises sobre o financiamento de infraestruturas em África.",
     },
     contact: {
       title: "Contacto - Fil Investment Group",
-      description: "Contacte a nossa equipa para discutir uma parceria ou um projeto.",
+      description: "Apresente-nos um projeto de infraestrutura: país, setor, fase. As suas informações permanecem confidenciais.",
     },
     notFound: {
       title: "Página não encontrada - Fil Investment Group",
@@ -90,22 +90,21 @@
       "O ecossistema completo de parceiros da Fil Investment Group é apresentado na página Parceiros.",
   },
   hero: {
-    overline: "Desenvolvimento · Financiamento · Realização",
-    title: "Construir hoje as infraestruturas de amanhã.",
+    overline: "Desenvolvimento de projetos · Estruturação · Financiamento",
+    title: "Transformamos uma necessidade de infraestrutura num projeto financiável.",
     subtitle:
-      "Desenvolvemos e estruturamos projetos de infraestruturas estratégicas, reunindo a expertise, os financiamentos e os parceiros que os tornam possíveis.",
-    ctaSecondary: "Descobrir a nossa expertise",
-    scroll: "Descobrir",
+      "Desenvolvemos e estruturamos projetos de infraestruturas públicas em África, até ao financiamento.",
+    ctaSecondary: "Ver como trabalhamos",
   },
   intro: {
-    overline: "A nossa razão de ser",
-    title: "Transformar necessidades estratégicas em projetos concretos.",
-    body: "Identificamos as infraestruturas de que os territórios precisam para se desenvolver e ajudamos a transformá-las em projetos estruturados, financiados e realizáveis.",
+    overline: "O nosso papel",
+    title: "Um promotor de projetos, não um construtor nem um credor.",
+    body: "Muitos projetos úteis nunca chegam a ver a luz do dia: a necessidade é real, mas o dossiê não é suficientemente sólido para convencer um financiador. É esse dossiê que construímos. Não executamos as obras e não substituímos os bancos. Fazemos com que uns e outros se possam comprometer.",
     cta: "Descobrir a nossa abordagem",
   },
   stats: {
-    overline: "Presença &amp; capacidade",
-    title: "Uma capacidade confirmada pela prática",
+    overline: "Em números",
+    title: "Alguns marcos",
     note: "Indicadores consolidados a 31 de dezembro de 2025.",
     items: [
       { value: "12", label: "Projetos desenvolvidos" },
@@ -117,91 +116,75 @@
   },
   homeSectors: {
     overline: "Setores de intervenção",
-    title: "Infraestruturas essenciais ao desenvolvimento",
+    title: "Quatro setores, um mesmo método.",
     subtitle:
-      "Intervenimos nos setores que constroem a economia africana - transportes, energia, água, digital e telecomunicações.",
+      "Transportes, energia, água, digital: as redes e os equipamentos públicos de que depende a atividade de um país.",
     cta: "Todos os setores",
   },
   approach: {
     overline: "A nossa abordagem",
-    title: "Um percurso de transformação, da necessidade ao impacto",
+    title: "Da necessidade expressa ao projeto realizado.",
     subtitle:
-      "Cada projeto segue um percurso rigoroso que transforma uma aspiração territorial em infraestrutura operacional.",
+      "Cada projeto segue o mesmo caminho. Intervimos em todo o percurso, ou apenas na etapa em que o projeto está bloqueado.",
     steps: [
       {
         title: "Identificar",
-        body: "Identificar as necessidades estratégicas e as oportunidades.",
+        body: "Detetar as necessidades já inscritas nos planos públicos e as oportunidades que podem tornar-se projetos.",
       },
       {
         title: "Estudar",
-        body: "Analisar a viabilidade técnica, jurídica, financeira e operacional.",
+        body: "Verificar a viabilidade técnica, jurídica, económica e financeira antes de avançar.",
       },
       {
         title: "Estruturar",
-        body: "Definir o modelo económico, jurídico e operacional.",
+        body: "Escolher a montagem, construir o modelo financeiro, repartir os riscos entre as partes.",
       },
       {
         title: "Financiar",
-        body: "Mobilizar bancos, investidores, fundos e instituições financeiras.",
+        body: "Construir o plano de financiamento e obter compromissos firmes de bancos, fundos e instituições.",
       },
       {
         title: "Mobilizar",
-        body: "Reunir os parceiros técnicos e operacionais.",
+        body: "Reunir os parceiros técnicos: gabinete de estudos, empreiteiro geral, operador.",
       },
       {
         title: "Realizar",
-        body: "Acompanhar a implementação e a realização do projeto.",
+        body: "Acompanhar o projeto até à entrada em serviço e depois passar o testemunho ao dono de obra.",
       },
-    ],
-    journey: [
-      "Necessidade",
-      "Projeto",
-      "Estrutura",
-      "Finanças",
-      "Parceiros",
-      "Realização",
-      "Impacto",
     ],
   },
   finance: {
-    overline: "Project finance",
-    title: "Mobilizar o capital necessário aos projetos estratégicos.",
+    overline: "Financiamento de projetos",
+    title: "O financiamento é a etapa em que a maioria dos projetos para.",
     subtitle:
-      "Estruturamos os projetos para os tornar financiáveis e mobilizamos o capital adequado à sua dimensão.",
+      "Preparamos o projeto para que um banco, um fundo ou uma instituição de desenvolvimento possa dizer sim: pedido documentado, riscos repartidos, modelo económico sustentável.",
+    pointsTitle: "Os financiadores que mobilizamos",
     points: [
       "Bancos",
       "Fundos de investimento",
       "Investidores privados",
-      "Instituições financeiras internacionais",
+      "Instituições financeiras de desenvolvimento",
       "Parceiros públicos",
     ],
-    flowTitle: "A nossa cadeia de financiamento",
-    flow: [
-      "Projeto",
-      "Estruturação",
-      "Análise financeira",
-      "Financiamento",
-      "Realização",
-    ],
-    cta: "Falar sobre o seu projeto",
+    cta: "Falar de um projeto a financiar",
   },
   homeProjects: {
     overline: "Projetos",
-    title: "Projetos pensados para o impacto",
+    title: "Projetos que conduzimos.",
     subtitle:
-      "Uma visão de como desenvolvemos, estruturamos e financiamos infraestruturas estratégicas.",
+      "Para cada projeto, o nosso papel está descrito: o que fizemos, com quem, e o que o projeto permitiu.",
     viewAll: "Todos os projetos",
     statusLabel: "Estado",
     confidentialTitle: "Projeto estratégico confidencial",
     confidentialBody: "Projeto atualmente em fase de estruturação.",
   },
   africa: {
-    overline: "Ancoragem africana",
-    title: "No coração dos mercados que moldam a África de amanhã.",
+    overline: "Presença",
+    title: "Onde trabalhamos.",
     subtitle:
-      "Concentramos a nossa atividade nos mercados onde as necessidades de infraestrutura são mais estruturantes para o desenvolvimento.",
-    legend: "Países de presença",
-    note: "Presença operacional confirmada nos países onde desenvolvemos e estruturamos projetos.",
+      "Concentramos os nossos meios num número limitado de países, onde conhecemos os interlocutores públicos e os financiadores ativos.",
+    legend: "Países de intervenção",
+    note: "Países onde desenvolvemos ou acompanhamos projetos.",
     hint: "Clique num ponto para ver os detalhes.",
     close: "Fechar",
     noProjects: "Projetos em fase de estruturação.",
@@ -237,21 +220,21 @@
   },
   gallery: {
     overline: "No terreno",
-    title: "Parcerias construídas no terreno.",
+    title: "Reuniões, assinaturas, visitas ao local.",
     subtitle:
-      "Encontros institucionais, conferências, assinaturas e visitas de projeto: a presença da empresa constrói-se na relação direta com os seus parceiros.",
+      "Um projeto de infraestrutura avança primeiro através de reuniões: com os ministérios, os financiadores e as equipas técnicas.",
     example: "Encontro institucional sobre o desenvolvimento de infraestruturas estratégicas.",
     viewMore: "Ver a galeria",
   },
   ctaBanner: {
-    title: "Tem um projeto de infraestrutura estratégico?",
-    body: "Fale-nos do seu projeto. A nossa equipa estudará o seu potencial e explorará as vias de estruturação, financiamento e realização.",
+    title: "Um projeto para desenvolver ou financiar?",
+    body: "Envie-nos algumas linhas: o país, o setor, em que ponto está o projeto. Dir-lhe-emos com franqueza se podemos ser úteis.",
   },
   about: {
     hero: {
       overline: "Sobre",
-      title: "Uma organização internacional ao serviço dos territórios.",
-      body: "Acompanhamos governos, instituições e promotores de projetos no desenvolvimento de infraestruturas estratégicas.",
+      title: "Porque existe a Fil Investment Group.",
+      body: "Conduzimos dossiês de infraestruturas públicas até ao financiamento: o trabalho longo e técnico que separa uma decisão de uma obra.",
     },
     story: {
       overline: "A nossa história",
@@ -263,110 +246,93 @@
     },
     vision: {
       overline: "A nossa visão",
-      title: "Uma visão de longo prazo",
-      body: "Acreditamos numa África onde cada território dispõe das infraestruturas que lhe permitem desenvolver-se, criar empregos e melhorar a vida dos seus habitantes. Acreditamos em projetos feitos pelos países e para os países, em parcerias duradouras entre atores públicos e privados.",
-    },
-    mission: {
-      overline: "A nossa missão",
-      title: "O nosso papel",
-      body: "A nossa missão é transformar as necessidades estratégicas dos territórios em projetos de infraestrutura concretos - identificar e desenvolver oportunidades, construir montagens sólidas e bancáveis, mobilizar os financiamentos e reunir os parceiros capazes de os realizar.",
+      body: "Queremos que mais projetos públicos cheguem ao financiamento, sem que os países percam o controlo sobre eles.",
     },
     values: {
-      overline: "Os nossos valores",
-      title: "Princípios constantes",
-      subtitle: "Estes valores guiam cada uma das nossas decisões e cada uma das nossas relações.",
+      overline: "A nossa forma de trabalhar",
+      title: "Como trabalhamos",
       items: [
-        { title: "Integridade", body: "Transparência e ética em cada compromisso." },
-        { title: "Excelência", body: "O mais alto nível de exigência em cada projeto." },
-        { title: "Impacto", body: "Infraestruturas que transformam duradouramente os territórios." },
-        { title: "Parceria", body: "Confiança e cooperação entre os atores." },
-        { title: "Inovação", body: "Soluções adaptadas às realidades do terreno." },
-        { title: "Responsabilidade", body: "Gestão prudente dos recursos e dos compromissos." },
+        {
+          title: "Dizemos não quando o projeto não está maduro.",
+          body: "Um dossiê mal preparado custa tempo e credibilidade a todos. Se não virmos um caminho até ao financiamento, dizemo-lo logo na primeira conversa.",
+        },
+        {
+          title: "Os seus documentos permanecem confidenciais.",
+          body: "O que nos transmite serve apenas para avaliar o projeto. Nada é partilhado fora da equipa que o acompanha.",
+        },
+        {
+          title: "O projeto fica no país.",
+          body: "Trabalhamos para donos de obra públicos. A estrutura, os contratos e os ativos pertencem-lhes. O nosso papel termina quando o projeto se sustenta sozinho.",
+        },
       ],
     },
     team: {
       overline: "A nossa equipa",
-      title: "As mulheres e os homens da empresa",
+      title: "As pessoas que conduzem os dossiês.",
       subtitle:
-        "Uma equipa multidisciplinar, enraizada em África, que combina o desenvolvimento de projetos, a engenharia financeira, o aconselhamento jurídico e as relações institucionais.",
+        "Desenvolvimento de projetos, engenharia financeira, direito dos contratos públicos, relações institucionais.",
       memberNote: "Equipa Fil Investment Group",
     },
   },
   expertise: {
     hero: {
       overline: "Expertise",
-      title: "Um domínio completo do ciclo do projeto.",
-      body: "Da identificação das necessidades à mobilização dos financiamentos, dominamos cada etapa do ciclo de vida de um projeto de infraestrutura.",
+      title: "O que fazemos, etapa a etapa.",
+      body: "Um projeto de infraestrutura passa por quatro etapas antes de ser realizado. Intervimos nas quatro, ou apenas numa se o projeto já estiver em curso.",
     },
     labels: {
       problem: "Problema",
       approach: "A nossa abordagem",
-      expertise: "A nossa expertise",
-      outcome: "Resultado esperado",
+      expertise: "O que fazemos",
+      outcome: "O que obtém",
     },
     items: [
       {
         title: "Desenvolvimento de projetos",
-        problem:
-          "Muitas necessidades estratégicas nunca se tornam projetos por falta de identificação e estruturação.",
-        approach:
-          "Identificamos as oportunidades, avaliamos a sua relevância e fazemo-las emergir como projetos documentados e credíveis.",
-        expertise:
-          "Vigilância estratégica, identificação de oportunidades, enquadramento, estudos preliminares, constituição do dossier do projeto.",
-        outcome:
-          "Uma carteira de projetos estratégicos prontos a ser estudados e estruturados.",
+        problem: "Uma necessidade inscrita num plano nacional ainda não é um projeto. É preciso enquadrá-la, verificar a sua solidez económica e documentá-la.",
+        approach: "Partimos das prioridades já definidas pelo Estado ou pelo operador e enquadramos o perímetro, a ordem de grandeza dos custos e a procura esperada.",
+        expertise: "Enquadramento, primeiros estudos de viabilidade, estimativa de custos e procura, dossiê de apresentação do projeto.",
+        outcome: "Um dossiê suficientemente claro para ser apresentado a um comité de investimento ou a um financiador.",
       },
       {
         title: "Estruturação de projetos",
-        problem:
-          "Sem um modelo sólido, um projeto não consegue convencer os financiadores nem ser realizado em condições controladas.",
-        approach:
-          "Definimos o modelo económico, jurídico e operacional que torna o projeto financiável e realizável.",
-        expertise:
-          "Estruturação jurídica, modelo económico, análise de riscos, estruturação contratual e parcerias público-privadas.",
-        outcome:
-          "Um projeto estruturado, documentado e bancável, com repartição clara dos papéis e dos riscos.",
+        problem: "Um financiador não se compromete com uma boa ideia. Compromete-se com uma montagem: quem assume o quê, quem paga o quê, quem corre que risco.",
+        approach: "Definimos a montagem jurídica e económica (gestão direta, concessão, parceria público-privada) e repartimos os riscos de forma sustentável para cada parte.",
+        expertise: "Escolha da montagem, modelo financeiro, matriz de riscos, minutas de contratos, preparação do concurso.",
+        outcome: "Um projeto bancável: uma montagem que os bancos e os investidores reconhecem e aceitam analisar.",
       },
       {
         title: "Financiamento de projetos",
-        problem:
-          "A mobilização de capital é frequentemente o principal obstáculo à realização das infraestruturas.",
-        approach:
-          "Concebemos o plano de financiamento e mobilizamos bancos, investidores e instituições financeiras.",
-        expertise:
-          "Engenharia financeira, estruturação de financiamento, due diligence, relações com as instituições de financiamento.",
-        outcome:
-          "Financiamentos mobilizados e garantidos para a realização do projeto.",
+        problem: "O financiamento certo raramente vem de um único ator. É preciso combinar fontes com regras e horizontes diferentes.",
+        approach: "Construímos o plano de financiamento, identificamos os financiadores e investidores adequados ao projeto e ao país, e conduzimos as negociações até ao compromisso.",
+        expertise: "Plano de financiamento, contacto com bancos de desenvolvimento, fundos e credores, resposta às due diligences, apoio à negociação.",
+        outcome: "Compromissos de financiamento firmes, prontos a assinar.",
       },
       {
         title: "Mobilização de parceiros",
-        problem:
-          "Nenhum ator realiza sozinho um grande projeto de infraestrutura.",
-        approach:
-          "Reunimos os parceiros técnicos, industriais e operacionais em torno de um projeto claro e partilhado.",
-        expertise:
-          "Identificação e seleção de parceiros, negociação, coordenação do consórcio, acompanhamento da realização.",
-        outcome:
-          "Uma equipa de projeto completa, alinhada e operacional.",
+        problem: "Ninguém realiza sozinho um projeto de infraestrutura: é preciso um empreiteiro geral, um engenheiro e, por vezes, um operador.",
+        approach: "Identificamos os parceiros técnicos credíveis para este projeto e este país, e reunimo-los em torno de um caderno de encargos comum.",
+        expertise: "Seleção de parceiros, concurso, coordenação do consórcio, acompanhamento até ao arranque das obras.",
+        outcome: "Uma equipa de projeto completa, com papéis e responsabilidades escritos.",
       },
     ],
   },
   sectorsPage: {
     hero: {
       overline: "Setores de intervenção",
-      title: "Intervir nos setores que estruturam a economia.",
-      body: "Das infraestruturas de transporte à conectividade digital, desenvolvemos projetos nos setores mais estruturantes.",
+      title: "Os setores onde intervimos.",
+      body: "Das estradas às redes de dados, desenvolvemos projetos em quatro setores, sempre em equipamentos e redes públicas.",
     },
     subtitle: {
-      overline: "O nosso domínio de intervenção",
+      overline: "O nosso domínio",
       title: "Infraestrutura pública",
-      body: "Todas as nossas realizações são infraestruturas públicas. Em cada um dos setores abaixo, desenvolvemos, estruturamos e financiamos os equipamentos e as redes ao serviço dos territórios e das suas populações.",
+      body: "Todos os nossos projetos são infraestruturas públicas: redes e equipamentos financiados no interesse coletivo, cujo dono de obra é um Estado ou um operador público.",
     },
     backToSectors: "Todos os setores",
     issuesTitle: "Desafios do setor",
     projectTypesTitle: "Tipos de projetos",
     roleTitle: "O nosso papel neste setor",
-    outcomesTitle: "Resultados esperados",
+    outcomesTitle: "O que o projeto traz",
     examplesTitle: "Exemplos de intervenções",
     examplesIntro: "O que fazemos neste setor",
     ctaTitle: "Um projeto neste setor?",
@@ -375,8 +341,8 @@
   projectsPage: {
     hero: {
       overline: "Projetos",
-      title: "Projetos desenvolvidos, financiados e realizados.",
-      body: "Os projetos aqui apresentados refletem a nossa forma de intervir em cada etapa do ciclo de vida das infraestruturas.",
+      title: "Projetos que conduzimos.",
+      body: "Em cada etapa, o nosso papel está descrito: o que fizemos, com quem, e o que o projeto permitiu.",
     },
     filterAll: "Todos",
     filterSector: "Setor",
@@ -390,7 +356,7 @@
     sector: "Setor",
     status: "Estado",
     role: "O nosso papel",
-    impact: "Impacto",
+    impact: "Resultado",
     description: "Descrição",
     confidentialNotice:
       "Este projeto é confidencial. As informações comunicadas não revelam dados sensíveis.",
@@ -407,8 +373,8 @@
   partnersPage: {
     hero: {
       overline: "Parceiros",
-      title: "Um ecossistema de atores ao serviço dos projetos.",
-      body: "Trabalhamos com parceiros públicos, financeiros e técnicos para transformar projetos em realidades.",
+      title: "Com quem montamos os projetos.",
+      body: "Um projeto de infraestrutura reúne um dono de obra público, financiadores e parceiros técnicos. O nosso trabalho é pô-los a trabalhar em conjunto.",
     },
     categories: [
       {
@@ -444,16 +410,34 @@
     slotBody:
       "Os logos dos parceiros reais serão integrados nestes espaços assim que forem validados.",
     slotLabel: "[NOME DO PARCEIRO]",
-    soon: {
-      title: "Página em preparação",
-      body: "A lista dos nossos parceiros e dos seus logos será publicada aqui assim que os nossos acordos de parceria forem validados.",
+    families: {
+      overline: "Tipos de atores",
+      title: "Quatro tipos de parceiros em torno de cada projeto.",
+      items: [
+        {
+          title: "Donos de obra públicos",
+          body: "Estados, ministérios, agências e empresas públicas. Definem a prioridade e continuam proprietários do projeto.",
+        },
+        {
+          title: "Bancos de desenvolvimento e instituições financeiras",
+          body: "Trazem os financiamentos longos e concessionais que tornam um projeto público sustentável.",
+        },
+        {
+          title: "Fundos e investidores privados",
+          body: "Assumem o risco de capital nos projetos mais estruturados.",
+        },
+        {
+          title: "Parceiros técnicos",
+          body: "Gabinetes de estudos, empreiteiros gerais, operadores: garantem que a obra se constrói e se mantém no tempo.",
+        },
+      ],
     },
   },
   newsPage: {
     hero: {
       overline: "Notícias",
-      title: "As notícias da empresa e do setor.",
-      body: "Notícias, comunicados, eventos e análises sobre o desenvolvimento de projetos de infraestrutura.",
+      title: "Notícias e análises.",
+      body: "O que avança nos nossos dossiês, e a nossa leitura do financiamento de infraestruturas em África.",
     },
     filters: {
       all: "Todos",
@@ -476,8 +460,8 @@
   contactPage: {
     hero: {
       overline: "Contacto",
-      title: "Vamos falar sobre o seu projeto ou a sua parceria.",
-      body: "A nossa equipa responderá com a maior brevidade.",
+      title: "Falemos do seu projeto.",
+      body: "Diga-nos o país, o setor e em que ponto está o projeto. Dir-lhe-emos com franqueza se podemos ajudar. O que nos transmitir permanece confidencial.",
     },
     infoTitle: "Contactos",
     addressLabel: "Endereço",
@@ -521,7 +505,7 @@
   },
   footer: {
     tagline:
-      "Desenvolvemos, estruturamos e financiamos projetos de infraestruturas estratégicas, principalmente em África.",
+      "Desenvolvemos, estruturamos e financiamos projetos de infraestruturas públicas em África.",
     navTitle: "Navegação",
     sectorsTitle: "Setores",
     contactTitle: "Contacto",
@@ -530,31 +514,31 @@
     privacy: "Política de privacidade",
     language: "Idioma",
     sitemap: "Mapa do site",
-    statement: "Construir as infraestruturas que moldam o amanhã.",
+    statement: "O trabalho entre a decisão pública e o financiamento.",
     rights: "Todos os direitos reservados.",
   },
   sitemapPage: {
     overline: "Mapa do site",
     title: "Todas as páginas do site, num só lugar.",
-    body: "Uma visão completa das páginas da Fil Investment Group: a empresa, as suas expertises, os setores de intervenção, os projetos, os parceiros, as notícias e o contacto.",
+    body: "Todas as páginas da Fil Investment Group, organizadas por secção.",
     mainTitle: "Páginas principais",
     infoTitle: "Informações",
     desc: {
-      home: "Início e apresentação geral da Fil Investment Group.",
-      about: "A empresa, a sua história, visão e missão.",
-      expertise: "A nossa abordagem, modelo de financiamento e portfólio.",
-      sectors: "Os setores de intervenção: transporte, energia, água, digital.",
-      projects: "Os projetos desenvolvidos, estruturados e financiados.",
-      partners: "O ecossistema de parceiros institucionais e financeiros.",
-      news: "Notícias, eventos e análises do setor.",
-      contact: "Como entrar em contacto com a nossa equipa.",
-      legal: "Editor do site, alojamento e responsabilidade.",
-      privacy: "Recolha, utilização e proteção dos seus dados pessoais.",
+      home: "O que fazemos, para quem, e como nos contactar.",
+      about: "Porque existe a empresa, como trabalha, quem a compõe.",
+      expertise: "As quatro etapas: desenvolver, estruturar, financiar, mobilizar.",
+      sectors: "Transportes, energia, água, digital: sempre infraestruturas públicas.",
+      projects: "O que conduzimos, e o nosso papel em cada etapa.",
+      partners: "Os atores que reunimos em torno de um projeto.",
+      news: "Os nossos dossiês que avançam e as nossas análises.",
+      contact: "Apresentar um projeto ou uma parceria.",
+      legal: "Editor, alojamento, responsabilidade.",
+      privacy: "O que acontece aos seus dados.",
     },
   },
   notFound: {
-    title: "Página não encontrada",
-    body: "A página que procura não existe ou foi movida.",
+    title: "Esta página não existe, ou já não existe.",
+    body: "A ligação pode estar desatualizada. Recomece a partir da página inicial.",
     action: "Voltar ao início",
   },
   legalPage: {

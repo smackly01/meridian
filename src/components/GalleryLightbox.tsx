@@ -118,14 +118,14 @@ export function GalleryLightbox({ photos, index, onClose, onChange }: Props) {
         key={photo.id}
         src={photo.image}
         alt={caption}
-        className="lightbox-image max-h-[70vh] w-auto max-w-full rounded-[3px] object-contain shadow-panel sm:max-h-[78vh]"
+        className="lightbox-image max-h-[70vh] w-auto max-w-full rounded-card object-contain shadow-panel sm:max-h-[78vh]"
         onClick={(e) => e.stopPropagation()}
       />
 
       {hasCaption && (
         <div
           key={`caption-${photo.id}`}
-          className="lightbox-caption relative mt-4 w-full max-w-3xl rounded-[3px] bg-ink-950/70 px-5 py-4 text-center text-white sm:mt-6"
+          className="lightbox-caption relative mt-4 w-full max-w-3xl rounded-card bg-ink-950/70 px-5 py-4 text-center text-white sm:mt-6"
           onClick={(e) => e.stopPropagation()}
         >
           {caption && (

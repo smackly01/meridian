@@ -18,19 +18,16 @@ const SitemapPage = lazy(() => import("@/pages/SitemapPage"));
 const LegalPage = lazy(() => import("@/pages/LegalPage"));
 const NotFoundPage = lazy(() => import("@/pages/NotFoundPage"));
 
-function Loading() {
-  return (
-    <div className="flex min-h-screen items-center justify-center bg-white" aria-hidden="true">
-      <div className="h-8 w-8 animate-spin rounded-full border-2 border-mist-200 border-t-gold-500" />
-    </div>
-  );
+/** While a page chunk loads: a dark block the size of the page hero, header and footer stay. */
+function PagePlaceholder() {
+  return <div className="min-h-[100svh] bg-ink-900" aria-hidden="true" />;
 }
 
 export function App() {
   return (
     <I18nProvider>
-      <Suspense fallback={<Loading />}>
-        <Layout>
+      <Layout>
+        <Suspense fallback={<PagePlaceholder />}>
           <Routes>
             <Route path="/:lang?" element={<HomePage />} />
             <Route path="/:lang?/a-propos" element={<AboutPage />} />
@@ -48,8 +45,8 @@ export function App() {
             <Route path="/:lang?/plan-du-site" element={<SitemapPage />} />
             <Route path="*" element={<NotFoundPage />} />
           </Routes>
-        </Layout>
-      </Suspense>
+        </Suspense>
+      </Layout>
     </I18nProvider>
   );
 }

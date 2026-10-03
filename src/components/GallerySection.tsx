@@ -6,7 +6,6 @@ import { tx } from "@/lib/utils";
 import { SectionHeading } from "./SectionHeading";
 import { ScrollReveal } from "./ScrollReveal";
 import { Media } from "./Media";
-import { NextSectionArrow } from "./NextSectionArrow";
 import { GalleryLightbox } from "./GalleryLightbox";
 
 /**
@@ -41,7 +40,7 @@ export function GallerySection() {
                   setLightboxIndex(0);
                 }
               }}
-              className="group relative h-full min-h-[300px] cursor-zoom-in overflow-hidden rounded-[3px] outline-none focus-visible:ring-2 focus-visible:ring-gold-500 sm:min-h-[420px]"
+              className="group relative h-full min-h-[300px] cursor-zoom-in overflow-hidden rounded-card outline-none focus-visible:ring-2 focus-visible:ring-gold-500 sm:min-h-[420px]"
             >
               <Media
                 src={featured.image}
@@ -75,7 +74,7 @@ export function GallerySection() {
                       setLightboxIndex(i + 1);
                     }
                   }}
-                  className="group relative aspect-[4/3] cursor-zoom-in overflow-hidden rounded-[3px] outline-none focus-visible:ring-2 focus-visible:ring-gold-500"
+                  className="group relative aspect-[4/3] cursor-zoom-in overflow-hidden rounded-card outline-none focus-visible:ring-2 focus-visible:ring-gold-500"
                 >
                   <Media
                     src={photo.image}
@@ -99,7 +98,6 @@ export function GallerySection() {
           </div>
         </div>
       </div>
-      <NextSectionArrow href="#cta" />
 
       {lightboxIndex !== null && (
         <GalleryLightbox

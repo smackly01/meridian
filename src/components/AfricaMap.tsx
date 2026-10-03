@@ -7,7 +7,6 @@ import { projects } from "@/data/projects";
 import { cn, tx } from "@/lib/utils";
 import { SectionHeading } from "./SectionHeading";
 import { ScrollReveal } from "./ScrollReveal";
-import { NextSectionArrow } from "./NextSectionArrow";
 
 /** Coarse Africa outline (lon, lat) - used to build the dotted silhouette. */
 const AFRICA_RING: [number, number][] = [
@@ -64,7 +63,7 @@ function useDots(step: number): { x: number; y: number; mad: boolean }[] {
   }, [step]);
 }
 
-export function AfricaMap({ nextHref = "#ecosystem" }: { nextHref?: string }) {
+export function AfricaMap() {
   const { t, lang, localize } = useI18n();
   const dots = useDots(2.6);
   const [selectedId, setSelectedId] = useState<string | null>(null);
@@ -90,12 +89,6 @@ export function AfricaMap({ nextHref = "#ecosystem" }: { nextHref?: string }) {
 
   return (
     <section id="africa" className="section-dark on-dark relative overflow-hidden">
-      <div className="absolute inset-0 bg-grid-dark" aria-hidden="true" />
-      <div
-        className="absolute left-1/2 top-1/2 h-[560px] w-[560px] -translate-x-1/2 -translate-y-1/2 rounded-full"
-        style={{ background: "radial-gradient(circle, rgba(201,163,92,0.12) 0%, rgba(201,163,92,0) 70%)" }}
-        aria-hidden="true"
-      />
       <div className="container-x relative grid items-center gap-14 lg:grid-cols-2">
         <div>
           <SectionHeading
@@ -105,12 +98,9 @@ export function AfricaMap({ nextHref = "#ecosystem" }: { nextHref?: string }) {
             body={t("africa.subtitle")}
           />
           <ScrollReveal className="mt-10">
-            <div className="inline-flex items-center gap-3 rounded-[3px] border border-white/15 px-4 py-3">
-              <span className="relative flex h-3 w-3">
-                <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-gold-400 opacity-60" />
-                <span className="relative inline-flex h-3 w-3 rounded-full bg-gold-500" />
-              </span>
-              <span className="font-display text-sm font-semibold text-white/85">
+            <div className="inline-flex items-center gap-3">
+              <span className="inline-flex h-2.5 w-2.5 rounded-full bg-gold-500" aria-hidden="true" />
+              <span className="font-display text-sm font-medium text-white/85">
                 {t("africa.legend")}
               </span>
             </div>
@@ -218,14 +208,14 @@ export function AfricaMap({ nextHref = "#ecosystem" }: { nextHref?: string }) {
 
             {selected && (
               <div
-                className="map-modal-backdrop absolute inset-0 z-10 flex items-center justify-center rounded-[3px] bg-ink-950/70 backdrop-blur-[2px]"
+                className="map-modal-backdrop absolute inset-0 z-10 flex items-center justify-center rounded-card bg-ink-950/70 backdrop-blur-[2px]"
                 onClick={() => setSelectedId(null)}
               >
                 <div
                   role="dialog"
                   aria-modal="true"
                   aria-label={selectedName}
-                  className="map-modal w-[280px] max-w-[85%] rounded-[3px] border border-gold-500/40 bg-ink-900 p-6 shadow-panel"
+                  className="map-modal w-[280px] max-w-[85%] rounded-card border border-gold-500/40 bg-ink-900 p-6 shadow-panel"
                   onClick={(e) => e.stopPropagation()}
                 >
                   <div className="flex items-start justify-between gap-4">
@@ -251,7 +241,7 @@ export function AfricaMap({ nextHref = "#ecosystem" }: { nextHref?: string }) {
                               {tx(p.title, lang)}
                             </span>
                             <ArrowUpRight
-                              className="h-4 w-4 shrink-0 text-gold-500 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
+                              className="h-4 w-4 shrink-0 text-gold-500 transition-transform duration-300"
                               aria-hidden="true"
                             />
                           </Link>
@@ -267,7 +257,6 @@ export function AfricaMap({ nextHref = "#ecosystem" }: { nextHref?: string }) {
           </div>
         </ScrollReveal>
       </div>
-      <NextSectionArrow href={nextHref} dark />
     </section>
   );
 }

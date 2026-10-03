@@ -20,18 +20,16 @@ interface ButtonNativeProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   size?: Size;
 }
 
+/* Hover: a fill sweeps in from the left and the icon nudges forward. */
 const base =
-  "inline-flex items-center justify-center gap-2.5 rounded-[3px] font-display font-semibold text-sm tracking-wide transition-all duration-300 ease-premium disabled:cursor-not-allowed disabled:opacity-50 active:translate-y-0";
+  "relative isolate inline-flex items-center justify-center gap-2.5 overflow-hidden rounded-[3px] font-display font-semibold text-sm tracking-wide transition-[color,border-color] duration-500 ease-premium before:absolute before:inset-0 before:-z-10 before:origin-left before:scale-x-0 before:transition-transform before:duration-500 before:ease-premium hover:before:scale-x-100 focus-visible:before:scale-x-100 motion-reduce:before:transition-none [&_svg]:transition-transform [&_svg]:duration-500 [&_svg]:ease-premium hover:[&_svg]:translate-x-1 disabled:cursor-not-allowed disabled:opacity-50";
 
 const variants: Record<Variant, string> = {
-  primary:
-    "bg-gold-500 text-ink-900 hover:bg-gold-400 hover:shadow-card hover:-translate-y-0.5",
-  dark: "bg-ink-900 text-white hover:bg-ink-700 hover:-translate-y-0.5",
-  "outline-light":
-    "border border-white/25 text-white hover:border-white/60 hover:bg-white/5 hover:-translate-y-0.5",
-  "outline-dark":
-    "border border-ink-900/20 text-ink-900 hover:border-ink-900 hover:bg-ink-900 hover:text-white hover:-translate-y-0.5",
-  "ghost-gold": "text-gold-600 hover:text-gold-700 hover:-translate-y-0.5",
+  primary: "bg-gold-500 text-ink-900 before:bg-white",
+  dark: "bg-ink-900 text-white before:bg-gold-500 hover:text-ink-900",
+  "outline-light": "border border-white/30 text-white before:bg-white hover:border-white hover:text-ink-900",
+  "outline-dark": "border border-ink-900/25 text-ink-900 before:bg-ink-900 hover:border-ink-900 hover:text-white",
+  "ghost-gold": "text-gold-600 before:hidden hover:text-gold-700",
 };
 
 const sizes: Record<Size, string> = {

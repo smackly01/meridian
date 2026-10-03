@@ -14,7 +14,7 @@ function Logo({ className }: { className?: string }) {
       aria-label="Fil Investment Group - Accueil"
       className={cn("group inline-flex items-center", className)}
     >
-      <img src="/logo.jpeg" alt="Fil Investment Group" className="h-12 w-auto" />
+      <img src="/logo.png" alt="Fil Investment Group" width="977" height="337" className="h-14 w-auto" />
     </Link>
   );
 }
@@ -87,20 +87,20 @@ function SectorsDropdown() {
         )}
       >
         <div
-          className="w-[520px] rounded-[6px] border border-white/10 bg-ink-900/95 p-2 shadow-panel backdrop-blur-xl"
+          className="w-[520px] rounded-card border border-white/10 bg-ink-900/95 p-2 shadow-panel backdrop-blur-xl"
           onMouseEnter={openDropdown}
           onMouseLeave={closeDropdown}
         >
           <div className="grid grid-cols-2 gap-1.5">
-            {sectors.map((sector, i) => {
+            {sectors.map((sector) => {
               const Icon = getIcon(sector.icon);
               return (
                 <Link
                   key={sector.id}
                   to={localize(`/secteurs/${sector.slug}`)}
-                  className="group/card relative flex gap-3.5 rounded-[4px] p-3 transition-colors duration-200 hover:bg-white/5"
+                  className="group/card relative flex gap-3.5 rounded-lg p-3 transition-colors duration-200 hover:bg-white/5"
                 >
-                  <div className="relative h-16 w-16 flex-shrink-0 overflow-hidden rounded-[3px]">
+                  <div className="relative h-16 w-16 flex-shrink-0 overflow-hidden rounded-md">
                     <img
                       src={sector.image}
                       alt={tx(sector.name, lang)}
@@ -114,10 +114,7 @@ function SectorsDropdown() {
                     </div>
                   </div>
                   <div className="flex min-w-0 flex-1 flex-col justify-center">
-                    <span className="font-display text-[0.6rem] font-semibold uppercase tracking-overline text-gold-500/80">
-                      {String(i + 1).padStart(2, "0")}
-                    </span>
-                    <h3 className="mt-0.5 font-display text-[0.82rem] font-bold leading-snug text-white/90 transition-colors group-hover/card:text-white">
+                    <h3 className="font-display text-[0.82rem] font-bold leading-snug text-white/90 transition-colors group-hover/card:text-white">
                       {tx(sector.name, lang)}
                     </h3>
                     <p className="mt-0.5 line-clamp-2 text-[0.7rem] leading-relaxed text-white/45">
@@ -288,9 +285,9 @@ export function Header() {
                         <Link
                           key={sector.id}
                           to={localize(`/secteurs/${sector.slug}`)}
-                          className="group/mobile relative overflow-hidden rounded-[3px] border border-white/5 bg-white/[0.03] p-2.5 transition-colors hover:bg-white/[0.06]"
+                          className="group/mobile relative overflow-hidden rounded-card border border-white/5 bg-white/[0.03] p-2.5 transition-colors hover:bg-white/[0.06]"
                         >
-                          <div className="relative mb-2 h-14 w-full overflow-hidden rounded-[2px]">
+                          <div className="relative mb-2 h-14 w-full overflow-hidden rounded-md">
                             <img
                               src={sector.image}
                               alt={tx(sector.name, lang)}

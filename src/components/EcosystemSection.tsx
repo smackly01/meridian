@@ -2,7 +2,6 @@
 import { useI18n } from "@/i18n";
 import { SectionHeading } from "./SectionHeading";
 import { ScrollReveal } from "./ScrollReveal";
-import { NextSectionArrow } from "./NextSectionArrow";
 
 const CATEGORY_ICONS = [Landmark, Landmark, TrendingUp, HardHat, Briefcase];
 
@@ -19,7 +18,7 @@ export function EcosystemSection() {
           title={t("ecosystem.title")}
           body={t("ecosystem.subtitle")}
         />
-        <div className="mt-14 grid gap-px overflow-hidden rounded-[3px] border border-mist-200 bg-mist-200 sm:grid-cols-2 lg:grid-cols-5">
+        <div className="mt-14 grid gap-px overflow-hidden rounded-card border border-mist-200 bg-mist-200 sm:grid-cols-2 lg:grid-cols-5">
           {Array.from({ length: 5 }).map((_, i) => {
             const Icon = CATEGORY_ICONS[i] ?? Building2;
             return (
@@ -46,7 +45,6 @@ export function EcosystemSection() {
           <p className="text-center text-xs text-mist-400">{t("common.placeholderNote")}</p>
         </ScrollReveal>
       </div>
-      <NextSectionArrow href="#galerie" />
     </section>
   );
 }

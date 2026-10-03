@@ -78,7 +78,7 @@ export function ContactForm() {
   if (sent) {
     return (
       <ScrollReveal>
-        <div className="flex flex-col items-center gap-4 rounded-[3px] border border-emerald-500/30 bg-emerald-50 px-8 py-14 text-center">
+        <div className="flex flex-col items-center gap-4 rounded-card border border-emerald-500/30 bg-emerald-50 px-8 py-14 text-center">
           <CheckCircle2 className="h-12 w-12 text-emerald-600" aria-hidden="true" />
           <h3 className="font-display text-2xl font-bold text-ink-900">
             {t("contactPage.form.successTitle")}

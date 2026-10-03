@@ -7,7 +7,7 @@ import { CtaBanner } from "@/components/CtaBanner";
 import { projects } from "@/data/projects";
 import { sectors } from "@/data/sectors";
 import { images } from "@/config/images";
-import { tx, cn } from "@/lib/utils";
+import { tx } from "@/lib/utils";
 import type { ProjectStatus } from "@/types";
 
 const STATUSES: ProjectStatus[] = ["realized", "ongoing", "development", "confidential"];
@@ -51,9 +51,9 @@ export default function ProjectsPage() {
                 aria-label={t("projectsPage.filterSector")}
                 value={sectorFilter}
                 onChange={(e) => setSectorFilter(e.target.value)}
-                className="field w-full sm:w-auto"
+                className="field-select w-full sm:w-56"
               >
-                <option value="">{t("projectsPage.filterAll")} - {t("projectsPage.filterSector")}</option>
+                <option value="">{t("projectsPage.filterSector")} · {t("projectsPage.filterAll")}</option>
                 {sectors.map((s) => (
                   <option key={s.id} value={s.id}>
                     {tx(s.name, lang)}
@@ -64,9 +64,9 @@ export default function ProjectsPage() {
                 aria-label={t("projectsPage.filterStatus")}
                 value={statusFilter}
                 onChange={(e) => setStatusFilter(e.target.value)}
-                className="field w-full sm:w-auto"
+                className="field-select w-full sm:w-56"
               >
-                <option value="">{t("projectsPage.filterAll")} - {t("projectsPage.filterStatus")}</option>
+                <option value="">{t("projectsPage.filterStatus")} · {t("projectsPage.filterAll")}</option>
                 {STATUSES.map((s) => (
                   <option key={s} value={s}>
                     {t(`projectDetail.statuses.${s}`)}
@@ -90,23 +90,6 @@ export default function ProjectsPage() {
             </div>
           )}
 
-          <div className="mt-10 flex flex-wrap gap-2">
-            {["", ...STATUSES].map((s) => (
-              <button
-                key={s || "all"}
-                type="button"
-                onClick={() => setStatusFilter(s)}
-                className={cn(
-                  "rounded-[3px] border px-3 py-1.5 font-display text-xs font-semibold transition-colors",
-                  statusFilter === s
-                    ? "border-ink-900 bg-ink-900 text-white"
-                    : "border-mist-300 text-mist-500 hover:border-ink-900/40 hover:text-ink-900",
-                )}
-              >
-                {s ? t(`projectDetail.statuses.${s}`) : t("projectsPage.filterAll")}
-              </button>
-            ))}
-          </div>
         </div>
       </section>
 

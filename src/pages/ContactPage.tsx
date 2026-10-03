@@ -1,4 +1,4 @@
-﻿import { MapPin, Phone, Mail, Clock, Linkedin, Instagram, Facebook } from "lucide-react";
+﻿import { Linkedin, Instagram, Facebook } from "lucide-react";
 import { useI18n } from "@/i18n";
 import { PageHero } from "@/components/PageHero";
 import { ScrollReveal } from "@/components/ScrollReveal";
@@ -10,10 +10,10 @@ export default function ContactPage() {
   const { t } = useI18n();
 
   const infos = [
-    { Icon: MapPin, label: t("contactPage.addressLabel"), value: site.contact.address, href: undefined },
-    { Icon: Phone, label: t("contactPage.phoneLabel"), value: site.contact.phone, href: `tel:${site.contact.phone.replace(/[^+\d]/g, "")}` },
-    { Icon: Mail, label: t("contactPage.emailLabel"), value: site.contact.email, href: `mailto:${site.contact.email}` },
-    { Icon: Clock, label: t("contactPage.hoursLabel"), value: site.contact.hours, href: undefined },
+    { label: t("contactPage.addressLabel"), value: site.contact.address, href: undefined },
+    { label: t("contactPage.phoneLabel"), value: site.contact.phone, href: `tel:${site.contact.phone.replace(/[^+\d]/g, "")}` },
+    { label: t("contactPage.emailLabel"), value: site.contact.email, href: `mailto:${site.contact.email}` },
+    { label: t("contactPage.hoursLabel"), value: site.contact.hours, href: undefined },
   ];
 
   const socials = [
@@ -39,11 +39,8 @@ export default function ContactPage() {
             <ScrollReveal>
               <h2 className="t-h2">{t("contactPage.infoTitle")}</h2>
               <dl className="mt-8 space-y-6">
-                {infos.map(({ Icon, label, value, href }) => (
-                  <div key={label} className="flex items-start gap-4">
-                    <span className="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-[3px] border border-mist-200 text-ink-800">
-                      <Icon className="h-5 w-5" strokeWidth={1.5} aria-hidden="true" />
-                    </span>
+                {infos.map(({ label, value, href }) => (
+                  <div key={label}>
                     <div>
                       <dt className="font-display text-xs font-bold uppercase tracking-wider text-mist-400">
                         {label}
@@ -86,7 +83,7 @@ export default function ContactPage() {
           {/* Form */}
           <div className="lg:col-span-8">
             <ScrollReveal>
-              <div className="rounded-[3px] border border-mist-200 bg-white p-7 shadow-card md:p-10">
+              <div className="rounded-card border border-mist-200 bg-white p-7 md:p-10">
                 <h2 className="t-h3">{t("contactPage.formTitle")}</h2>
                 <div className="mt-8">
                   <ContactForm />

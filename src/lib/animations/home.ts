@@ -12,10 +12,7 @@
  *
  * Each section owns its own motion (no shared fade-up everywhere):
  *   - Hero          : layered entrance + scroll-out parallax
- *   - Intro         : image expansion (scale + border-radius), scrubbed
- *   - Stats         : progress hairline + light drift
- *   - Approach      : connecting line draws as you scroll
- *   - Finance       : card top bar draws
+ *   - Intro         : subtle image scale, scrubbed
  *   - Projects      : clip reveal of cards + inner image parallax
  * Everything is wrapped in a gsap.context so it is fully reverted on unmount.
  * ------------------------------------------------------------------------ */
@@ -28,7 +25,6 @@ function heroAnimation(root: HTMLElement): void {
   const title = hero.querySelector<HTMLElement>("[data-hero-title]");
   const subtitle = hero.querySelector<HTMLElement>("[data-hero-subtitle]");
   const ctas = hero.querySelector<HTMLElement>("[data-hero-cta]");
-  const cue = hero.querySelector<HTMLElement>("[data-hero-cue]");
   const content = hero.querySelector<HTMLElement>("[data-hero-content]");
 
   // Entrance
@@ -52,10 +48,6 @@ function heroAnimation(root: HTMLElement): void {
   if (ctas) {
     gsap.set(ctas, { autoAlpha: 0, y: 16 });
     tl.to(ctas, { autoAlpha: 1, y: 0, duration: 0.8 }, 0.75);
-  }
-  if (cue) {
-    gsap.set(cue, { autoAlpha: 0 });
-    tl.to(cue, { autoAlpha: 1, duration: 0.8 }, 1.05);
   }
 
   // Scroll-out parallax (translation only; scale belongs to the entrance).
@@ -94,9 +86,8 @@ function introAnimation(root: HTMLElement): void {
   if (media) {
     gsap.fromTo(
       media,
-      { borderRadius: 32, scale: 0.9 },
+      { scale: 0.94 },
       {
-        borderRadius: 6,
         scale: 1,
         ease: EASE_NONE,
         scrollTrigger: {
@@ -104,93 +95,6 @@ function introAnimation(root: HTMLElement): void {
           start: "top 85%",
           end: "center 45%",
           scrub: 0.7,
-        },
-      },
-    );
-  }
-}
-
-function statsAnimation(root: HTMLElement): void {
-  const section = root.querySelector<HTMLElement>("#stats");
-  if (!section) return;
-
-  const line = section.querySelector<HTMLElement>("[data-stats-line]");
-  if (line) {
-    gsap.fromTo(
-      line,
-      { scaleX: 0 },
-      {
-        scaleX: 1,
-        ease: EASE_NONE,
-        scrollTrigger: {
-          trigger: section,
-          start: "top 72%",
-          end: "bottom 60%",
-          scrub: 0.6,
-        },
-      },
-    );
-  }
-
-  const grid = section.querySelector<HTMLElement>("[data-stats-grid]");
-  if (grid) {
-    gsap.fromTo(
-      grid,
-      { y: 20 },
-      {
-        y: -14,
-        ease: EASE_NONE,
-        scrollTrigger: {
-          trigger: section,
-          start: "top bottom",
-          end: "bottom top",
-          scrub: true,
-        },
-      },
-    );
-  }
-}
-
-function approachAnimation(root: HTMLElement): void {
-  const section = root.querySelector<HTMLElement>("#approach");
-  if (!section) return;
-
-  const line = section.querySelector<HTMLElement>("[data-approach-line]");
-  if (line) {
-    gsap.fromTo(
-      line,
-      { scaleX: 0 },
-      {
-        scaleX: 1,
-        ease: EASE_NONE,
-        scrollTrigger: {
-          trigger: section,
-          start: "top 75%",
-          end: "center 40%",
-          scrub: 0.5,
-        },
-      },
-    );
-  }
-}
-
-function financeAnimation(root: HTMLElement): void {
-  const section = root.querySelector<HTMLElement>("#finance");
-  if (!section) return;
-
-  const bar = section.querySelector<HTMLElement>("[data-finance-bar]");
-  if (bar) {
-    gsap.fromTo(
-      bar,
-      { scaleX: 0 },
-      {
-        scaleX: 1,
-        ease: EASE_NONE,
-        scrollTrigger: {
-          trigger: section,
-          start: "top 75%",
-          end: "center 55%",
-          scrub: 0.6,
         },
       },
     );
@@ -252,9 +156,6 @@ export function setupHomeAnimations(root: HTMLElement | null): () => void {
   const ctx = gsap.context(() => {
     heroAnimation(root);
     introAnimation(root);
-    statsAnimation(root);
-    approachAnimation(root);
-    financeAnimation(root);
     projectsAnimation(root);
 
     // Re-measure once dynamic assets are ready.

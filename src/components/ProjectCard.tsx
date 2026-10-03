@@ -23,7 +23,7 @@ export function ProjectCard({ project }: { project: Project }) {
   return (
     <Link
       to={localize(`/projets/${project.slug}`)}
-      className="group relative flex h-full flex-col overflow-hidden rounded-[3px] border border-mist-200 bg-white transition-all duration-500 ease-premium hover:-translate-y-1 hover:shadow-cardhover"
+      className="group relative flex h-full flex-col overflow-hidden rounded-card border border-mist-200 bg-white transition-all duration-500 ease-premium hover:border-ink-900/25"
     >
       <div className="relative aspect-[16/10] overflow-hidden">
         <Media
@@ -60,7 +60,7 @@ export function ProjectCard({ project }: { project: Project }) {
         </p>
         <span className="mt-5 inline-flex items-center gap-1.5 font-display text-sm font-semibold text-ink-900 transition-colors group-hover:text-gold-600">
           {t("common.learnMore")}
-          <ArrowUpRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
+          <ArrowUpRight className="h-4 w-4 transition-transform duration-300" />
         </span>
       </div>
     </Link>

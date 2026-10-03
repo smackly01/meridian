@@ -32,14 +32,15 @@ export default {
         },
       },
       fontFamily: {
-        display: ["DM Sans", "system-ui", "sans-serif"],
-        sans: ["DM Sans", "system-ui", "sans-serif"],
+        display: ["Instrument Sans", "system-ui", "sans-serif"],
+        sans: ["Instrument Sans", "system-ui", "sans-serif"],
+        serif: ["Newsreader", "Georgia", "serif"],
       },
       maxWidth: {
         container: "80rem",
       },
       letterSpacing: {
-        overline: "0.22em",
+        overline: "0.18em",
       },
       boxShadow: {
         card: "0 1px 2px rgba(8,20,38,0.04), 0 8px 24px rgba(8,20,38,0.06)",

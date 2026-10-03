@@ -4,8 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#081426" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <title>Fil Investment Group - Développement de projets d'infrastructures</title>
+    <link rel="icon" href="/favicon.ico" sizes="48x48" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="preload" href="/fonts/newsreader-latin.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/instrument-sans-latin.woff2" as="font" type="font/woff2" crossorigin />
+    <title>Fil Investment Group - Développement et financement de projets d'infrastructures en Afrique</title>
     <meta
       name="description"
       content="Nous identifions, développons, structurons et finançons des projets d'infrastructures stratégiques en Afrique."
@@ -21,8 +25,42 @@
     <link rel="alternate" hreflang="en" href="https://www.filinvestmentgroup.com/en" />
     <link rel="alternate" hreflang="pt" href="https://www.filinvestmentgroup.com/pt" />
     <link rel="alternate" hreflang="x-default" href="https://www.filinvestmentgroup.com/fr" />
+    <!-- First-load splash. Inline so it paints before the JS bundle; removed in src/main.tsx. -->
+    <style>
+      #loader {
+        position: fixed;
+        inset: 0;
+        z-index: 200;
+        display: grid;
+        place-items: center;
+        background: #050d1a;
+        transition: opacity 0.6s cubic-bezier(0.22, 1, 0.36, 1), visibility 0.6s;
+      }
+      #loader img {
+        width: 72px;
+        height: 72px;
+        animation: loader-in 0.8s cubic-bezier(0.22, 1, 0.36, 1) both,
+          loader-breathe 1.6s 0.8s ease-in-out infinite alternate;
+      }
+      #loader.is-done {
+        opacity: 0;
+        visibility: hidden;
+      }
+      @keyframes loader-in {
+        from { opacity: 0; transform: scale(0.9); }
+        to { opacity: 1; transform: none; }
+      }
+      @keyframes loader-breathe {
+        to { opacity: 0.55; }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        #loader img { animation: none; }
+      }
+    </style>
+    <noscript><style>#loader { display: none; }</style></noscript>
   </head>
   <body>
+    <div id="loader" aria-hidden="true"><img src="/loader-mark.png" alt="" width="72" height="72" /></div>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>

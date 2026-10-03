@@ -28,10 +28,8 @@ export function SectionHeading({
       )}
     >
       {overline && (
-        <p className={cn("overline mb-4 flex items-center gap-3", align === "center" && "justify-center")}>
-          <span className="h-px w-8 bg-current opacity-60" aria-hidden="true" />
+        <p className={cn("eyebrow mb-4 flex items-center gap-3", align === "center" && "justify-center")}>
           {overline}
-          {align === "center" && <span className="h-px w-8 bg-current opacity-60" aria-hidden="true" />}
         </p>
       )}
       <h2 className="t-h2 text-balance">{title}</h2>

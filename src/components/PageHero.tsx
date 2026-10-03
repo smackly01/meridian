@@ -28,15 +28,8 @@ export function PageHero({ overline, title, body, children, seoPath, path, image
           <div className="absolute inset-0 bg-gradient-to-b from-ink-950/85 via-ink-950/70 to-ink-950/90" />
         </div>
       ) : null}
-      <div className="absolute inset-0 bg-grid-dark" aria-hidden="true" />
-      <div
-        className="absolute -right-40 -top-40 h-[480px] w-[480px] rounded-full opacity-60"
-        style={{ background: "radial-gradient(circle, rgba(201,163,92,0.18) 0%, rgba(201,163,92,0) 70%)" }}
-        aria-hidden="true"
-      />
       <div className="container-x relative">
-        <p className="overline hero-anim flex items-center gap-3" style={{ animationDelay: "0.05s" }}>
-          <span className="h-px w-8 bg-current opacity-60" aria-hidden="true" />
+        <p className="eyebrow hero-anim flex items-center gap-3" style={{ animationDelay: "0.05s" }}>
           {overline}
         </p>
         <h1

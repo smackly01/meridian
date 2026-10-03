@@ -44,7 +44,7 @@ export default function SitemapPage() {
         <div className="container-x grid gap-14 sm:grid-cols-2 lg:grid-cols-3">
           <ScrollReveal>
             <div>
-              <h2 className="overline-on-light">{t("sitemapPage.mainTitle")}</h2>
+              <h2 className="eyebrow">{t("sitemapPage.mainTitle")}</h2>
               <ul className="mt-6 space-y-6">
                 {mainPages.map((page) => (
                   <li
@@ -70,7 +70,7 @@ export default function SitemapPage() {
 
           <ScrollReveal delay={80}>
             <div>
-              <h2 className="overline-on-light">{t("footer.sectorsTitle")}</h2>
+              <h2 className="eyebrow">{t("footer.sectorsTitle")}</h2>
               <ul className="mt-6 space-y-6">
                 {sectors.map((sector) => (
                   <li
@@ -96,7 +96,7 @@ export default function SitemapPage() {
 
           <ScrollReveal delay={160}>
             <div>
-              <h2 className="overline-on-light">{t("sitemapPage.infoTitle")}</h2>
+              <h2 className="eyebrow">{t("sitemapPage.infoTitle")}</h2>
               <ul className="mt-6 space-y-6">
                 {infoPages.map((page) => (
                   <li

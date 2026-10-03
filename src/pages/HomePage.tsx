@@ -1,4 +1,5 @@
-﻿import { ArrowRight, ArrowUpRight, ChevronDown } from "lucide-react";
+﻿import { Link } from "react-router-dom";
+import { ArrowRight, ArrowUpRight } from "lucide-react";
 import { useI18n } from "@/i18n";
 import { Seo, organizationJsonLd } from "@/components/Seo";
 import { SectionHeading } from "@/components/SectionHeading";
@@ -14,7 +15,6 @@ import { GallerySection } from "@/components/GallerySection";
 import { CtaBanner } from "@/components/CtaBanner";
 import { Media } from "@/components/Media";
 import { ButtonLink } from "@/components/Button";
-import { NextSectionArrow } from "@/components/NextSectionArrow";
 import { sectors } from "@/data/sectors";
 import { projects } from "@/data/projects";
 import { images } from "@/config/images";
@@ -45,7 +45,7 @@ export default function HomePage() {
       />
 
       {/* HERO */}
-      <section data-hero className="relative flex min-h-[100svh] items-end overflow-hidden bg-ink-950 md:items-center">
+      <section data-hero className="relative flex min-h-[100svh] items-end overflow-hidden bg-ink-950">
         <div data-hero-bg className="absolute inset-0">
           <Media
             src={images.hero}
@@ -55,63 +55,49 @@ export default function HomePage() {
             className="h-full w-full"
             eager
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-ink-950/80 via-ink-950/55 to-ink-950/92" />
-          <div className="absolute inset-0 bg-grid-dark opacity-70" />
+          <div className="absolute inset-0 bg-gradient-to-t from-ink-950/90 via-ink-950/35 to-ink-950/50" />
         </div>
 
-        <div data-hero-content className="container-x relative flex flex-col pb-24 pt-40 md:pb-28 md:pt-60">
+        <div data-hero-content className="container-x relative flex flex-col pb-20 pt-40 md:pb-24">
           <h1
             data-hero-title
-            className="t-display on-dark mt-6 max-w-4xl text-balance"
+            className="t-display on-dark max-w-3xl text-balance"
           >
             {t("hero.title")}
           </h1>
           <p
             data-hero-subtitle
-            className="on-dark mt-6 max-w-2xl text-lg leading-relaxed text-white/75"
+            className="on-dark mt-6 max-w-xl text-lg leading-relaxed text-white/75"
           >
             {t("hero.subtitle")}
           </p>
-          <div data-hero-cta className="mt-10 flex flex-col gap-4 sm:flex-row">
+          <div data-hero-cta className="mt-10 flex flex-col items-start gap-6 sm:flex-row sm:items-center sm:gap-8">
             <ButtonLink to={localize("/contact")} variant="primary" size="lg">
               {t("common.contactUs")}
               <ArrowRight className="h-4 w-4" aria-hidden="true" />
             </ButtonLink>
-            <ButtonLink to={localize("/expertise")} variant="outline-light" size="lg">
+            <Link
+              to={localize("/expertise")}
+              className="font-display text-sm font-medium text-white/80 underline decoration-white/30 underline-offset-[6px] transition-colors hover:text-white hover:decoration-white"
+            >
               {t("hero.ctaSecondary")}
-            </ButtonLink>
+            </Link>
           </div>
         </div>
-        <a
-          data-hero-cue
-          href="#intro"
-          className="absolute bottom-6 right-6 z-10 inline-flex h-16 w-16 items-center justify-center rounded-full border border-white/25 text-white/60 transition-colors hover:border-gold-400 hover:text-gold-400 md:bottom-10 md:right-10"
-          aria-label={t("hero.scroll")}
-        >
-          <ChevronDown className="h-9 w-9 animate-bounce" strokeWidth={2.5} aria-hidden="true" />
-        </a>
       </section>
 
       {/* INTRO */}
       <section id="intro" className="section relative bg-white">
         <div className="container-x grid items-center gap-14 lg:grid-cols-2">
           <ScrollReveal>
-            <div className="relative">
-              <Media
-                src={images.about}
-                alt={t("intro.title")}
-                label={t("intro.overline")}
-                icon="Building2"
-                className="aspect-[4/5] w-full rounded-[3px]"
-                data-intro-media
-              />
-              <div className="absolute -bottom-6 -right-6 hidden border border-mist-200 bg-white p-6 shadow-panel md:block">
-                <p className="overline-on-light">{t("approach.overline")}</p>
-                <p className="mt-2 max-w-[220px] font-display text-sm font-semibold leading-snug text-ink-900">
-                  {t("finance.title")}
-                </p>
-              </div>
-            </div>
+            <Media
+              src={images.about}
+              alt={t("intro.title")}
+              label={t("intro.overline")}
+              icon="Building2"
+              className="aspect-[4/5] w-full rounded-card"
+              data-intro-media
+            />
           </ScrollReveal>
           <div>
             <SectionHeading overline={t("intro.overline")} title={t("intro.title")} body={t("intro.body")} />
@@ -123,44 +109,34 @@ export default function HomePage() {
             </ScrollReveal>
           </div>
         </div>
-        <NextSectionArrow href="#stats" />
       </section>
 
       {/* STATS */}
       <section id="stats" className="relative border-y border-mist-200 bg-mist-50">
-        <div
-          data-stats-line
-          aria-hidden="true"
-          className="absolute left-0 top-0 h-px w-full origin-left bg-gold-500/40"
-        />
         <div className="container-x py-16">
-          <ScrollReveal className="flex flex-col items-center text-center">
-            <p className="overline flex items-center gap-3">
-              <span className="h-px w-8 bg-current opacity-60" aria-hidden="true" />
+          <ScrollReveal>
+            <p className="eyebrow">
               {t("stats.overline")}
-              <span className="h-px w-8 bg-current opacity-60" aria-hidden="true" />
             </p>
             <h2 className="t-h2 mt-4">{t("stats.title")}</h2>
           </ScrollReveal>
-          <div data-stats-grid className="mt-12 grid grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-2 lg:grid-cols-5">
+          <div className="mt-12 grid grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-2 lg:grid-cols-5">
             {stats.map((s, i) => (
               <ScrollReveal key={s.label} delay={i * 60}>
-                <div className="relative border-t border-mist-300 pt-6">
+                <div>
                   <Stat value={s.value} label={s.label} />
                 </div>
               </ScrollReveal>
             ))}
           </div>
           <ScrollReveal className="mt-10">
-            <p className="text-center text-xs text-mist-400">{t("stats.note")}</p>
+            <p className="text-xs text-mist-400">{t("stats.note")}</p>
           </ScrollReveal>
-          <NextSectionArrow href="#approach" />
         </div>
       </section>
 
       {/* APPROACH */}
       <section id="approach" className="section-dark on-dark relative overflow-hidden">
-        <div className="absolute inset-0 bg-grid-dark" aria-hidden="true" />
         <div className="container-x relative">
           <SectionHeading
             dark
@@ -169,12 +145,10 @@ export default function HomePage() {
             title={t("approach.title")}
             body={t("approach.subtitle")}
           />
-          <div data-approach-line aria-hidden="true" className="mt-14 h-px w-full origin-left bg-white/10" />
-          <div className="mt-14">
+          <div className="mt-16">
             <ApproachTimeline />
           </div>
         </div>
-        <NextSectionArrow href="#secteurs" dark />
       </section>
 
       {/* SECTORS */}
@@ -188,7 +162,7 @@ export default function HomePage() {
           <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {visibleSectors.map((sector, i) => (
               <ScrollReveal key={sector.id} delay={(i % 4) * 60} className="h-full">
-                <SectorCard sector={sector} index={i} />
+                <SectorCard sector={sector} />
               </ScrollReveal>
             ))}
           </div>
@@ -198,7 +172,6 @@ export default function HomePage() {
               <ArrowUpRight className="h-4 w-4" aria-hidden="true" />
             </ButtonLink>
           </ScrollReveal>
-          <NextSectionArrow href="#finance" />
         </div>
       </section>
 
@@ -227,13 +200,12 @@ export default function HomePage() {
                 <ArrowUpRight className="h-4 w-4" aria-hidden="true" />
               </ButtonLink>
             </ScrollReveal>
-            <NextSectionArrow href="#africa" />
           </div>
         </section>
       )}
 
       {/* AFRICA */}
-      <AfricaMap nextHref={site.content.partners ? "#ecosystem" : "#galerie"} />
+      <AfricaMap />
 
       {/* ECOSYSTEM */}
       {site.content.partners && <EcosystemSection />}

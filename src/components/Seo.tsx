@@ -114,7 +114,7 @@ export function organizationJsonLd() {
     name: site.name,
     legalName: site.legalName,
     url: site.url,
-    logo: `${site.url}/logo.jpeg`,
+    logo: `${site.url}/logo.png`,
     image: `${site.url}/og-image.jpg`,
     email: site.contact.email,
     telephone: site.contact.phone,
@@ -174,7 +174,7 @@ export function articleJsonLd(title: string, description: string, published: str
       "@type": "Organization",
       name: site.name,
       url: site.url,
-      logo: { "@type": "ImageObject", url: `${site.url}/logo.jpeg` },
+      logo: { "@type": "ImageObject", url: `${site.url}/logo.png` },
     },
     inLanguage: langToBcp47(),
     mainEntityOfPage: {
